@@ -6,11 +6,11 @@
     .projects,
     .publications,
     .clients {
-        font-weight: 500;
-        font-size: 20px;
+        font-weight: 400;
+        font-size: 18px;
         line-height: 30px;
         text-transform: uppercase;
-        padding: 30px 20px;
+        padding: 10px 20px 20px 20px;
         color: var(--white);
     }
 
@@ -18,7 +18,7 @@
     .publications span,
     .clients span {
         font-weight: 400;
-        font-size: 40px;
+        font-size: 36px;
         line-height: 60px;
     }
 
@@ -43,7 +43,7 @@
 
     h5 {
         font-weight: 600;
-        font-size: 16px;
+        font-size: 14px;
         line-height: 24px;
         text-transform: uppercase;
         color: var(--blue);
@@ -52,15 +52,16 @@
 
     h1 {
         color: var(--darkBlue);
+        max-width: 500px;
         font-weight: 400;
-        font-size: 36px;
-        line-height: 60px;
+        font-size: 30px;
+        line-height: 40px;
     }
 
     p {
         color: var(--text);
         font-weight: 400;
-        font-size: 16px;
+        font-size: 14px;
         line-height: 27px;
         padding: 10px 0 25px 0;
     }

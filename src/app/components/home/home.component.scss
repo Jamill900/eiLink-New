@@ -7,7 +7,7 @@ main {
     text-align: center;
 
     h1 {
-        font-size: 40px;
+        font-size: 34px;
         max-width: 1000px;
         line-height: 60px;
         text-transform: uppercase;
@@ -15,7 +15,7 @@ main {
     }
 
     h6 {
-        font-size: 20px;
+        font-size: 16px;
         line-height: 30px;
         max-width: 600px;
         padding: 30px 0;
@@ -30,6 +30,14 @@ main {
         color: var(--white);
         padding: 17px 35px;;
     }
+}
+
+#research-areas {
+    background: #F6F6F6;
+}
+
+#projects {
+    background: var(--darkBlue);
 }
 
 @media only screen and (max-width: 1000px) {

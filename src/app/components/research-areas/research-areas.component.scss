@@ -1,0 +1,29 @@
+.research-areas-items {
+
+    :nth-child(1) {
+        img {
+            border-radius: 15px 0 0 15px;
+        }
+    }
+
+    :nth-child(3) {
+        img {
+            border-radius: 0 15px 15px 0;
+        }
+    }
+
+    >div {
+        position: relative;
+    }
+
+    h3 {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        color: var(--white);
+        padding: 10px 25px;
+        font-size: 20px;
+        line-height: 36px;
+        text-transform: uppercase;
+    }
+}
