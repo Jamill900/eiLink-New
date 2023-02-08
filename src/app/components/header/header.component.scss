@@ -1,0 +1,24 @@
+a.nav-link {
+    padding: 10px 15px !important;
+    border-bottom: 1px solid transparent;
+    color: var(--grey);
+}
+
+a.nav-link:hover {
+    color: var(--darkBlue);
+    border-bottom: 2px solid var(--darkBlue);
+}
+
+a.nav-link.active {
+    color: var(--darkBlue);
+    border-bottom: 2px solid var(--darkBlue);
+}
+
+.talk-button {
+    background: linear-gradient(90deg, #144571 0%, #2D7B9B 100%);
+    border-radius: 106px;
+    color: var(--white);
+    outline: none;
+    border: none;
+    padding: 17px 35px;
+}

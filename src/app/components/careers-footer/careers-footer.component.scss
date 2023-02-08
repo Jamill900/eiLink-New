@@ -1,0 +1,30 @@
+.careers-footer {
+    padding: 70px;
+    background: linear-gradient(270deg, #2D7B9B 0%, #144571 100%);
+    border-radius: 15px;
+}
+
+button {
+    padding: 17px 35px;
+    color: var(--pink);
+    border: none;
+    outline: none;
+    background: var(--white);
+    border-radius: 75px;
+}
+
+h1 {
+    font-weight: 400;
+    font-size: 25px;
+    padding-bottom: 0;
+    margin-bottom: 0;
+    line-height: 45px;
+    color: var(--white);
+}
+
+h2 {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 24px;
+    color: var(--pink);
+}
