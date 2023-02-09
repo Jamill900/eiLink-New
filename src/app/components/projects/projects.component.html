@@ -3,12 +3,108 @@
         <h1>Projects</h1>
         <div class="row align-items-center">
             <div class="col-12 col-lg-6">
-                <p class="m-0">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac
+                <p class="m-0">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit
+                    interdum, ac
                     aliquet odio mattis.</p>
             </div>
             <div class="col-12 col-lg-6">
                 <button routerLink="/projects">View All Projects<i class="bi bi-arrow-right"></i></button>
             </div>
         </div>
+    </div>
+    <div class="slider">
+        <ngx-slick-carousel #slickModal="slick-carousel" [config]="settings" (init)="slickInit($event)"
+            (beforeChange)="beforeChange($event)" class="banner-slider banner-slider-one banner-slider-active">
+            <!-- Data -->
+            <div ngxSlickItem class="single-banner">
+                <div class="container-fluid container-1470">
+                    <div class="row align-items-center">
+                        <div class="col-lg-6 d-flex justify-content-center animate__fadeInLeft animate__animated wow">
+                            <div class="banner-img text-center" data-animation="fadeInRight" data-delay="0.5s">
+                                <img src="assets/lorem-img/project-1.svg" height="100%">
+                            </div>
+                        </div>
+                        <div class="col-lg-6 animate__fadeInRight animate__animated wow">
+                            <div class="banner-text">
+                                <div class="banner-content">
+                                    <h1 data-animation="fadeInLeft" data-delay="0.6s" class="title">
+                                        Annuli monitoring
+                                    </h1>
+                                    <p data-animation="fadeInLeft" data-delay=".9s">
+                                        Sustained casing pressure (SCP), defined as excessive casing pressure that
+                                        constantly rebuilds after bleed-down, is undesirable and sometimes potentially
+                                        dangerous for producing wells...
+                                    </p>
+                                    <a data-animation="fadeInUp" data-delay="1.1s"
+                                        class="main-btn rounded-btn icon-right small-size">
+                                        Learn More
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div ngxSlickItem class="single-banner">
+                <div class="container-fluid container-1470">
+                    <div class="row align-items-center">
+                        <div class="col-lg-6 d-flex justify-content-center animate__fadeInLeft animate__animated wow">
+                            <div class="banner-img text-center" data-animation="fadeInRight" data-delay="0.5s">
+                                <img src="assets/lorem-img/project-2.svg" height="100%">
+                            </div>
+                        </div>
+                        <div class="col-lg-6 animate__fadeInRight animate__animated wow">
+                            <div class="banner-text">
+                                <div class="banner-content">
+                                    <h1 data-animation="fadeInLeft" data-delay="0.6s" class="title">
+                                        Estimation of water salinity distribution for ShahDeniz field
+                                    </h1>
+                                    <p data-animation="fadeInLeft" data-delay=".9s">
+                                        Formation of water salinity is important for understanding the hydrodynamic
+                                        system in a sedimentary basin, including areas of hydraulic communication and
+                                        isolation, and has implications...
+                                    </p>
+                                    <a data-animation="fadeInUp" data-delay="1.1s"
+                                        class="main-btn rounded-btn icon-right small-size">
+                                        Learn More
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div ngxSlickItem class="single-banner">
+                <div class="container-fluid container-1470">
+                    <div class="row align-items-center">
+                        <div class="slider-image col-lg-6 d-flex justify-content-center animate__fadeInLeft animate__animated wow">
+                            <div class="banner-img text-center" data-animation="fadeInRight" data-delay="0.5s">
+                                <img src="assets/lorem-img/project-3.svg" height="100%">
+                            </div>
+                        </div>
+                        <div class="col-lg-6 animate__fadeInRight animate__animated wow">
+                            <div class="banner-text">
+                                <div class="banner-content">
+                                    <h1 data-animation="fadeInLeft" data-delay="0.6s" class="title">
+                                        Estimation of sweep efficiency: Analogous rocks of Yasamal valley to north flank
+                                        DWG
+                                    </h1>
+                                    <p data-animation="fadeInLeft" data-delay=".9s">
+                                        Estimation of the recovery factor from structurally deformed areas is a
+                                        challenging process due to the high number of unknown parameters. These features
+                                        are of subseismic scale, which are...
+                                    </p>
+                                    <a data-animation="fadeInUp" data-delay="1.1s"
+                                        class="main-btn rounded-btn icon-right small-size">
+                                        Learn More
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Data -->
+        </ngx-slick-carousel>
     </div>
 </div>
