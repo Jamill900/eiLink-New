@@ -211,24 +211,60 @@ export class InMemoryDataService implements InMemoryDbService {
         },
     ]
 
-    let researchArea = [
+    let researchAreas = [
         {
             id: 0,
-            title: '',
-            description: '',
-            imgSrc: ''
+            title: 'Geology & Geophysics',
+            description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eu turpis molestie, dictum est a, mattis tellus. Sed dignissim, metus nec fringilla accumsan.',
+            imgSrc: 'assets/research-areas/area-'
         },
         {
             id: 1,
-            title: '',
-            description: '',
-            imgSrc: ''
+            title: 'Oil & Gas Production Technology',
+            description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eu turpis molestie, dictum est a, mattis tellus. Sed dignissim, metus nec fringilla accumsan.',
+            imgSrc: 'assets/research-areas/area-'
         },
         {
             id: 2,
-            title: '',
-            description: '',
-            imgSrc: ''
+            title: 'Drilling & Well Integrity',
+            description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eu turpis molestie, dictum est a, mattis tellus. Sed dignissim, metus nec fringilla accumsan.',
+            imgSrc: 'assets/research-areas/area-'
+        },
+        {
+            id: 3,
+            title: 'Computational Fluid Dynamics',
+            description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eu turpis molestie, dictum est a, mattis tellus. Sed dignissim, metus nec fringilla accumsan.',
+            imgSrc: 'assets/research-areas/area-'
+        },
+        {
+            id: 4,
+            title: 'Thermodynamic Modelling',
+            description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eu turpis molestie, dictum est a, mattis tellus. Sed dignissim, metus nec fringilla accumsan.',
+            imgSrc: 'assets/research-areas/area-'
+        },
+        {
+            id: 5,
+            title: 'Reservoir Modelling',
+            description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eu turpis molestie, dictum est a, mattis tellus. Sed dignissim, metus nec fringilla accumsan.',
+            imgSrc: 'assets/research-areas/area-'
+        },
+        {
+            id: 6,
+            title: 'Software Engineering',
+            description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eu turpis molestie, dictum est a, mattis tellus. Sed dignissim, metus nec fringilla accumsan.',
+            imgSrc: 'assets/research-areas/area-'
+        },
+        {
+            id: 7,
+            title: 'Data Science',
+            description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eu turpis molestie, dictum est a, mattis tellus. Sed dignissim, metus nec fringilla accumsan.',
+            imgSrc: 'assets/research-areas/area-'
+        },
+        {
+            id: 8,
+            title: 'Machine Learning',
+            description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eu turpis molestie, dictum est a, mattis tellus. Sed dignissim, metus nec fringilla accumsan.',
+            imgSrc: 'assets/research-areas/area-'
         }
     ]
 
@@ -256,6 +292,6 @@ export class InMemoryDataService implements InMemoryDbService {
         }
     ]
 
-    return { projects, publications, careers, team, blog, researchArea };
+    return { projects, publications, careers, team, blog, researchAreas };
   }
 }

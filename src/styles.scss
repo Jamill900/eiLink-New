@@ -103,6 +103,7 @@ section {
     padding: 80px 0 80px 0;
     h1 {
         font-size: 24px;
+        font-weight: 500;
         line-height: 45px;
         letter-spacing: 0.2em;
         text-transform: uppercase;
@@ -121,4 +122,8 @@ section {
 
 nav {
     border-bottom: 0.5px solid var(--darkBlue);
+}
+
+#projects, #publications, #researchArea, #about, #careers {
+    min-height: 80vh;
 }

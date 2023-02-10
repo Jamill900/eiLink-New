@@ -1,0 +1,19 @@
+<div class="container" id="researchArea">
+    <div class="page-heading" data-aos="fade-up" data-aos-duration="600">
+        <h1>Research Areas</h1>
+        <p class="text-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit
+            interdum, ac
+            aliquet odio mattis.</p>
+    </div>
+    <div class="row research-areas-card gy-4">
+        <div class="col-12 col-lg-4 text-center" *ngFor="let area of researchAreas" data-aos="fade-up" data-aos-duration="600">
+            <div class="area-card">
+                <img src="{{ area.imgSrc + area.id + '.svg'}}" alt="">
+                <h2>{{ area.title }}</h2>
+                <p>{{ area.description }}</p>
+                <button>Learn More</button>
+            </div>
+        </div>
+    </div>
+</div>
+<app-careers-footer></app-careers-footer>

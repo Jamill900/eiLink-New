@@ -16,7 +16,7 @@ export class DatabaseService {
   constructor(private http: HttpClient) { }
 
   private publicationsUrl = 'api/publications';
-  private reseachAreaUrl = 'api/research-areas';
+  private reseachAreaUrl = 'api/researchAreas';
   private projectsUrl = 'api/projects';
   private careersUrl = 'api/careers';
   private teamUrl = 'api/team';

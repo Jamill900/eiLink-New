@@ -1,6 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { Project } from 'src/app/interfaces/project';
 import { DatabaseService } from 'src/app/services/database.service';
+import * as AOS from 'aos';
 
 @Component({
   selector: 'app-projects-page',
@@ -16,6 +17,7 @@ export class ProjectsPageComponent implements OnInit {
 
   ngOnInit(): void {
     this.getProjects();
+    AOS.init();
   }
 
   getProjects() {
