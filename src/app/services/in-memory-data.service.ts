@@ -12,64 +12,56 @@ export class InMemoryDataService implements InMemoryDbService {
             title: 'Shale compaction modeling study in the South Caspian basin',
             date: '3 November 2017',
             author: 'eiLink',
-            cover: 'assets/images/projects/project4.png',
-            imgPath: 'assets/images/projects/project4header.png',
+            tag: 'Geology & Geophysics'
         },
         {
             id: 1,
             title: 'Yasamal Outcrop Study',
             date: '20 May 2019',
             author: 'eiLink',
-            cover: 'assets/images/projects/project6.jpg',
-            imgPath: 'assets/images/projects/project6header.png'
+            tag: 'Oil & Gas'
         },
         {
             id: 2,
             title: 'Estimation of sweep efficiency: Analogous rocks of Yasamal valley to north flank DWG',
             date: '1 September 2019',
             author: 'eiLink',
-            cover: 'assets/images/projects/project5.png',
-            imgPath: 'assets/images/projects/project5.png'
+            tag: 'Drilling & Well Integrity'
         },
         {
             id: 3,
             title: 'Water supply for irrigation in Padarchol area: assessment of rainwater and groundwater potential',
             date: '10 April 2022',
             author: 'eiLink',
-            cover: 'assets/images/projects/project3.png',
-            imgPath: 'assets/images/projects/project3header.png'
+            tag: 'Computational Fluid Dynamics'
         },
         {
             id: 4,
             title: 'Pre-Stack Seismic inversion based on Continuous Wavelet Transform Processing and Deep Neural Network',
             date: '28 June 2021',
             author: 'eiLink',
-            cover: 'assets/images/projects/project7.jpg',
-            imgPath: 'assets/images/projects/project7header.jpg'
+            tag: 'Thermodynamic Modelling'
         },
         {
             id: 5,
             title: 'Estimation of water salinity distribution for ShahDeniz field',
             date: '1 August 2021',
             author: 'eiLink',
-            cover: 'assets/images/projects/project.jpg',
-            imgPath: 'assets/images/projects/projectheader.png'
+            tag: 'Reservoir Modelling'
         },
         {
             id: 6,
             title: 'Prediction of Drilling risks (wellbore instability, losses, stuck pipes) using numerical techniques',
             date: '1 March 2022',
             author: 'eiLink',
-            cover: 'assets/images/projects/project1.png',
-            imgPath: 'assets/images/projects/project1header.png'
+            tag: 'Software Engineering'
         },
         {
             id: 7,
             title: 'Annuli monitoring',
-            date: 'Ongoing (05/10/2022)',
+            date: 'Ongoing',
             author: 'eiLink',
-            cover: 'assets/images/projects/project2.png',
-            imgPath: 'assets/images/projects/project2header.png'
+            tag: 'Data Science'
         }
     ];
 

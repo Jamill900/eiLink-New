@@ -3,6 +3,5 @@ export interface Project {
     title: string;
     date: string;
     author: string;
-    cover: string;
-    imgPath: string;
+    tag: string
 }

@@ -98,3 +98,27 @@ section {
         margin-left: 30px;
     }
 }
+
+.page-heading {
+    padding: 80px 0 80px 0;
+    h1 {
+        font-size: 24px;
+        line-height: 45px;
+        letter-spacing: 0.2em;
+        text-transform: uppercase;
+        color: var(--darkBlue);
+        text-align: center;
+    }
+
+    p {
+        font-size: 14px;
+        line-height: 24px;
+        color: var(--grey);
+        max-width: 660px;
+        margin: auto;
+    }
+}
+
+nav {
+    border-bottom: 0.5px solid var(--darkBlue);
+}
