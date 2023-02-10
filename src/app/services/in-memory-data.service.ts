@@ -12,56 +12,64 @@ export class InMemoryDataService implements InMemoryDbService {
             title: 'Shale compaction modeling study in the South Caspian basin',
             date: '3 November 2017',
             author: 'eiLink',
-            tag: 'Geology & Geophysics'
+            tag: 'Geology & Geophysics',
+            previewText: 'The South Caspian Basin (SCB) is a young basin with a sedimentary rock column up to 25 km thick. High sedimentation rates, combined with other factors, resulted in abnormally high pore...'
         },
         {
             id: 1,
             title: 'Yasamal Outcrop Study',
             date: '20 May 2019',
             author: 'eiLink',
-            tag: 'Oil & Gas'
+            tag: 'Oil & Gas',
+            previewText: 'It is common during field development that certain areas of the structure, while containing appreciable oil and gas reserves, are complicated and negatively affected by certain geological...'
         },
         {
             id: 2,
             title: 'Estimation of sweep efficiency: Analogous rocks of Yasamal valley to north flank DWG',
             date: '1 September 2019',
             author: 'eiLink',
-            tag: 'Drilling & Well Integrity'
+            tag: 'Drilling & Well Integrity',
+            previewText: 'Estimation of the recovery factor from structurally deformed areas is a challenging process due to the high number of unknown parameters. These features are of subseismic scale...'
         },
         {
             id: 3,
             title: 'Water supply for irrigation in Padarchol area: assessment of rainwater and groundwater potential',
             date: '10 April 2022',
             author: 'eiLink',
-            tag: 'Computational Fluid Dynamics'
+            tag: 'Computational Fluid Dynamics',
+            previewText: 'The framework of the project was to solve the problem of irrigation in the Hajigabul irrigation area by evaluating subsurface freshwater reserves potential and the use of runoff water...'
         },
         {
             id: 4,
             title: 'Pre-Stack Seismic inversion based on Continuous Wavelet Transform Processing and Deep Neural Network',
             date: '28 June 2021',
             author: 'eiLink',
-            tag: 'Thermodynamic Modelling'
+            tag: 'Thermodynamic Modelling',
+            previewText: 'The main purpose of this study was to develop a methodology to generate a 3D volume of Gamma Ray data for Azeri and Chirag with a resolution approaching the real GR tool readings...'
         },
         {
             id: 5,
             title: 'Estimation of water salinity distribution for ShahDeniz field',
             date: '1 August 2021',
             author: 'eiLink',
-            tag: 'Reservoir Modelling'
+            tag: 'Reservoir Modelling',
+            previewText: 'Formation of water salinity is important for understanding the hydrodynamic system in a sedimentary basin, including areas of hydraulic communication and isolation, and has implications...'
         },
         {
             id: 6,
             title: 'Prediction of Drilling risks (wellbore instability, losses, stuck pipes) using numerical techniques',
             date: '1 March 2022',
             author: 'eiLink',
-            tag: 'Software Engineering'
+            tag: 'Software Engineering',
+            previewText: 'Several types of challenges take place during drilling that include wellbore instability, stuck pipe, fluid losses, etc. Reasons associated with these problems are understood to some degree...'
         },
         {
             id: 7,
             title: 'Annuli monitoring',
             date: 'Ongoing',
             author: 'eiLink',
-            tag: 'Data Science'
+            tag: 'Data Science',
+            previewText: 'Sustained casing pressure (SCP), defined as excessive casing pressure that constantly rebuilds after bleed-down, is undesirable and sometimes potentially dangerous for producing wells...'
         }
     ];
 

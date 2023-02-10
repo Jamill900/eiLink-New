@@ -1,5 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import $ from "jquery";
+import { Project } from 'src/app/interfaces/project';
+import { DatabaseService } from 'src/app/services/database.service';
 
 @Component({
   selector: 'app-projects',
@@ -8,7 +10,10 @@ import $ from "jquery";
 })
 export class ProjectsComponent implements OnInit {
 
-  constructor() { }
+  projects: Project[] = [];
+  loading = false;
+
+  constructor(private database: DatabaseService) { }
 
   settings = {
     autoplay: true,
@@ -22,6 +27,15 @@ export class ProjectsComponent implements OnInit {
   };
 
   ngOnInit(): void {
+    this.getProjects();
+  }
+
+
+  getProjects() {
+    this.loading = true;
+    this.database.getProjects().subscribe(projects => {
+      this.projects = projects.reverse();
+    })
   }
 
   slickInit(e: any) {

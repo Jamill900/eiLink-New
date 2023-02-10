@@ -25,6 +25,8 @@ import { BlogComponent } from './components/blog/blog.component';
 import { CareersFooterComponent } from './components/careers-footer/careers-footer.component';
 import { PeoplePageComponent } from './components/people-page/people-page.component';
 import { PartnersComponent } from './components/partners/partners.component';
+import { ProjectsDetailsComponent } from './components/projects-details/projects-details.component';
+import { BlogDetailsComponent } from './components/blog-details/blog-details.component';
 
 
 @NgModule({
@@ -45,7 +47,9 @@ import { PartnersComponent } from './components/partners/partners.component';
     BlogComponent,
     CareersFooterComponent,
     PeoplePageComponent,
-    PartnersComponent
+    PartnersComponent,
+    ProjectsDetailsComponent,
+    BlogDetailsComponent
   ],
   imports: [
     BrowserModule,

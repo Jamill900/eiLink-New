@@ -3,5 +3,6 @@ export interface Project {
     title: string;
     date: string;
     author: string;
-    tag: string
+    tag: string;
+    previewText: string;
 }

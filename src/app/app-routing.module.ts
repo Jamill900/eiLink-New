@@ -9,11 +9,11 @@ import { BlogPageComponent } from './components/blog-page/blog-page.component';
 import { ResearchAreasPageComponent } from './components/research-areas-page/research-areas-page.component';
 import { PeoplePageComponent } from './components/people-page/people-page.component';
 
-/* const routerOptions: ExtraOptions = {
+const routerOptions: ExtraOptions = {
   scrollPositionRestoration: 'enabled',
   anchorScrolling: 'enabled',
   scrollOffset: [0, 64]
-} */
+}
 
 const routes: Routes = [
   { path: '', redirectTo: '/home', pathMatch: 'full' },
@@ -29,7 +29,7 @@ const routes: Routes = [
 ];
 
 @NgModule({
-  imports: [RouterModule.forRoot(routes)],
+  imports: [RouterModule.forRoot(routes, routerOptions)],
   exports: [RouterModule]
 })
 export class AppRoutingModule { }
