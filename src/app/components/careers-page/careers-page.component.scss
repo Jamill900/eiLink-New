@@ -1,0 +1,38 @@
+.careers-card {
+
+    .vacancy-card {
+        background: #F6F6F6;
+        border-radius: 15px;
+        padding: 30px 40px;
+        height: 180px;
+
+        h2 {
+
+        }
+
+        h4 {
+            margin-bottom: 0;
+            color: var(--grey);
+        }
+
+        button {
+            display: flex;
+            flex-direction: row;
+            margin-left: 10px;
+            font-weight: 500;
+            font-size: 12px;
+            color: var(--darkBlue);
+            outline: none;
+            border: none;
+            border: 1px solid #144571;
+            border-radius: 70px;
+            background: transparent;
+            padding: 7px 20px;
+    
+            i {
+                margin-left: 5px;
+            }
+        }
+    }
+
+}
