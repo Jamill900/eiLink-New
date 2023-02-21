@@ -50,3 +50,30 @@
         padding-right: 20px;
     }
 }
+
+.line-break {
+    max-width: 800px;
+    margin: auto;
+    height: 2px;
+    background: #EFEFEF;
+}
+
+.project-details {
+    max-width: 800px;
+    margin: auto;
+
+    h5 {
+        font-weight: 500;
+        font-size: 12px;
+        color: var(--grey);
+    }
+
+    i {
+        color: var(--darkBlue);
+        margin-right: 3px;
+    }
+
+    .author {
+        padding-right: 15px;
+    }
+}
