@@ -41,3 +41,23 @@
         color: var(--darkBlue);
     }
 }
+
+button {
+  font-weight: 400;
+  font-size: 12px;
+  color: var(--darkBlue);
+  outline: none;
+  border: none;
+  border: 1px solid var(--darkBlue);
+  border-radius: 70px;
+  background: transparent;
+  padding: 7px 20px;
+  margin: auto 5px;
+  transition: all .2s linear;
+}
+
+button:hover, button.active {
+  color: var(--white);
+  background: var(--darkBlue);
+  border: 1px solid var(--darkBlue);
+}

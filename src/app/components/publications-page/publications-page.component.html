@@ -1,18 +1,17 @@
 <div class="container" id="publications-page">
-    <div class="page-heading" data-aos="fade-up" data-aos-duration="600">
-        <h1>Publications</h1>
-        <p class="text-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit
-            interdum, ac
-            aliquet odio mattis.</p>
+  <div class="page-heading" data-aos="fade-up" data-aos-duration="600">
+    <h1>Publications</h1>
+    <p class="text-center">We are committed to conducting research that is rigorous, innovative, and impactful, and we
+      strive to make a positive contribution to the advancement of knowledge in our field.</p>
+  </div>
+  <div class="row publications-card gy-5">
+    <div class="col-12 col-lg-4" *ngFor="let publication of publications" data-aos="fade-up" data-aos-duration="600">
+      <div class="top-border"></div>
+      <h2>{{ publication.title }}</h2>
+      <h4>{{ publication.date }}</h4>
+      <h3>{{ publication.authors }}</h3>
+      <button (click)="navigateTo(publication.link)">Read More <i class="bi bi-box-arrow-up-right"></i></button>
     </div>
-    <div class="row publications-card gy-5">
-        <div class="col-12 col-lg-4" *ngFor="let publication of publications" data-aos="fade-up" data-aos-duration="600">
-            <div class="top-border"></div>
-            <h2>{{ publication.title }}</h2>
-            <h4>{{ publication.date }}</h4>
-            <h3>{{ publication.authors }}</h3>
-            <button (click)="navigateTo(publication.link)">Read More <i class="bi bi-box-arrow-up-right"></i></button>
-        </div>
-    </div>
+  </div>
 </div>
 <app-careers-footer></app-careers-footer>

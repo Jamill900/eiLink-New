@@ -14,4 +14,8 @@ export class FooterComponent implements OnInit {
     AOS.init();
   }
 
+  navigateTo(url : string) {
+    window.open(`${url}`, "_blank");
+  }
+
 }

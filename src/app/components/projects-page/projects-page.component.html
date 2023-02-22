@@ -1,17 +1,50 @@
 <div class="container" id="projects-page">
-    <div class="page-heading" data-aos="fade-up" data-aos-duration="600">
-        <h1>Projects & Products</h1>
-        <p class="text-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit
-            interdum, ac
-            aliquet odio mattis.</p>
+  <div class="page-heading" data-aos="fade-up" data-aos-duration="600">
+    <h1>Projects & Products</h1>
+    <p class="text-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit
+      interdum, ac
+      aliquet odio mattis.</p>
+  </div>
+  <div class="row mb-5">
+    <div class="col-12 text-center">
+      <button [class.active]="showAll" (click)="filterButtons('all')">All</button>
+      <button [class.active]="showProjects" (click)="filterButtons('projects')">Project</button>
+      <button [class.active]="showProducts" (click)="filterButtons('products')">Products</button>
     </div>
-    <div class="row projects-card gy-5">
-        <div class="col-12 col-lg-4" *ngFor="let project of projects" data-aos="fade-up" data-aos-duration="600">
-            <img routerLink="/projects/{{ project.id }}" src="{{ 'assets/projects/project-' + project.id + '.svg' }}" alt="" width="100%">
-            <h2>{{ project.title }}</h2>
-            <h4>{{ project.date }}</h4>
-            <span>{{ project.tag }}</span>
-        </div>
+  </div>
+  <div *ngIf="showProjects == true" class="row projects-card gy-5">
+    <div class="col-12 col-lg-4" *ngFor="let project of projects" data-aos="fade-up" data-aos-duration="600">
+      <img routerLink="/projects/{{ project.id }}" src="{{ 'assets/projects/project-' + project.id + '.svg' }}" alt=""
+        width="100%">
+      <h2>{{ project.title }}</h2>
+      <h4>{{ project.date }}</h4>
+      <span>{{ project.tag }}</span>
     </div>
+  </div>
+  <div *ngIf="showProducts == true" class="row projects-card gy-5">
+    <div class="col-12 col-lg-4" *ngFor="let product of products" data-aos="fade-up" data-aos-duration="600">
+      <img routerLink="/products/{{ product.id }}" src="{{ 'assets/projects/project-' + product.id + '.svg' }}" alt=""
+        width="100%">
+      <h2>{{ product.title }}</h2>
+      <h4>{{ product.date }}</h4>
+      <span>{{ product.tag }}</span>
+    </div>
+  </div>
+  <div *ngIf="showAll == true" class="row projects-card gy-5">
+    <div class="col-12 col-lg-4" *ngFor="let project of projects" data-aos="fade-up" data-aos-duration="600">
+      <img routerLink="/projects/{{ project.id }}" src="{{ 'assets/projects/project-' + project.id + '.svg' }}" alt=""
+        width="100%">
+      <h2>{{ project.title }}</h2>
+      <h4>{{ project.date }}</h4>
+      <span>{{ project.tag }}</span>
+    </div>
+    <div class="col-12 col-lg-4" *ngFor="let product of products" data-aos="fade-up" data-aos-duration="600">
+      <img routerLink="/products/{{ product.id }}" src="{{ 'assets/projects/project-' + product.id + '.svg' }}" alt=""
+        width="100%">
+      <h2>{{ product.title }}</h2>
+      <h4>{{ product.date }}</h4>
+      <span>{{ product.tag }}</span>
+    </div>
+  </div>
 </div>
 <app-careers-footer></app-careers-footer>

@@ -1,9 +1,24 @@
-<div class="container" id="people-page">
-    <div class="page-heading" data-aos="fade-up" data-aos-duration="600">
-        <h1>Our People</h1>
-        <p class="text-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit
-            interdum, ac
-            aliquet odio mattis.</p>
+<div id="people-page">
+  <div class="people-header" style="background: url('assets/people/people-header.jpg');" data-aos="fade-up"
+    data-aos-duration="600">
+    <h1 class="text-center">Our People</h1>
+    <p class="text-center">Meet the people behind our reserach and innovation.</p>
+  </div>
+  <div class="container">
+    <div class="row people-card gy-5 align-items-center">
+      <div class="col-12 col-md-6 col-lg-4 col-xl-3" *ngFor="let member of team">
+        <div class="img-hover">
+          <img src="{{ member.imgSrc }}" alt="" width="100%">
+          <div class="overlay">
+            <i class="bi bi-linkedin"></i>
+            <i class="bi bi-behance"></i>
+            <i class="bi bi-github"></i>
+          </div>
+        </div>
+        <h2>{{ member.name }}</h2>
+        <h4>{{ member.position }}</h4>
+      </div>
     </div>
+  </div>
 </div>
 <app-careers-footer></app-careers-footer>

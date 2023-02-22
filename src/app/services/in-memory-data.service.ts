@@ -8,7 +8,6 @@ export class InMemoryDataService implements InMemoryDbService {
   createDb() {
     let projects = [
         {
-            slug: 'shale-compaction-modelling',
             id: 0,
             title: 'Shale compaction modeling study in the South Caspian basin',
             date: '3 November 2017',
@@ -81,6 +80,26 @@ export class InMemoryDataService implements InMemoryDbService {
         }
     ];
 
+    let products = [
+      {
+          id: 0,
+          title: 'Shale compaction modeling study in the South Caspian basin',
+          date: '3 November 2017',
+          author: 'eiLink',
+          tag: 'Geology & Geophysics',
+          previewText: 'The South Caspian Basin (SCB) is a young basin with a sedimentary rock column up to 25 km thick. High sedimentation rates, combined with other factors, resulted in abnormally high pore...',
+      },
+      {
+          id: 1,
+          title: 'Yasamal Outcrop Study',
+          date: '20 May 2019',
+          author: 'eiLink',
+          tag: 'Oil & Gas',
+          previewText: 'It is common during field development that certain areas of the structure, while containing appreciable oil and gas reserves, are complicated and negatively affected by certain geological...',
+          slug: 'yasamal-outcrop-study'
+      }
+    ]
+
     let publications = [
         {
             id: 0,
@@ -139,92 +158,118 @@ export class InMemoryDataService implements InMemoryDbService {
             name: 'Shahriyar Alkhasli',
             position: 'Director',
             linkedIn: '',
-            imgSrc: ''
+            behance: '',
+            github: '',
+            imgSrc: 'assets/people/shahriyar.jpg'
         },
         {
             id: 1,
             name: 'Rustam Rustamov',
             position: 'Senior Advisor',
             linkedIn: '',
-            imgSrc: ''
+            behance: '',
+            github: '',
+            imgSrc: 'assets/people/rustam.jpg'
         },
         {
             id: 2,
             name: 'Izat Shahsenov',
             position: 'Lead Researcher',
             linkedIn: '',
-            imgSrc: ''
+            behance: '',
+            github: '',
+            imgSrc: 'assets/people/izat.jpg'
         },
         {
             id: 3,
             name: 'Vafa Dadashova',
             position: 'Researcher',
             linkedIn: '',
-            imgSrc: ''
-        },
-        {
-            id: 12,
-            name: 'Kamran Mirzabeyli',
-            position: 'Researcher',
-            linkedIn: '',
-            imgSrc: ''
+            behance: '',
+            github: '',
+            imgSrc: 'assets/people/vafa.jpg'
         },
         {
             id: 4,
-            name: 'Ruslan Malikov',
-            position: 'Junior Researcher',
+            name: 'Kamran Mirzabeyli',
+            position: 'Researcher',
             linkedIn: '',
-            imgSrc: ''
+            behance: '',
+            github: '',
+            imgSrc: 'assets/people/kamran.jpg'
         },
         {
             id: 5,
-            name: 'Ramil Mamishov',
+            name: 'Ruslan Malikov',
             position: 'Junior Researcher',
             linkedIn: '',
-            imgSrc: ''
+            behance: '',
+            github: '',
+            imgSrc: 'assets/people/ruslan.jpg'
         },
         {
             id: 6,
-            name: 'Gunel Rzayeva',
+            name: 'Ramil Mamishov',
             position: 'Junior Researcher',
             linkedIn: '',
-            imgSrc: ''
+            behance: '',
+            github: '',
+            imgSrc: 'assets/people/ramil.jpg'
         },
         {
             id: 7,
-            name: 'Elmir Abilov',
+            name: 'Gunel Rzayeva',
             position: 'Junior Researcher',
             linkedIn: '',
-            imgSrc: ''
+            behance: '',
+            github: '',
+            imgSrc: 'assets/people/gunel.jpg'
         },
         {
             id: 8,
-            name: 'Tatyana Yeleskina',
+            name: 'Elmir Abilov',
             position: 'Junior Researcher',
             linkedIn: '',
-            imgSrc: ''
-        },
-        {
-            id: 11,
-            name: 'Javidan Karimli',
-            position: 'Junior Researcher',
-            linkedIn: '',
-            imgSrc: ''
-        },
-        {
-            id: 10,
-            name: 'Orkhan Mammadov',
-            position: 'Junior Researcher',
-            linkedIn: '',
-            imgSrc: ''
+            behance: '',
+            github: '',
+            imgSrc: 'assets/people/elmir.jpg'
         },
         {
             id: 9,
+            name: 'Tatyana Yeleskina',
+            position: 'Junior Researcher',
+            linkedIn: '',
+            behance: '',
+            github: '',
+            imgSrc: 'assets/people/tatyana.jpg'
+        },
+        {
+            id: 10,
+            name: 'Javidan Karimli',
+            position: 'Junior Researcher',
+            linkedIn: '',
+            behance: '',
+            github: '',
+            imgSrc: 'assets/people/javidan.jpg'
+        },
+        {
+            id: 11,
+            name: 'Orkhan Mammadov',
+            position: 'Junior Researcher',
+            linkedIn: '',
+            behance: '',
+            github: '',
+            imgSrc: 'assets/people/orkhan.jpg'
+        },
+        {
+            id: 12,
             name: 'Fidan Karimova',
             position: 'Research Assistant',
             linkedIn: '',
-            imgSrc: ''
-        },
+            behance: '',
+            github: '',
+            imgSrc: 'assets/people/fidan.jpg'
+        }
     ]
 
     let researchAreas = [
@@ -308,6 +353,6 @@ export class InMemoryDataService implements InMemoryDbService {
         }
     ]
 
-    return { projects, publications, careers, team, blog, researchAreas };
+    return { projects, products, publications, careers, team, blog, researchAreas };
   }
 }
