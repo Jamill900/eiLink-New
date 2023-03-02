@@ -25,5 +25,9 @@ export class PeoplePageComponent implements OnInit {
     })
   }
 
+  navigateTo(url: string) {
+    window.open(`${url}`, '_blank');
+  }
+
 
 }

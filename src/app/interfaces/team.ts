@@ -6,4 +6,5 @@ export interface Team {
     behance: string;
     github: string;
     imgSrc: string;
+    company: string;
 }

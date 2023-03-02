@@ -178,7 +178,8 @@ export class InMemoryDataService implements InMemoryDbService {
             linkedIn: '',
             behance: '',
             github: '',
-            imgSrc: 'assets/people/izat.jpg'
+            imgSrc: 'assets/people/izat.jpg',
+            company: 'Waverity'
         },
         {
             id: 3,
@@ -205,7 +206,8 @@ export class InMemoryDataService implements InMemoryDbService {
             linkedIn: '',
             behance: '',
             github: '',
-            imgSrc: 'assets/people/ruslan.jpg'
+            imgSrc: 'assets/people/ruslan.jpg',
+            company: 'Waverity'
         },
         {
             id: 6,
@@ -241,7 +243,8 @@ export class InMemoryDataService implements InMemoryDbService {
             linkedIn: '',
             behance: '',
             github: '',
-            imgSrc: 'assets/people/tatyana.jpg'
+            imgSrc: 'assets/people/tatyana.jpg',
+            company: 'Waverity'
         },
         {
             id: 10,
@@ -250,7 +253,8 @@ export class InMemoryDataService implements InMemoryDbService {
             linkedIn: '',
             behance: '',
             github: '',
-            imgSrc: 'assets/people/javidan.jpg'
+            imgSrc: 'assets/people/javidan.jpg',
+            company: 'Waverity'
         },
         {
             id: 11,
@@ -259,7 +263,8 @@ export class InMemoryDataService implements InMemoryDbService {
             linkedIn: '',
             behance: '',
             github: '',
-            imgSrc: 'assets/people/orkhan.jpg'
+            imgSrc: 'assets/people/orkhan.jpg',
+            company: 'Waverity'
         },
         {
             id: 12,
@@ -275,7 +280,7 @@ export class InMemoryDataService implements InMemoryDbService {
     let researchAreas = [
         {
             id: 0,
-            title: 'Geology & Geophysics',
+            title: 'Geoscience',
             description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eu turpis molestie, dictum est a, mattis tellus. Sed dignissim, metus nec fringilla accumsan.',
             imgSrc: 'assets/research-areas/area-'
         },
@@ -287,43 +292,49 @@ export class InMemoryDataService implements InMemoryDbService {
         },
         {
             id: 2,
-            title: 'Drilling & Well Integrity',
+            title: 'Drilling & Well Interventions',
             description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eu turpis molestie, dictum est a, mattis tellus. Sed dignissim, metus nec fringilla accumsan.',
             imgSrc: 'assets/research-areas/area-'
         },
         {
             id: 3,
-            title: 'Computational Fluid Dynamics',
+            title: 'Fluid Mechanics & Applied Thermodynamics',
             description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eu turpis molestie, dictum est a, mattis tellus. Sed dignissim, metus nec fringilla accumsan.',
             imgSrc: 'assets/research-areas/area-'
         },
         {
             id: 4,
-            title: 'Thermodynamic Modelling',
+            title: 'Remote Sensing',
             description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eu turpis molestie, dictum est a, mattis tellus. Sed dignissim, metus nec fringilla accumsan.',
             imgSrc: 'assets/research-areas/area-'
         },
         {
             id: 5,
-            title: 'Reservoir Modelling',
+            title: 'Signal Processing',
             description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eu turpis molestie, dictum est a, mattis tellus. Sed dignissim, metus nec fringilla accumsan.',
             imgSrc: 'assets/research-areas/area-'
         },
         {
             id: 6,
-            title: 'Software Engineering',
+            title: 'Reservoir Modelling & Characterization',
             description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eu turpis molestie, dictum est a, mattis tellus. Sed dignissim, metus nec fringilla accumsan.',
             imgSrc: 'assets/research-areas/area-'
         },
         {
             id: 7,
-            title: 'Data Science',
+            title: 'Software & Web Solutions',
             description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eu turpis molestie, dictum est a, mattis tellus. Sed dignissim, metus nec fringilla accumsan.',
             imgSrc: 'assets/research-areas/area-'
         },
         {
             id: 8,
-            title: 'Machine Learning',
+            title: 'Digital Twin Development',
+            description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eu turpis molestie, dictum est a, mattis tellus. Sed dignissim, metus nec fringilla accumsan.',
+            imgSrc: 'assets/research-areas/area-'
+        },
+        {
+            id: 8,
+            title: 'Development of Artificial Intelligence (ML & DL) frameworks',
             description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eu turpis molestie, dictum est a, mattis tellus. Sed dignissim, metus nec fringilla accumsan.',
             imgSrc: 'assets/research-areas/area-'
         }

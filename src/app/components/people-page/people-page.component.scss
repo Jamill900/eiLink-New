@@ -28,6 +28,12 @@
 
 .people-card {
 
+  .waverity {
+    margin-left: 5px;
+    margin-top: 3px;
+    cursor: pointer;
+  }
+
   h2 {
     font-weight: 400;
     font-size: 18px;
@@ -41,6 +47,8 @@
 h4 {
     font-weight: 400;
     font-size: 12px;
+    line-height: 0;
+    padding-top: 5px;
     padding-left: 10px;
     margin-bottom: 0;
     color: var(--grey);

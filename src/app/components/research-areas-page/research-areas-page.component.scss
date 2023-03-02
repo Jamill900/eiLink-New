@@ -1,9 +1,10 @@
 .research-areas-card {
-    
+
     .area-card {
         padding: 50px 40px 20px 40px;
         background: #F6F6F6;
         border-radius: 15px;
+        min-height: 356px;
     }
 
     h2 {
@@ -20,7 +21,7 @@
         font-weight: 400;
         font-size: 12px;
         line-height: 18px;
-        padding-bottom: 20px;   
+        padding-bottom: 20px;
         color: var(--grey);
     }
 

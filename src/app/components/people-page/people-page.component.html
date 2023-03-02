@@ -2,7 +2,8 @@
   <div class="people-header" style="background: url('assets/people/people-header.jpg');" data-aos="fade-up"
     data-aos-duration="600">
     <h1 class="text-center">Our People</h1>
-    <p class="text-center">Meet the people behind our reserach and innovation.</p>
+    <p class="text-center">Our people are the driving force behind innovative solutions and cutting-edge advancements in
+      R&D.</p>
   </div>
   <div class="container">
     <div class="row people-card gy-5 align-items-center">
@@ -15,7 +16,11 @@
             <i class="bi bi-github"></i>
           </div>
         </div>
-        <h2>{{ member.name }}</h2>
+        <div class="d-flex flex-row align-items-center">
+          <h2>{{ member.name }}</h2>
+          <img class="waverity" (click)="navigateTo('https://waverity.ai/')" *ngIf="member.company == 'Waverity'" src="assets/logos/waverity_logo_v2.svg" alt=""
+            width="50px">
+        </div>
         <h4>{{ member.position }}</h4>
       </div>
     </div>
