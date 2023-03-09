@@ -1,5 +1,5 @@
 .publications-card {
-    
+
 
     h2 {
         font-weight: 400;
@@ -40,10 +40,17 @@
         border-radius: 70px;
         background: transparent;
         padding: 7px 20px;
+        transition: all .2s linear;
 
         i {
             margin-left: 5px;
         }
+    }
+
+    button:hover {
+      color: var(--white);
+      background: var(--darkBlue);
+      border: 1px solid var(--darkBlue);
     }
 
     .top-border {
