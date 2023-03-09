@@ -28,6 +28,7 @@ import { ProductsDetailsComponent } from './components/products-details/products
 import { ProjectsDetailsComponent } from './components/projects-details/projects-details.component';
 import { PublicationsPageComponent } from './components/publications-page/publications-page.component';
 import { ResearchAreasPageComponent } from './components/research-areas-page/research-areas-page.component';
+import { ResearchAreaDetailsComponent } from './components/research-area-details/research-area-details.component';
 
 
 @NgModule({
@@ -52,6 +53,7 @@ import { ResearchAreasPageComponent } from './components/research-areas-page/res
     ProjectsDetailsComponent,
     PublicationsPageComponent,
     ResearchAreasPageComponent,
+    ResearchAreaDetailsComponent,
   ],
   imports: [
     BrowserModule,

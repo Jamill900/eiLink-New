@@ -1,0 +1,50 @@
+<div id="research-area-details-content">
+  <div *ngIf="researchArea">
+    <div class="research-header" style="background: url('assets/projects/project-{{researchArea.id}}-header.svg');"
+      data-aos="fade-up" data-aos-duration="600">
+      <h2 class="text-center" data-aos="fade-up" data-aos-duration="600">{{ researchArea.title }}</h2>
+    </div>
+
+    <div class="container">
+      <div class="research-area-content text-center" *ngIf="researchArea.id != 2">
+        <p data-aos="fade-up" data-aos-duration="600">{{ researchArea.description }}</p>
+      </div>
+      <div class="research-area-content text-center" *ngIf="researchArea.id == 2">
+        <p data-aos="fade-up" data-aos-duration="600">
+          At eiLink, we specialize in providing comprehensive solutions for drilling and well interventions to our
+          clients across various industries. Our team of experts leverages their extensive subsurface knowledge to
+          deliver effective solutions to our clients, regardless of the complexity of the challenges they are facing.
+          <br><br>
+          Our drilling and well intervention services include:
+        </p>
+        <ul data-aos="fade-up" data-aos-duration="600">
+          <li>
+            Well Design and Planning: Our team can design and plan a well that meets our clients' unique requirements,
+            taking into consideration the geology, reservoir characteristics, and drilling constraints. We use advanced
+            software and simulation tools to optimize drilling performance and reduce costs.
+          </li>
+          <li>
+            Drilling Operations: We provide drilling operations management services, including project planning,
+            drilling program development, rig site supervision, drilling performance monitoring, and cost control.
+          </li>
+          <li>
+            Well Intervention: Our team is skilled in providing well intervention services such as coil tubing,
+            wireline, and slickline operations to optimize well performance, improve production rates, and extend well
+            life.
+          </li>
+          <li>
+            Well Completion and Production Optimization: We provide well completion and production optimization
+            services, including reservoir characterization, completion design, and production monitoring, to maximize
+            well productivity and reduce operating costs.
+          </li>
+        </ul>
+        <p data-aos="fade-up" data-aos-duration="600">
+          Our team has experience working in various environments, including onshore and offshore drilling, and in
+          different geologies, such as conventional and unconventional reservoirs. We ensure that our solutions are
+          tailored to our clients' unique needs and requirements, and we always prioritize safety and environmental
+          sustainability in our operations.
+        </p>
+      </div>
+    </div>
+  </div>
+</div>

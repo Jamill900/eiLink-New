@@ -14,15 +14,16 @@ export class ProjectsDetailsComponent implements OnInit {
   project: Project;
 
 
-  constructor(private database: DatabaseService, private router: ActivatedRoute) { }
+  constructor(private database: DatabaseService, private route: ActivatedRoute) { }
 
   ngOnInit(): void {
-    this.getProjectBySlug();
+    this.getProjectById();
     AOS.init();
   }
 
-  getProjectBySlug(): void {
-    const id = Number(this.router.snapshot.paramMap.get('id'));
-    this.database.getProjectsById(id).subscribe(project => this.project = project);
+  getProjectById(): void {
+    const id = Number(this.route.snapshot.paramMap.get('id'));
+    this.database.getProjectsById(id).subscribe(project =>
+      this.project = project);
   }
 }

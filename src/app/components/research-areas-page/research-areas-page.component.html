@@ -10,8 +10,8 @@
             <div class="area-card">
                 <img src="{{ area.imgSrc + area.id + '.svg'}}" alt="">
                 <h2>{{ area.title }}</h2>
-                <p>{{ area.description }}</p>
-                <button>Learn More</button>
+                <p>{{ area.description | slice:0:210 }}...</p>
+                <button routerLink="/research-areas/{{ area.id }}">Learn More</button>
             </div>
         </div>
     </div>
