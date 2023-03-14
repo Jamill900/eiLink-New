@@ -8,7 +8,7 @@
     <div class="container">
       <div class="research-area-content" *ngIf="researchArea.id != 2">
         <p data-aos="fade-up" data-aos-duration="600">{{ researchArea.description }}</p>
-        <h2 *ngIf="researchArea.id !== 6 && researchArea.id !== 9" class="text-left mt-3" data-aos="fade-up" data-aos-duration="600">Related Projects</h2>
+        <h2 style="color: var(--darkBlue); font-weight: 400;" *ngIf="researchArea.id !== 6 && researchArea.id !== 9" class="text-left mt-3" data-aos="fade-up" data-aos-duration="600">Related Projects</h2>
         <div class="row projects-card" *ngFor="let project of projects" data-aos="fade-up" data-aos-duration="600">
           <div class="col-lg-4 col-12"  *ngIf="project.tag == researchArea.title">
             <img routerLink="/projects/{{ project.id }}" src="{{ 'assets/projects/project-' + project.id + '.svg' }}"

@@ -216,7 +216,8 @@ export class InMemoryDataService implements InMemoryDbService {
         linkedIn: '',
         behance: '',
         github: '',
-        imgSrc: 'assets/people/ramil.jpg'
+        imgSrc: 'assets/people/ramil.jpg',
+        company: 'Waverity'
       },
       {
         id: 7,
