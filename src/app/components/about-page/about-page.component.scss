@@ -1,6 +1,44 @@
 .about-content {
   max-width: 1000px;
   margin: auto;
+  //padding-bottom: 50px;
+}
+
+.people {
+  background-position: center !important;
+  background-size: cover !important;
+  color: var(--white);
+  height: 525px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  button {
+    color: var(--white);
+    border-color: var(--white);
+  }
+}
+
+.team-gallery {
+  display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	max-height: 500px;
+	align-content: center;
+}
+
+.image {
+	width: 32%;
+	background-color: orange;
+	margin: 5px;
+	color: aliceblue;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	font-size: 45px;
+	border-radius: 2px;
+  background-position: center !important;
+  background-size: cover !important;
 }
 
 .about-header {
