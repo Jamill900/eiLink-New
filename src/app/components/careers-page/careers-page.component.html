@@ -1,20 +1,35 @@
-<div class="container" id="careers-page">
-    <div class="page-heading" data-aos="fade-up" data-aos-duration="600">
-        <h1>Careers</h1>
-        <p class="text-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit
-            interdum, ac
-            aliquet odio mattis.</p>
+<div id="careers-page">
+  <div class="careers-header" style="background: url('assets/lorem-img/careers-header.svg');" data-aos="fade-up"
+    data-aos-duration="600">
+    <h1 class="text-center">Careers</h1>
+  </div>
+  <div class="container row m-auto careers-card gy-4">
+    <div class="col-12 mb-5">
+      <h1 class="text-center">Your next big career move</h1>
+      <h4>eiLink was born in collaboration with the Khazar University, so strong relationships with universities and
+        institutions are in our DNA. To foster these collaborations, we administer a number of programs that provide
+        students and recent graduates with resources and support for their academic and professional careers.
+        <br><br>
+        Our Research Assistantship programs provides students with hands-on experience in a variety of research areas,
+        allowing them to develop their skills and knowledge while working alongside our team of experts. We believe that
+        this type of immersive learning experience is critical for the growth and development of future researchers, and
+        we are committed to providing our students with the resources and support they need to succeed.
+        <br><br>
+        In addition to providing students with a challenging and rewarding work experience, we also offer mentorship and
+        training opportunities to help them develop their skills and build their professional networks. We believe that
+        investing in the next generation of researchers is not only good for our company but also for the broader
+        research community.</h4>
     </div>
-    <div class="row careers-card gy-4">
-        <div class="col-12 col-lg-6" *ngFor="let career of careers" data-aos="fade-up" data-aos-duration="600">
-            <div class="vacancy-card d-flex flex-row justify-content-between align-items-center">
-                <div>
-                    <h2>{{ career.title }}</h2>
-                    <h4><i class="bi bi-geo-alt-fill"></i> {{ career.location }}</h4>
-                </div>
-                <button (click)="navigateTo(career.link)">Apply <i class="bi bi-box-arrow-up-right"></i></button>
-            </div>
+    <h1 class="text-center">Explore our available opportunities.</h1>
+    <div class="col-12 col-lg-6" *ngFor="let career of careers" data-aos="fade-up" data-aos-duration="600">
+      <div class="vacancy-card d-flex flex-row justify-content-between align-items-center">
+        <div>
+          <h2>{{ career.title }}</h2>
+          <h4><i class="bi bi-geo-alt-fill"></i> {{ career.location }}</h4>
         </div>
+        <button (click)="navigateTo(career.link)">Apply <i class="bi bi-box-arrow-up-right"></i></button>
+      </div>
     </div>
+  </div>
 </div>
 <app-careers-footer></app-careers-footer>

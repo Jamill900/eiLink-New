@@ -9,13 +9,15 @@
       <div class="research-area-content" *ngIf="researchArea.id != 2">
         <p data-aos="fade-up" data-aos-duration="600">{{ researchArea.description }}</p>
         <h2 style="color: var(--darkBlue); font-weight: 400;" *ngIf="researchArea.id !== 6 && researchArea.id !== 9" class="text-left mt-3" data-aos="fade-up" data-aos-duration="600">Related Projects</h2>
-        <div class="row projects-card" *ngFor="let project of projects" data-aos="fade-up" data-aos-duration="600">
-          <div class="col-lg-4 col-12"  *ngIf="project.tag == researchArea.title">
-            <img routerLink="/projects/{{ project.id }}" src="{{ 'assets/projects/project-' + project.id + '.svg' }}"
-              alt="" width="100%">
-            <h2>{{ project.title }}</h2>
-            <h4>{{ project.date }}</h4>
-            <span>{{ project.tag }}</span>
+        <div class="row">
+          <div class="col-lg-4 col-12 projects-card" *ngFor="let project of projects" data-aos="fade-up" data-aos-duration="600">
+            <div *ngIf="project.tag === researchArea.title">
+              <img routerLink="/projects/{{ project.id }}" src="{{ 'assets/projects/project-' + project.id + '.svg' }}"
+                alt="" width="100%">
+              <h2>{{ project.title }}</h2>
+              <h4>{{ project.date }}</h4>
+              <span>{{ project.tag }}</span>
+            </div>
           </div>
         </div>
       </div>
