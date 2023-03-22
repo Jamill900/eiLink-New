@@ -1,8 +1,11 @@
 .careers-card {
     max-width: 1000px;
     //margin: auto;
-    //padding-bottom: 50px;
+    padding-bottom: 50px;
 
+    h1 {
+      color: var(--darkBlue);
+    }
 
     .vacancy-card {
         background: #F6F6F6;

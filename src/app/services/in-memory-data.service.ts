@@ -29,7 +29,7 @@ export class InMemoryDataService implements InMemoryDbService {
         title: 'Estimation of sweep efficiency: Analogous rocks of Yasamal valley to north flank DWG',
         date: '1 September 2019',
         author: 'eiLink',
-        tag: 'Geoscience',
+        tag: 'Drilling & Well Interventions',
         previewText: 'Estimation of the recovery factor from structurally deformed areas is a challenging process due to the high number of unknown parameters. These features are of subseismic scale...',
         slug: 'estimation-of-sweep-efficiency'
       },
@@ -38,7 +38,7 @@ export class InMemoryDataService implements InMemoryDbService {
         title: 'Water supply for irrigation in Padarchol area: assessment of rainwater and groundwater potential',
         date: '10 April 2022',
         author: 'eiLink',
-        tag: 'Geoscience',
+        tag: 'Fluid Mechanics & Applied Thermodynamics',
         previewText: 'The framework of the project was to solve the problem of irrigation in the Hajigabul irrigation area by evaluating subsurface freshwater reserves potential and the use of runoff water...',
         slug: 'assessment-of-rainwater-and-groundwater-potential'
       },
