@@ -35,5 +35,12 @@
         border-radius: 70px;
         background: transparent;
         padding: 7px 20px;
+        transition: all .2s linear;
+    }
+
+    button:hover {
+      color: var(--white);
+      background: var(--darkBlue);
+
     }
 }

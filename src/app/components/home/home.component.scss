@@ -29,6 +29,12 @@ main {
         border: 1px solid var(--white);
         color: var(--white);
         padding: 17px 35px;
+        transition: all .1s linear;
+    }
+
+    button:hover {
+      color: var(--darkBlue);
+      background: var(--white);
     }
 }
 

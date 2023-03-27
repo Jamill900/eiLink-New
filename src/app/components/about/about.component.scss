@@ -75,6 +75,12 @@
         color: var(--darkBlue);
         padding: 17px 35px;
         font-weight: 500;
+        transition: all .2s linear;
+    }
+
+    button:hover {
+      color: var(--white);
+      background: var(--darkBlue);
     }
 }
 
