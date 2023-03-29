@@ -13,6 +13,12 @@ button {
     outline: none;
     background: var(--white);
     border-radius: 75px;
+    transition: all .2s linear;
+}
+
+button:hover {
+  color: var(--white);
+  background: var(--pink);
 }
 
 h1 {

@@ -1,11 +1,20 @@
 .about-content {
-  max-width: 1000px;
+  //max-width: 1000px;
   //margin: auto;
   //padding-bottom: 50px;
+
+  h1 {
+    font-weight: 500;
+    font-size: 26px;
+  }
 }
 
 h4 {
   color: var(--darkBlue);
+  line-height: 35px;
+  font-size: 18px;
+  padding-left: 40px;
+  padding-right: 40px;
 }
 
 .people {
@@ -75,17 +84,24 @@ h4 {
 }
 
 button {
-  font-weight: 400;
-  font-size: 12px;
-  width: 130px;
-  margin: auto;
-  color: var(--darkBlue);
+  font-weight: 500;
+  font-size: 14px;
+  width: 150px;
+  margin-left: 40px;
+  color: var(--pink);
   outline: none;
   border: none;
-  border: 1px solid #144571;
+  border: 1px solid var(--pink);
   border-radius: 70px;
   background: transparent;
   padding: 7px 20px;
+  transition: all .2s linear !important;
+}
+
+button:hover {
+  color: var(--white);
+  background: var(--pink);
+  //transition: all .2s linear;
 }
 
 .value {
@@ -93,40 +109,7 @@ button {
   padding-top: 10px;
 }
 
-.team {
-  .team-footer {
-    padding: 50px;
-    background: linear-gradient(270deg, var(--blue) 0%, var(--darkBlue) 100%);
-    border-radius: 15px;
-    margin-top: 20px;
-    margin-bottom: 20px;
-}
-
-button {
-    padding: 15px 0px;
-    font-size: 13px;
-    font-weight: 500;
-    color: var(--pink);
-    border: none;
-    outline: none;
-    background: var(--white);
-    border-radius: 75px;
-    float: right;
-}
-
-h1 {
-    font-weight: 400;
-    font-size: 25px;
-    padding-bottom: 0;
-    margin-bottom: 0;
-    line-height: 45px;
-    color: var(--white);
-}
-
-h2 {
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 24px;
-    color: var(--pink);
-}
+.partners {
+  display: flex;
+  justify-content: space-around;
 }
