@@ -17,7 +17,7 @@
         width="100%">
       <h2>{{ project.title }}</h2>
       <h4>{{ project.date }}</h4>
-      <span>{{ project.tag }}</span>
+      <span routerLink="/research-areas/{{ project.areaId }}">{{ project.tag }}</span>
     </div>
   </div>
   <div *ngIf="showProducts == true" class="row projects-card gy-5">
@@ -35,7 +35,7 @@
         width="100%">
       <h2>{{ project.title }}</h2>
       <h4>{{ project.date }}</h4>
-      <span>{{ project.tag }}</span>
+      <span routerLink="/research-areas/{{ project.areaId }}">{{ project.tag }}</span>
     </div>
     <div class="col-12 col-lg-4" *ngFor="let product of products" data-aos="fade-up" data-aos-duration="600">
       <img routerLink="/products/{{ product.id }}" src="{{ 'assets/projects/project-' + product.id + '.svg' }}" alt=""

@@ -13,6 +13,7 @@ export class InMemoryDataService implements InMemoryDbService {
         date: '3 November 2017',
         author: 'eiLink',
         tag: 'Geoscience',
+        areaId: 0,
         previewText: 'The South Caspian Basin (SCB) is a young basin with a sedimentary rock column up to 25 km thick. High sedimentation rates, combined with other factors, resulted in abnormally high pore...',
       },
       {
@@ -21,6 +22,7 @@ export class InMemoryDataService implements InMemoryDbService {
         date: '20 May 2019',
         author: 'eiLink',
         tag: 'Oil & Gas Production Technology',
+        areaId: 1,
         previewText: 'It is common during field development that certain areas of the structure, while containing appreciable oil and gas reserves, are complicated and negatively affected by certain geological...',
         slug: 'yasamal-outcrop-study'
       },
@@ -30,6 +32,7 @@ export class InMemoryDataService implements InMemoryDbService {
         date: '1 September 2019',
         author: 'eiLink',
         tag: 'Drilling & Well Interventions',
+        areaId: 2,
         previewText: 'Estimation of the recovery factor from structurally deformed areas is a challenging process due to the high number of unknown parameters. These features are of subseismic scale...',
         slug: 'estimation-of-sweep-efficiency'
       },
@@ -39,6 +42,7 @@ export class InMemoryDataService implements InMemoryDbService {
         date: '10 April 2022',
         author: 'eiLink',
         tag: 'Fluid Mechanics & Applied Thermodynamics',
+        areaId: 3,
         previewText: 'The framework of the project was to solve the problem of irrigation in the Hajigabul irrigation area by evaluating subsurface freshwater reserves potential and the use of runoff water...',
         slug: 'assessment-of-rainwater-and-groundwater-potential'
       },
@@ -48,6 +52,7 @@ export class InMemoryDataService implements InMemoryDbService {
         date: '28 June 2021',
         author: 'eiLink',
         tag: 'Remote Sensing',
+        areaId: 4,
         previewText: 'The main purpose of this study was to develop a methodology to generate a 3D volume of Gamma Ray data for Azeri and Chirag with a resolution approaching the real GR tool readings...',
         slug: 'pre-stack-seismic-inversion'
       },
@@ -57,6 +62,7 @@ export class InMemoryDataService implements InMemoryDbService {
         date: '1 August 2021',
         author: 'eiLink',
         tag: 'Signal Processing',
+        areaId: 5,
         previewText: 'Formation of water salinity is important for understanding the hydrodynamic system in a sedimentary basin, including areas of hydraulic communication and isolation, and has implications...',
         slug: 'estimation-of-water-salinity'
       },
@@ -66,6 +72,7 @@ export class InMemoryDataService implements InMemoryDbService {
         date: '1 March 2022',
         author: 'eiLink',
         tag: 'Software & Web Solutions',
+        areaId: 7,
         previewText: 'Several types of challenges take place during drilling that include wellbore instability, stuck pipe, fluid losses, etc. Reasons associated with these problems are understood to some degree...',
         slug: 'prediction-of-drilling-risks'
       },
@@ -75,6 +82,7 @@ export class InMemoryDataService implements InMemoryDbService {
         date: 'Ongoing',
         author: 'eiLink',
         tag: 'Digital Twin Development',
+        areaId: 8,
         previewText: 'Sustained casing pressure (SCP), defined as excessive casing pressure that constantly rebuilds after bleed-down, is undesirable and sometimes potentially dangerous for producing wells...',
         slug: 'annuli-monitoring'
       }

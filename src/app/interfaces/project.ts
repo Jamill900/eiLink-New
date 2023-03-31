@@ -4,6 +4,7 @@ export interface Project {
     date: string;
     author: string;
     tag: string;
+    areaId: number;
     previewText: string;
     slug: string;
 }
