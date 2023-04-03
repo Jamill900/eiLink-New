@@ -6,7 +6,7 @@
             aliquet odio mattis.</p>
     </div>
     <div class="row research-areas-card gy-4">
-        <div class="col-12 col-lg-4 text-center" *ngFor="let area of researchAreas" data-aos="fade-up" data-aos-duration="600">
+        <div class="col-12 col-lg-4 text-center research-area-card popup-animation" style="--animation-order: {{ area.id }}" *ngFor="let area of researchAreas">
             <div class="area-card">
                 <img src="{{ area.imgSrc + area.id + '.svg'}}" alt="">
                 <h2>{{ area.title }}</h2>

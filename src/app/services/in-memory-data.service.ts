@@ -8,7 +8,7 @@ export class InMemoryDataService implements InMemoryDbService {
   createDb() {
     let projects = [
       {
-        id: 0,
+        id: 7,
         title: 'Shale compaction modeling study in the South Caspian basin',
         date: '3 November 2017',
         author: 'eiLink',
@@ -17,7 +17,7 @@ export class InMemoryDataService implements InMemoryDbService {
         previewText: 'The South Caspian Basin (SCB) is a young basin with a sedimentary rock column up to 25 km thick. High sedimentation rates, combined with other factors, resulted in abnormally high pore...',
       },
       {
-        id: 1,
+        id: 6,
         title: 'Yasamal Outcrop Study',
         date: '20 May 2019',
         author: 'eiLink',
@@ -27,7 +27,7 @@ export class InMemoryDataService implements InMemoryDbService {
         slug: 'yasamal-outcrop-study'
       },
       {
-        id: 2,
+        id: 5,
         title: 'Estimation of sweep efficiency: Analogous rocks of Yasamal valley to north flank DWG',
         date: '1 September 2019',
         author: 'eiLink',
@@ -37,7 +37,7 @@ export class InMemoryDataService implements InMemoryDbService {
         slug: 'estimation-of-sweep-efficiency'
       },
       {
-        id: 3,
+        id: 4,
         title: 'Water supply for irrigation in Padarchol area: assessment of rainwater and groundwater potential',
         date: '10 April 2022',
         author: 'eiLink',
@@ -47,7 +47,7 @@ export class InMemoryDataService implements InMemoryDbService {
         slug: 'assessment-of-rainwater-and-groundwater-potential'
       },
       {
-        id: 4,
+        id: 3,
         title: 'Pre-Stack Seismic inversion based on Continuous Wavelet Transform Processing and Deep Neural Network',
         date: '28 June 2021',
         author: 'eiLink',
@@ -57,7 +57,7 @@ export class InMemoryDataService implements InMemoryDbService {
         slug: 'pre-stack-seismic-inversion'
       },
       {
-        id: 5,
+        id: 2,
         title: 'Estimation of water salinity distribution for ShahDeniz field',
         date: '1 August 2021',
         author: 'eiLink',
@@ -67,7 +67,7 @@ export class InMemoryDataService implements InMemoryDbService {
         slug: 'estimation-of-water-salinity'
       },
       {
-        id: 6,
+        id: 1,
         title: 'Prediction of Drilling risks (wellbore instability, losses, stuck pipes) using numerical techniques',
         date: '1 March 2022',
         author: 'eiLink',
@@ -77,7 +77,7 @@ export class InMemoryDataService implements InMemoryDbService {
         slug: 'prediction-of-drilling-risks'
       },
       {
-        id: 7,
+        id: 0,
         title: 'Annuli monitoring',
         date: 'Ongoing',
         author: 'eiLink',
@@ -110,28 +110,28 @@ export class InMemoryDataService implements InMemoryDbService {
 
     let publications = [
       {
-        id: 0,
+        id: 3,
         title: 'Modeling of the cementation factor and hydraulic permeability using Mercury Injection Capillary Pressure (MICP) measurements.',
         date: '22 August 2018',
         authors: 'Izat Shahsenov, Gurban Orujov',
         link: 'https://www.sciencedirect.com/science/article/abs/pii/S0920410518306910'
       },
       {
-        id: 1,
+        id: 2,
         title: 'Wax precipitation modelling using Perturbed Chain Statistical Associating Fluid Theory (PC-SAFT).',
         date: '1 March 2021',
         authors: 'Izat Shahsenov, Ilgar Baghishov, Parviz Allahverdiyev, Ehtiram Azizov',
         link: 'https://www.sciencedirect.com/science/article/abs/pii/S037838122030460X?via%3Dihub#!'
       },
       {
-        id: 2,
+        id: 1,
         title: 'Prediction of Gamma Ray data from pre-stack seismic reflection partial angle stacks using Continuous Wavelet Transform and convolutional neural network approach.',
         date: '17 December 2021',
         authors: 'Izat Shahsenov, Ruslan Malikov, Peter Cook, Sara Grant, Nariman Ismayilov, Kamran Abbasov',
         link: 'https://www.sciencedirect.com/science/article/abs/pii/S0926985121002718'
       },
       {
-        id: 3,
+        id: 0,
         title: 'Quantifying occurrence of deformation bands in sandstone as a function of structural and petrophysical factors and their impact on reservoir quality: an example from outcrop analog of Productive Series (Pliocene), South Caspian Basin.',
         date: '7 January 2022',
         authors: 'Shahriyar Alkhasli, Gasham Zeynalov, Aydin Shahtakhtinskiy',

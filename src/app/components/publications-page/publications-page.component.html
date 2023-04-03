@@ -5,7 +5,7 @@
       strive to make a positive contribution to the advancement of knowledge in our field.</p>
   </div>
   <div class="row publications-card gy-5">
-    <div class="col-12 col-lg-4" *ngFor="let publication of publications" data-aos="fade-up" data-aos-duration="600">
+    <div class="col-12 col-lg-4 popup-animation"  style="--animation-order: {{ publication.id }}" *ngFor="let publication of publications" data-aos="fade-up" data-aos-duration="600">
       <div class="top-border"></div>
       <h2>{{ publication.title }}</h2>
       <h4>{{ publication.date }}</h4>

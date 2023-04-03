@@ -12,7 +12,7 @@
     </div>
   </div>
   <div *ngIf="showProjects == true" class="row projects-card gy-5">
-    <div class="col-12 col-lg-4" *ngFor="let project of projects" data-aos="fade-up" data-aos-duration="600">
+    <div class="col-12 col-lg-4 popup-animation" style="--animation-order: {{ project.id }}" *ngFor="let project of projects" data-aos="fade-up" data-aos-duration="600">
       <img routerLink="/projects/{{ project.id }}" src="{{ 'assets/projects/project-' + project.id + '.svg' }}" alt=""
         width="100%">
       <h2>{{ project.title }}</h2>
@@ -21,7 +21,7 @@
     </div>
   </div>
   <div *ngIf="showProducts == true" class="row projects-card gy-5">
-    <div class="col-12 col-lg-4" *ngFor="let product of products" data-aos="fade-up" data-aos-duration="600">
+    <div class="col-12 col-lg-4 popup-animation" style="--animation-order: {{ product.id }}" *ngFor="let product of products" data-aos="fade-up" data-aos-duration="600">
       <img routerLink="/products/{{ product.id }}" src="{{ 'assets/projects/project-' + product.id + '.svg' }}" alt=""
         width="100%">
       <h2>{{ product.title }}</h2>
@@ -30,14 +30,14 @@
     </div>
   </div>
   <div *ngIf="showAll == true" class="row projects-card gy-5">
-    <div class="col-12 col-lg-4" *ngFor="let project of projects" data-aos="fade-up" data-aos-duration="600">
+    <div class="col-12 col-lg-4 popup-animation" style="--animation-order: {{ project.id }}" *ngFor="let project of projects" data-aos="fade-up" data-aos-duration="600">
       <img routerLink="/projects/{{ project.id }}" src="{{ 'assets/projects/project-' + project.id + '.svg' }}" alt=""
         width="100%">
       <h2>{{ project.title }}</h2>
       <h4>{{ project.date }}</h4>
       <span routerLink="/research-areas/{{ project.areaId }}">{{ project.tag }}</span>
     </div>
-    <div class="col-12 col-lg-4" *ngFor="let product of products" data-aos="fade-up" data-aos-duration="600">
+    <div class="col-12 col-lg-4 popup-animation" style="--animation-order: {{ product.id }}" *ngFor="let product of products" data-aos="fade-up" data-aos-duration="600">
       <img routerLink="/products/{{ product.id }}" src="{{ 'assets/projects/project-' + product.id + '.svg' }}" alt=""
         width="100%">
       <h2>{{ product.title }}</h2>
