@@ -34,22 +34,22 @@ h4 {
 
 .team-gallery {
   display: flex;
-	flex-direction: column;
-	flex-wrap: wrap;
-	max-height: 500px;
-	align-content: center;
+  flex-direction: column;
+  flex-wrap: wrap;
+  max-height: 500px;
+  align-content: center;
 }
 
 .image {
-	width: 32%;
-	background-color: orange;
-	margin: 5px;
-	color: aliceblue;
-	display: flex;
-	justify-content: space-around;
-	align-items: center;
-	font-size: 45px;
-	border-radius: 2px;
+  width: 32%;
+  background-color: orange;
+  margin: 5px;
+  color: aliceblue;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-size: 45px;
+  border-radius: 2px;
   background-position: center !important;
   background-size: cover !important;
 }
@@ -88,25 +88,39 @@ button {
   font-size: 14px;
   width: 150px;
   margin-left: 40px;
-  color: var(--pink);
+  color: var(--darkBlue);
   outline: none;
   border: none;
-  border: 1px solid var(--pink);
+  border: 1px solid var(--darkBlue);
   border-radius: 70px;
   background: transparent;
   padding: 7px 20px;
-  transition: all .2s linear !important;
+  transition: all 0.2s linear !important;
 }
 
 button:hover {
   color: var(--white);
-  background: var(--pink);
+  background: var(--darkBlue);
   //transition: all .2s linear;
 }
 
-.value {
-  font-size: 16px;
-  padding-top: 10px;
+.values {
+  transition: all 0.2s linear;
+  cursor: pointer;
+
+  .value {
+    font-size: 16px;
+    transform: translateY(0px);
+    opacity: 0;
+    transition: all 0.3s linear;
+  }
+}
+
+.values:hover {
+  .value {
+    transform: translateY(10px);
+    opacity: 1;
+  }
 }
 
 .partners {

@@ -51,8 +51,8 @@ export class InMemoryDataService implements InMemoryDbService {
         title: 'Pre-Stack Seismic inversion based on Continuous Wavelet Transform Processing and Deep Neural Network',
         date: '28 June 2021',
         author: 'eiLink',
-        tag: 'Remote Sensing',
-        areaId: 4,
+        tag: 'Geoscience',
+        areaId: 0,
         previewText: 'The main purpose of this study was to develop a methodology to generate a 3D volume of Gamma Ray data for Azeri and Chirag with a resolution approaching the real GR tool readings...',
         slug: 'pre-stack-seismic-inversion'
       },
@@ -151,13 +151,13 @@ export class InMemoryDataService implements InMemoryDbService {
         title: 'Graduate Petroleum Engineer',
         location: 'Baku, Azerbaijan',
         link: 'https://forms.clickup.com/31136212/f/xp6em-2223/WEMFF72L67VTX7UFCK'
-      },
+      }/* ,
       {
         id: 2,
         title: 'Junior Applied Scientist on Image Processing',
         location: 'Baku, Azerbaijan',
         link: 'https://forms.clickup.com/31136212/f/xp6em-2363/I0ARXOVYB09LBDFIAM'
-      }
+      } */
     ];
 
     let team = [
@@ -352,24 +352,35 @@ export class InMemoryDataService implements InMemoryDbService {
     let blog = [
       {
         id: 0,
-        title: '',
-        tag: '',
-        description: '',
-        cover: ''
+        title: 'Finding Solutions to Technical Problems',
+        tag: 'Blog Post',
+        description: 'Initially created with the purpose of strengthening educational research capacity, eiLink is now a business unit offering value-added services addressing emerging technical and technological issues.\n\nWe strive to transform ideas, studies, and developments into innovative R&D products to expand our customers’ impact as well as solving challenges they face.\n\n',
+        cover: 'assets/blog/blog-0.jpg',
+        hashtags: '#research #business #eilink #eigroup'
       },
       {
         id: 1,
-        title: '',
-        tag: '',
-        description: '',
-        cover: ''
+        title: 'Pursuing Excellence in Various Industries',
+        tag: 'Blog Post',
+        description: 'eiLink endeavors to achieve technical excellence by leveraging its vast expertise across multiple domains. Through the integration of a multidisciplinary approach, we aim to provide effective solutions that cater to diverse areas of application.\n\nSuch an approach allows for the optimal utilization of knowledge and resources, enabling us to provide cutting-edge solutions that meet the complex demands in various areas:',
+        cover: 'assets/blog/blog-1.jpg',
+        hashtags: '#technology #development #artificialintelligence #gas #oil #software #remotesensing #signalprocessing #fluidmechanics #websolutions #characterization #drilling'
       },
       {
         id: 2,
-        title: '',
-        tag: '',
-        description: '',
-        cover: ''
+        title: 'Annuli Monitoring',
+        tag: 'Blog Post',
+        description: 'We developed a tool to improve monitoring of #annulus pressures and detection of build-ups with minimum input by engineers.\n\nThis tool minimizes the work done by engineers by giving information about potential build-ups for different time periods and increases success for well integrity with improved monitoring and detection. It reduces analysis time and makes it possible to track and analyse around 200 well annulus pressure measurements simultaneously.',
+        cover: 'assets/blog/blog-2.jpg',
+        hashtags: '#work #success #engineers #annulus #well'
+      },
+      {
+        id: 3,
+        title: 'Integrated Data Science Solutions For Sand Production',
+        tag: 'Blog Post',
+        description: 'Producing sand is a very complex challenge in the oil and gas industry as it can create serious problems. This creates both safety and economic concerns by harming the integrity of the well and reducing hydrocarbon reduction.\n\n💡 To solve this complex and multidimensional problem, we take a physics-based, data-driven approach using machine learning techniques.\n\n 📈 The project is currently in its third phase, and until now, we have been able to differentiate between wells that are at risk of sand production and non-concerning ones. The next stage intends to predict the approximate time and conditions at which sand will be produced for each well during its lifetime.',
+        cover: 'assets/blog/blog-3.jpg',
+        hashtags: '#safety #machinelearning #project #data #oilandgas #stage'
       }
     ]
 

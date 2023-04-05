@@ -15,6 +15,7 @@ export class ResearchAreaDetailsComponent implements OnInit {
   researchArea: ResearchArea;
   projects: Project[] = [];
   loading = false;
+  areaId = Number(this.route.snapshot.paramMap.get('id'));
 
   constructor(private database: DatabaseService, private route: ActivatedRoute) { }
 
@@ -32,7 +33,7 @@ export class ResearchAreaDetailsComponent implements OnInit {
 
   getProjects(): void {
     this.database.getProjects().subscribe(projects =>
-      this.projects = projects);
+      this.projects = projects.filter(item => item.areaId == this.areaId));
   }
 
 }

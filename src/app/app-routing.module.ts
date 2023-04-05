@@ -11,6 +11,7 @@ import { PeoplePageComponent } from './components/people-page/people-page.compon
 import { ProjectsDetailsComponent } from './components/projects-details/projects-details.component';
 import { ProductsDetailsComponent } from './components/products-details/products-details.component';
 import { ResearchAreaDetailsComponent } from './components/research-area-details/research-area-details.component';
+import { BlogDetailsComponent } from './components/blog-details/blog-details.component';
 
 const routerOptions: ExtraOptions = {
   scrollPositionRestoration: 'enabled',
@@ -30,6 +31,7 @@ const routes: Routes = [
   { path: 'research-areas', component: ResearchAreasPageComponent },
   { path: 'research-areas/:id', component: ResearchAreaDetailsComponent },
   { path: 'blog', component: BlogPageComponent },
+  { path: 'blog/:id', component: BlogDetailsComponent },
   { path: 'people', component: PeoplePageComponent }
 
 ];

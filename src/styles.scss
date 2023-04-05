@@ -13,11 +13,28 @@ body {
     background: var(--white);
 }
 
+#bgvid {
+	z-index: 0 !important;
+	object-fit: cover;
+	width: 100vw;
+	height: 75vh;
+	position: absolute !important;
+	top: 118px;
+	left: 0;
+	z-index: -9999;
+	filter: brightness(45%);
+}
+
+p {
+  font-size: 16px !important;
+}
+
+
 main {
     height: 75vh;
-    background: url('assets/backgrounds/main-background.svg');
+   /*  background: url('assets/backgrounds/main-background.svg');
     background-position: center;
-    background-size: cover;
+    background-size: cover; */
 }
 
 section {

@@ -10,28 +10,12 @@
         </div>
     </div>
     <div class="row blog-posts">
-        <div class="col-12 col-lg-4" data-aos="fade-up" data-aos-duration="600">
-            <img src="assets/lorem-img/blog-1.svg" alt="" width="100%">
+        <div class="col-12 col-lg-4" data-aos="fade-up" data-aos-duration="600" *ngFor="let post of posts | paginate: {itemsPerPage: 3, currentPage: 1}">
+            <img src="{{ post.cover }}" alt="" width="100%">
             <div class="blog-details d-flex flex-column">
-                <h4 style="color: var(--pink);">News</h4>
-                <h2>A successful application of the S.I.Q.E. algorithm on seismic data for 3 prospects in the SWAP area</h2>
-                <a>Learn More<i class="bi bi-arrow-right"></i></a>
-            </div>
-        </div>
-        <div class="col-12 col-lg-4" data-aos="fade-up" data-aos-duration="600">
-            <img src="assets/lorem-img/blog-2.svg" alt="" width="100%">
-            <div class="blog-details d-flex flex-column">
-                <h4 style="color: var(--lightPink);">Article</h4>
-                <h2>A successful application of the S.I.Q.E. algorithm on seismic data for 3 prospects in the SWAP area</h2>
-                <a>Learn More<i class="bi bi-arrow-right"></i></a>
-            </div>
-        </div>
-        <div class="col-12 col-lg-4" data-aos="fade-up" data-aos-duration="600">
-            <img src="assets/lorem-img/blog-3.svg" alt="" width="100%">
-            <div class="blog-details d-flex flex-column">
-                <h4 style="color: var(--orange);">Project</h4>
-                <h2>A successful application of the S.I.Q.E. algorithm on seismic data for 3 prospects in the SWAP area</h2>
-                <a>Learn More<i class="bi bi-arrow-right"></i></a>
+                <h4 style="color: var(--pink);">{{ post.tag }}</h4>
+                <h2>{{ post.description | slice:0:92}}...</h2>
+                <a routerLink="/blog/{{ post.id }}">Learn More<i class="bi bi-arrow-right"></i></a>
             </div>
         </div>
     </div>

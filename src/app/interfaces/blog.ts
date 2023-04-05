@@ -4,4 +4,5 @@ export interface Blog {
     tag: string;
     description: string;
     cover: string;
+    hashtags: string;
 }

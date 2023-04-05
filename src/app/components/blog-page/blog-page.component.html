@@ -1,9 +1,18 @@
 <div class="container" id="blog-page">
     <div class="page-heading" data-aos="fade-up" data-aos-duration="600">
         <h1>Blog</h1>
-        <p class="text-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit
-            interdum, ac
-            aliquet odio mattis.</p>
+        <p class="text-center">Welcome to our blog! Here, we share our insights, experiences, and knowledge on a range of topics alongside with eiLink news and events.</p>
     </div>
+
+    <div class="row blog-posts">
+      <div class="col-12 col-lg-4" data-aos="fade-up" data-aos-duration="600" *ngFor="let post of posts">
+          <img src="{{ post.cover }}" alt="" width="100%">
+          <div class="blog-details d-flex flex-column">
+              <h4 style="color: var(--pink);">{{ post.tag }}</h4>
+              <h2>{{ post.description | slice:0:92}}...</h2>
+              <a routerLink="/blog/{{ post.id }}">Learn More<i class="bi bi-arrow-right"></i></a>
+          </div>
+      </div>
+  </div>
 </div>
 <app-careers-footer></app-careers-footer>

@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+import { Blog } from 'src/app/interfaces/blog';
+import { DatabaseService } from 'src/app/services/database.service';
 
 @Component({
   selector: 'app-blog',
@@ -7,9 +9,19 @@ import { Component, OnInit } from '@angular/core';
 })
 export class BlogComponent implements OnInit {
 
-  constructor() { }
+  posts: Blog[] = [];
+  loading = false;
+
+  constructor(private database: DatabaseService) { }
 
   ngOnInit(): void {
+    this.getBlog();
+  }
+
+  getBlog() {
+    this.loading = true;
+    this.database.getBlog().subscribe(posts =>
+      this.posts = posts.reverse());
   }
 
 }
