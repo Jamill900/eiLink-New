@@ -47,3 +47,29 @@
       background: var(--white);
     }
 }
+
+button.view-all {
+  margin-top: 50px;
+  outline: none;
+  font-weight: 400 !important;
+  border: none;
+  background: transparent;
+  border-radius: 5px;
+  border: 1px solid var(--white);
+  color: var(--white);
+  padding: 15px 35px;
+  font-weight: 500;
+  transition: all 0.2s linear;
+}
+
+button.view-all:hover {
+  color: var(--darkBlue);
+  background: var(--white);
+}
+
+h1 {
+  cursor: pointer;
+}
+
+
+

@@ -1,22 +1,23 @@
 <div class="container overflow-hidden">
-    <div class="section-heading" data-aos="fade-up" data-aos-duration="600">
-        <div class="row align-items-center">
-            <div class="col-12 col-lg-6">
-              <h1>Latest Blog Posts</h1>
-            </div>
-            <div class="col-12 col-lg-6">
-                <button routerLink="/blog">View All Posts<i class="bi bi-arrow-right"></i></button>
-            </div>
-        </div>
+  <div class="section-heading" data-aos="fade-up" data-aos-duration="600">
+    <div class="row align-items-center">
+      <div class="col-12">
+        <h1>Latest Blog Posts</h1>
+        <p>Stay up to date with our latest blog posts, where we share valuable insights, expert perspectives, and timely
+          updates on industry trends. Explore a wide range of topics, as we
+          strive to provide informative content that informs and inspires.</p>
+      </div>
     </div>
-    <div class="row blog-posts">
-        <div class="col-12 col-lg-4" data-aos="fade-up" data-aos-duration="600" *ngFor="let post of posts | paginate: {itemsPerPage: 3, currentPage: 1}">
-            <img src="{{ post.cover }}" alt="" width="100%">
-            <div class="blog-details d-flex flex-column">
-                <h4 style="color: var(--pink);">{{ post.tag }}</h4>
-                <h2>{{ post.description | slice:0:92}}...</h2>
-                <a routerLink="/blog/{{ post.id }}">Learn More<i class="bi bi-arrow-right"></i></a>
-            </div>
-        </div>
+  </div>
+  <div class="blog-posts">
+    <div class="blog-card" data-aos="fade-up" data-aos-duration="600"
+      *ngFor="let post of posts | paginate: {itemsPerPage: 3, currentPage: 1}" style="background: url('{{post.cover}}');">
+      <div class="blog-details">
+        <button routerLink="/blog/{{ post.id }}">Read More</button>
+      </div>
     </div>
+  </div>
+  <div class="m-auto text-center" data-aos="fade-up" data-aos-duration="600">
+    <button class="view-all" routerLink="/blog">View All</button>
+  </div>
 </div>

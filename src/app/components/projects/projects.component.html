@@ -1,46 +1,32 @@
 <div class="container">
-    <div class="section-heading-dark" data-aos="fade-up" data-aos-duration="600">
-        <div class="row align-items-center">
-            <div class="col-12 col-lg-6">
-              <h1>Projects & Products</h1>
-            </div>
-            <div class="col-12 col-lg-6">
-                <button routerLink="/projects">View All Projects<i class="bi bi-arrow-right"></i></button>
-            </div>
-        </div>
+  <div class="section-heading-dark" data-aos="fade-up" data-aos-duration="600">
+    <div class="row align-items-center">
+      <div class="col-12">
+        <h1>Projects & Products</h1>
+        <p>Discover the remarkable projects and innovative products that eiLink has successfully brought to life. With a
+          track record of excellence and a commitment to cutting-edge solutions, we have delivered groundbreaking
+          projects and developed transformative products across various industries. </p>
+      </div>
     </div>
-    <div class="slider" data-aos="fade-up" data-aos-duration="600">
-        <ngx-slick-carousel #slickModal="slick-carousel" [config]="settings" (init)="slickInit($event)"
-            (beforeChange)="beforeChange($event)" class="banner-slider banner-slider-one banner-slider-active">
-            <!-- Data -->
-            <div ngxSlickItem class="single-banner" *ngFor="let project of projects">
-                <div class="container-fluid container-1470">
-                    <div class="row align-items-center">
-                        <div class="col-lg-6 d-flex justify-content-center animate__fadeInLeft animate__animated wow">
-                            <div class="banner-img text-center" data-animation="fadeInRight" data-delay="0.5s">
-                                <img src="{{ 'assets/projects/project-' + project.id + '.svg' }}" height="100%">
-                            </div>
-                        </div>
-                        <div class="col-lg-6 animate__fadeInRight animate__animated wow">
-                            <div class="banner-text">
-                                <div class="banner-content">
-                                    <h1 data-animation="fadeInLeft" data-delay="0.6s" class="title">
-                                        {{ project.title }}
-                                    </h1>
-                                    <p data-animation="fadeInLeft" data-delay=".9s">
-                                        {{ project.previewText }}
-                                    </p>
-                                    <a data-animation="fadeInUp" data-delay="1.1s" routerLink="/projects/{{ project.id }}"
-                                        class="main-btn rounded-btn icon-right small-size">
-                                        Learn More
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <!-- Data -->
-        </ngx-slick-carousel>
+  </div>
+  <div class="row">
+    <div class="col-12">
+      <ngb-carousel>
+        <ng-template class="slide-item" ngbSlide *ngFor="let project of projects">
+          <div class="picsum-img-wrapper">
+            <img src="{{ 'assets/projects/project-' + project.id + '-slider.jpg' }}" width="100%">
+          </div>
+          <div class="carousel-caption">
+            <h1 routerLink="/projects/{{ project.id }}">
+              {{ project.title }}
+            </h1>
+            <p> {{ project.previewText }}</p>
+          </div>
+        </ng-template>
+      </ngb-carousel>
     </div>
+  </div>
+  <div class="m-auto text-center">
+    <button class="view-all" routerLink="/projects">View All</button>
+  </div>
 </div>

@@ -1,26 +1,27 @@
 <div class="container">
-    <div class="section-heading" data-aos="fade-up" data-aos-duration="600">
-        <div class="row align-items-center">
-            <div class="col-12 col-lg-6">
-              <h1>Research Areas</h1>
-            </div>
-            <div class="col-12 col-lg-6">
-                <button routerLink="/research-areas">View All Research Areas<i class="bi bi-arrow-right"></i></button>
-            </div>
-        </div>
+  <div class="section-heading" data-aos="fade-up" data-aos-duration="600">
+    <div class="row align-items-center">
+      <div class="col-12">
+        <h1>Research Areas</h1>
+        <p>Our company is dedicated to innovative research across various domains, including Geoscience,
+          Drilling & Well Interventions, and more. By exploring these cutting-edge areas, we strive to drive forward breakthroughs
+          and contribute to the advancement of various industries</p>
+      </div>
+
     </div>
-    <div class="row research-areas-items">
-        <div class="col-12 col-lg-4 p-0" data-aos="fade-up" data-aos-duration="600" routerLink="/research-areas/0">
-            <img src="assets/lorem-img/ra-1.svg" alt="" width="100%">
-            <h3>Geoscience</h3>
-        </div>
-        <div class="col-12 col-lg-4 p-0" data-aos="fade-up" data-aos-duration="600" routerLink="/research-areas/1">
-            <img src="assets/lorem-img/ra-2.svg" alt="" width="100%">
-            <h3>Oil & Gas Production Technology</h3>
-        </div>
-        <div class="col-12 col-lg-4 p-0" data-aos="fade-up" data-aos-duration="600" routerLink="/research-areas/2">
-            <img src="assets/lorem-img/ra-3.svg" alt="" width="100%">
-            <h3>Drilling & Well Integrity</h3>
-        </div>
+  </div>
+  <div class="row research-areas-card gy-4">
+    <div class="col-12 col-lg-4 text-center research-area-card popup-animation" style="--animation-order: {{ area.id }}"
+      *ngFor="let area of researchAreas | paginate: {itemsPerPage: 3, currentPage: 1}">
+      <div class="area-card">
+        <img src="{{ area.imgSrc + area.id + '.svg'}}" alt="">
+        <h2>{{ area.title }}</h2>
+        <p>{{ area.description | slice:0:210 }}...</p>
+        <button routerLink="/research-areas/{{ area.id }}">Learn More</button>
+      </div>
     </div>
+  </div>
+  <div class="m-auto text-center">
+    <button class="view-all" routerLink="/research-areas">View All</button>
+  </div>
 </div>

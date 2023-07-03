@@ -1,32 +1,66 @@
-.research-areas-items {
-  > div {
-    cursor: pointer;
+.research-areas-card {
+
+  .area-card {
+      padding: 50px 40px 40px 40px;
+      background: #F6F6F6;
+      border-radius: 15px;
+      min-height: 356px;
   }
 
-  :nth-child(1) {
-    img {
-      border-radius: 15px 0 0 15px;
-    }
+  h2 {
+      font-weight: 400;
+      font-size: 17px;
+      color: var(--darkBlue);
+      padding-top: 15px;
+      padding-top: 20px;
+      padding-bottom: 10px;
+      margin-bottom: 0;
   }
 
-  :nth-child(3) {
-    img {
-      border-radius: 0 15px 15px 0;
-    }
+  p {
+      font-weight: 300;
+      font-size: 14px;
+      line-height: 20px;
+      padding-bottom: 20px;
+      color: var(--grey);
   }
 
-  > div {
-    position: relative;
+  button {
+      font-weight: 400;
+      font-size: 12px;
+      color: var(--darkBlue);
+      outline: none;
+      border: none;
+      border: 1px solid #144571;
+      border-radius: 5px;
+      background: transparent;
+      padding: 10px 20px;
+      transition: all .2s linear;
   }
 
-  h3 {
-    position: absolute;
-    bottom: 0;
-    left: 0;
+  button:hover {
     color: var(--white);
-    padding: 10px 25px;
-    font-size: 20px;
-    line-height: 36px;
-    text-transform: uppercase;
+    background: var(--darkBlue);
+
   }
 }
+
+button.view-all {
+  margin-top: 50px;
+  outline: none;
+  font-weight: 400 !important;
+  border: none;
+  background: transparent;
+  border-radius: 5px;
+  border: 1px solid var(--darkBlue);
+  color: var(--darkBlue);
+  padding: 15px 35px;
+  font-weight: 500;
+  transition: all 0.2s linear;
+}
+
+button.view-all:hover {
+  color: var(--white);
+  background: var(--darkBlue);
+}
+

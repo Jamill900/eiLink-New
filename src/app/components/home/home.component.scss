@@ -25,10 +25,10 @@ main {
         outline: none;
         border: none;
         background: transparent;
-        border-radius: 75px;
+        border-radius: 5px;
         border: 1px solid var(--white);
         color: var(--white);
-        padding: 17px 35px;
+        padding: 15px 35px;
         transition: all .2s linear !important;
     }
 
@@ -38,9 +38,9 @@ main {
     }
 }
 
-#research-areas {
-    background: #F6F6F6;
-}
+// #research-areas {
+//     background: #F6F6F6;
+// }
 
 #projects {
     background: var(--darkBlue);
