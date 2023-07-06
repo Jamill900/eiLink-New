@@ -82,6 +82,29 @@ section#partners {
   }
 }
 
+.section-heading-about {
+  text-align: center;
+  padding-bottom: 60px;
+
+  h1 {
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 40px;
+    max-width: 500px;
+    margin: auto;
+    padding-bottom: 25px;
+    color: var(--white);
+  }
+
+  p {
+    font-size: 15px;
+    line-height: 24px;
+    margin: auto;
+    max-width: 850px;
+    color: var(--white);
+  }
+}
+
 .page-heading {
   padding: 80px 0 80px 0;
 
