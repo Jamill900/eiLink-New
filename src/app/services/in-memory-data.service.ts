@@ -301,52 +301,52 @@ export class InMemoryDataService implements InMemoryDbService {
       },
       {
         id: 2,
-        title: 'Development of Artificial Intelligence (ML & DL) frameworks',
-        description: 'At eiLink R&D center, we are passionate about staying up-to-date with the latest research and development in the field of Artificial Intelligence (AI), Machine Learning (ML), and Deep Learning (DL). We take pride in developing custom solutions that are tailored to our clients` unique needs and requirements.\n\nOur team of researchers and developers has extensive experience in developing cutting-edge AI, ML, and DL solutions that help our clients optimize their operations, increase efficiency, and reduce costs. We work collaboratively with our clients to fully understand their specific needs and goals, and then leverage our expertise to develop solutions that meet and exceed their expectations.\n\nIn addition to custom application development, we also develop AI, ML, and DL frameworks that enable our clients to accelerate their AI initiatives. We believe in building highly scalable, flexible, and customizable frameworks that can be easily integrated into our clients` existing systems and workflows.\n\nOur goal is to help our clients unlock the full potential of AI, ML, and DL technologies in a way that is tailored to their unique needs and goals. We believe in building strong partnerships with our clients and are committed to providing exceptional service and support every step of the way.',
-        imgSrc: 'assets/research-areas/area-'
-      },
-      {
-        id: 3,
         title: 'Drilling & Well Interventions',
         description: 'At eiLink, we specialize in providing comprehensive solutions for drilling and well interventions to our clients across various industries. Our team of experts leverages their extensive subsurface knowledge to deliver effective solutions to our clients, regardless of the complexity of the challenges they are facing.',
         imgSrc: 'assets/research-areas/area-'
       },
       {
-        id: 4,
+        id: 3,
         title: 'Fluid Mechanics & Applied Thermodynamics',
         description: 'Fluid Mechanics and Applied Thermodynamics are two fundamental branches of engineering that deal with the study of fluids (liquids, gases, and plasmas) and their behavior in different environments, as well as the application of thermodynamic principles to practical engineering problems. These fields are crucial for designing and optimizing various industrial processes and systems such as turbines, engines, heat exchangers, pumps, and many others.\n\nOur research team specializes in the areas of Fluid Mechanics and Applied Thermodynamics and provides a wide range of services to clients from various industries such as energy, aerospace, automotive, and manufacturing. Our team of experts is dedicated to delivering high-quality solutions to complex problems using cutting-edge tools and techniques.\n\nAt eiLink, we work closely with our clients to understand their specific needs and develop customized solutions that meet their unique requirements. Our team is committed to providing timely, cost-effective, and reliable services to our clients.',
         imgSrc: 'assets/research-areas/area-'
       },
       {
-        id: 5,
+        id: 4,
         title: 'Remote Sensing',
         description: 'Remote sensing is an essential tool for studying and understanding our planet. It involves gathering data from a distance, typically using satellites or aircraft, to provide valuable information about the Earth`s surface, atmosphere, and oceans.\n\nRemote sensing can be used for a wide range of applications, including monitoring weather patterns, tracking changes in land use, mapping natural resources, and detecting environmental hazards. The data collected through remote sensing is used by scientists, government agencies, and private companies to make informed decisions about issues that affect our planet.\n\nOne of the benefits of remote sensing is that it allows researchers to study areas that are difficult to access, such as remote or hazardous locations. This makes it an invaluable tool for studying areas like the polar regions, where data collection would be dangerous and costly without the use of remote sensing. By analyzing historical remote sensing data, scientists can track changes in the Earth`s surface, such as the effects of climate change or the impact of human activity on natural resources.\n\nAt eiLink, we specialize in remote sensing and offer a wide range of services to our clients. Our team of experts uses the latest technology and techniques to collect and analyze remote sensing data, providing our clients with accurate and detailed information about the environment. Our services include data acquisition, processing, and analysis, as well as data visualization and interpretation.\n\nOverall, remote sensing is a powerful tool that can provide valuable insights into our planet`s complex systems. At our research center, we are committed to advancing our understanding of the Earth through the use of remote sensing technology and providing our clients with the information they need to make informed decisions about the environment.',
         imgSrc: 'assets/research-areas/area-'
       },
       {
-        id: 6,
+        id: 5,
         title: 'Signal Processing',
         description: 'Signal processing is a vital field of research that focuses on the analysis, manipulation, and interpretation of signals. Signals are everywhere in our modern world, from audio and video signals to signals transmitted by sensors and communication systems.\n\nSignal processing research involves developing new techniques and algorithms to extract useful information from signals, improving signal quality, and developing new applications that leverage the power of signals. This research is crucial in many areas, including telecommunications, medical imaging, audio and video processing, and control systems. In the oil and gas industry, signal processing is used in various applications, including seismic data processing, real-time monitoring of production operations, and analysis of sensor data from equipment.\n\nAt eiLink R&D Center, we specialize in signal processing and offer a wide range of services to our clients. Our team of experts uses the latest technology and techniques to analyze signals and extract valuable information from them. Our services include data acquisition, signal processing algorithm development, system design and implementation, and data visualization and interpretation.',
         imgSrc: 'assets/research-areas/area-'
       },
       {
-        id: 7,
+        id: 6,
         title: 'Reservoir Modelling & Characterization',
         description: 'Whether it is digital reservoir characterization or macro-scale fluid simulations, eiLink helps customers to get a better grasp on their assets, as well as how to utilize them in the most optimal way.\n\nOur multidisciplinary team of experts utilizes advanced techniques such as machine learning and artificial intelligence algorithms to create accurate and detailed 3D models of reservoirs. These models help to optimize production and recovery of hydrocarbons or other fluids, while reducing uncertainty in reservoir models.\n\nWe have extensive experience in reservoir characterization, modeling and simulation, and access to state-of-the-art facilities and cutting-edge technology. Our team is dedicated to providing high-quality research that delivers innovative solutions to complex problems.',
         imgSrc: 'assets/research-areas/area-'
       },
       {
-        id: 8,
-        titl8e: 'Software & Web Solutions',
+        id: 7,
+        title: 'Software & Web Solutions',
         description: 'At eiLink, we understand that complex theories and solutions are worthless if they are not effectively applied to meet your specific business needs. That`s why we`re dedicated to providing top-of-the-line Software & Web Solutions services that can help streamline your workflow and boost productivity.\n\nWhether you`re looking to integrate the latest cutting-edge solutions into your existing systems, or you need specialized software developed from scratch, our team of experts has the skills and experience necessary to deliver the results you need. We pride ourselves on our ability to understand our clients` unique requirements and deliver customized solutions that are tailored to their exact needs.\n\nOur team of professionals utilizes the latest technologies and development methodologies to ensure that your software and web solutions are efficient, reliable, and user-friendly. From concept to deployment, we work closely with our clients to ensure that every step of the development process is transparent and meets their expectations./n/nAt eiLink, we`re committed to providing exceptional service that is cost-effective and reliable. We believe that your success is our success, and we`re always ready to go the extra mile to ensure that your business needs are met.',
         imgSrc: 'assets/research-areas/area-'
       },
       {
-        id: 9,
+        id: 8,
         title: 'Digital Twin Development',
         description: 'A digital twin is a digital representation of a physical object, process, service or environment that behaves and looks like its counterpart in the real-world.\n\nA digital twin is, in essence, a computer program that uses real world data to create simulations that can predict how a product or process will perform. These programs can integrate the internet of things (Industry 4.0), artificial intelligence and software analytics to enhance the output.\n\nAt eiLink, we`re proud to offer cutting-edge digital twin development services to our clients. With our digital twin development service, you can gain valuable insights into the behavior and performance of your products in a virtual environment before implementing them in the physical world.\n\nOur digital twin development service can be applied to various industries, including manufacturing, engineering, healthcare, and transportation. Whether you`re looking to improve product performance, reduce downtime, or optimize your production process, our digital twin development service can help you achieve your objectives.',
         imgSrc: 'assets/research-areas/area-'
       },
+      {
+        id: 9,
+        title: 'Development of Artificial Intelligence (ML & DL) frameworks',
+        description: 'At eiLink R&D center, we are passionate about staying up-to-date with the latest research and development in the field of Artificial Intelligence (AI), Machine Learning (ML), and Deep Learning (DL). We take pride in developing custom solutions that are tailored to our clients` unique needs and requirements.\n\nOur team of researchers and developers has extensive experience in developing cutting-edge AI, ML, and DL solutions that help our clients optimize their operations, increase efficiency, and reduce costs. We work collaboratively with our clients to fully understand their specific needs and goals, and then leverage our expertise to develop solutions that meet and exceed their expectations.\n\nIn addition to custom application development, we also develop AI, ML, and DL frameworks that enable our clients to accelerate their AI initiatives. We believe in building highly scalable, flexible, and customizable frameworks that can be easily integrated into our clients` existing systems and workflows.\n\nOur goal is to help our clients unlock the full potential of AI, ML, and DL technologies in a way that is tailored to their unique needs and goals. We believe in building strong partnerships with our clients and are committed to providing exceptional service and support every step of the way.',
+        imgSrc: 'assets/research-areas/area-'
+      }
     ]
 
     let blog = [
