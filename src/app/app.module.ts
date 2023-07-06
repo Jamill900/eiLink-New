@@ -8,6 +8,7 @@ import { HttpClientInMemoryWebApiModule } from 'angular-in-memory-web-api';
 import { InMemoryDataService } from './services/in-memory-data.service'
 import { LocationStrategy, PathLocationStrategy } from '@angular/common';
 import { NgxPaginationModule } from 'ngx-pagination';
+import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 
 import { AppComponent } from './app.component';
 import { HomeComponent } from './components/home/home.component';
@@ -62,6 +63,7 @@ import { ResearchAreaDetailsComponent } from './components/research-area-details
     BrowserAnimationsModule,
     HttpClientModule,
     SlickCarouselModule,
+    NgbModule,
     HttpClientInMemoryWebApiModule.forRoot(
       InMemoryDataService, { dataEncapsulation: false }
     ),

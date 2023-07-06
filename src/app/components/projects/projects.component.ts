@@ -1,6 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { Project } from 'src/app/interfaces/project';
 import { DatabaseService } from 'src/app/services/database.service';
+import { NgbCarouselModule } from '@ng-bootstrap/ng-bootstrap';
 import * as AOS from 'aos';
 
 @Component({

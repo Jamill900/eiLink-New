@@ -4,7 +4,7 @@
       padding: 50px 40px 40px 40px;
       background: #F6F6F6;
       border-radius: 15px;
-      min-height: 356px;
+      min-height: 418px;
   }
 
   h2 {
@@ -18,9 +18,9 @@
   }
 
   p {
-      font-weight: 300;
-      font-size: 14px;
-      line-height: 20px;
+      font-weight: 400;
+      font-size: 12px;
+      line-height: 18px;
       padding-bottom: 20px;
       color: var(--grey);
   }
@@ -32,7 +32,7 @@
       outline: none;
       border: none;
       border: 1px solid #144571;
-      border-radius: 5px;
+      border-radius: 70px;
       background: transparent;
       padding: 10px 20px;
       transition: all .2s linear;
@@ -63,4 +63,3 @@ button.view-all:hover {
   color: var(--white);
   background: var(--darkBlue);
 }
-
