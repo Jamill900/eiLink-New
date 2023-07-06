@@ -22,6 +22,7 @@
       "es2020",
       "dom"
     ],
+    "esModuleInterop": true,
     "useDefineForClassFields": false,
     "allowSyntheticDefaultImports": true,
     "strictPropertyInitialization": false
