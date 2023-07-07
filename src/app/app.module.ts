@@ -31,6 +31,7 @@ import { ProjectsDetailsComponent } from './components/projects-details/projects
 import { PublicationsPageComponent } from './components/publications-page/publications-page.component';
 import { ResearchAreasPageComponent } from './components/research-areas-page/research-areas-page.component';
 import { ResearchAreaDetailsComponent } from './components/research-area-details/research-area-details.component';
+import { ContactComponent } from './components/contact/contact.component';
 
 
 @NgModule({
@@ -56,6 +57,7 @@ import { ResearchAreaDetailsComponent } from './components/research-area-details
     PublicationsPageComponent,
     ResearchAreasPageComponent,
     ResearchAreaDetailsComponent,
+    ContactComponent,
   ],
   imports: [
     BrowserModule,
