@@ -1,114 +1,69 @@
 <div id="project-details-content">
   <div *ngIf="product">
-      <div class="project-header" style="background: url('assets/projects/project-{{product.id}}-header.svg');"
-          data-aos="fade-up" data-aos-duration="600">
-          <h2 class="text-center" data-aos="fade-up" data-aos-duration="600">{{ product.title }}</h2>
-      </div>
-      <div class="container">
+    <div class="project-header" style="background: url('assets/projects/header-images/product-{{product.pictureId}}-header.jpg');"
+      data-aos="fade-up" data-aos-duration="600">
+      <h2 class="text-center" data-aos="fade-up" data-aos-duration="600">{{ product.title }}</h2>
+    </div>
+    <div class="container">
 
-          <!-- Project 0 -->
-          <div class="project-content text-center" *ngIf="product.id == 0">
-              <p data-aos="fade-up" data-aos-duration="600">
-                  The South Caspian Basin (SCB) is a young basin with a sedimentary rock column up to 25 km thick.
-                  High sedimentation rates, combined with other factors, resulted in abnormally high pore pressures,
-                  particularly in shales, over the last 5 million years. Understanding the nature and distribution of
-                  overpressure is a critical issue in exploration and reservoir engineering concepts, as well as
-                  drilling and completion operations. This project investigates the relationship between the effective
-                  stress and porosity in the shales of the Productive Series and how it is affected by the shale
-                  volume. Two disequilibrium compaction models, one proposed by Aplin et.al. (1995), and the second by
-                  Schneider et. al. (1994) were tested in the SCB for the first time.
-              </p>
-              <img src="assets/projects/project-0/image-1.jpg" alt="" width="100%" data-aos="fade-up"
-                  data-aos-duration="600">
-          </div>
-
-          <!-- Project 1 -->
-          <div class="project-content text-center" *ngIf="product.id == 1">
-              <p data-aos="fade-up" data-aos-duration="600">
-                  It is common during field development that certain areas of the structure, while containing
-                  appreciable oil and gas reserves, are complicated and negatively affected by certain geological
-                  features. Sometimes, vital information regarding reservoir properties and characterization is
-                  difficult or impossible to obtain from these regions for various reasons, which may include:
-              </p>
-              <ul data-aos="fade-up" data-aos-duration="600">
-                  <li>The scale of these geological features is below conventional well log resolution, requiring
-                      complex core acquisition or other expensive petrophysical techniques.</li>
-                  <li>Drilling these geological regions is too expensive for the uncertainty associated with the
-                      reservoir properties degradation caused by these geological features.</li>
-                  <li>
-                      The spatial distribution of such geological features is too complex to understand and design an
-                      economically viable field development plan.
-                  </li>
-              </ul>
-              <img src="assets/projects/project-1/image-1.jpg" alt="" width="100%" data-aos="fade-up"
-                  data-aos-duration="600">
-              <p data-aos="fade-up" data-aos-duration="600">
-                  In the scenarios mentioned above, outcrop analog studies may help significantly enhance the
-                  subsurface understanding and help build a successful field development strategy. They can serve as a
-                  starting point toward characterization of reservoirs without spending much money on expensive data
-                  acquisition and surveillance.
-                  <br><br>
-                  In the Deep Water Gunashli (DWG) oil field, the complex, steeply dipping northern limb of the
-                  structure has historically been underdeveloped due to the presence of severe reservoir properties
-                  degradation associated with deformation bands. Recently, an appraisal campaign has been launched to
-                  understand the reservoir potential in this area. The vital part of this campaign was the Yasamal
-                  Analogue Outcrop Study done by the eiLink Team.
-              </p>
-              <img src="assets/projects/project-1/image-2.jpg" alt="" width="100%" data-aos="fade-up"
-                  data-aos-duration="600">
-              <img src="assets/projects/project-1/image-3.jpg" alt="" data-aos="fade-up" data-aos-duration="600">
-              <p data-aos="fade-up" data-aos-duration="600">The objective of the outcrop study during the first phase
-                  of the project was to acquire abundant
-                  geological information, including:
-              </p>
-              <ul data-aos="fade-up" data-aos-duration="600">
-                  <li>Dip angle/dip azimuth measurements along and across the stratigraphy using a field compass.</li>
-                  <li>Distribution and number of deformation bands per unit area.</li>
-                  <li>Gamma Ray log across the stratigraphy using a portable Gamma Ray tool.</li>
-                  <li>Permeability measurements from deformed and undeformed rocks using portable permeameters.</li>
-                  <li>Collection of numerous core plugs was acquired for further XRD analysis using a portable core
-                      acquisition tool.</li>
-              </ul>
-              <img src="assets/projects/project-1/image-4.jpg" alt="" width="100%" data-aos="fade-up"
-                  data-aos-duration="600">
-              <img src="assets/projects/project-1/image-5.jpg" alt="" width="100%" data-aos="fade-up"
-                  data-aos-duration="600">
-              <p data-aos="fade-up" data-aos-duration="600">
-                  Then, during the second phase of the project, the focus was to QC the acquired data and use it to
-                  come up with an essential geological analysis. The main objective was to observe what controls the
-                  presence and distribution of deformation bands in the outcrops. Finally, a similar analysis was made
-                  using subsurface data acquired from wells drilled in similar geological settings within the DWG
-                  structure with the aim to compare observations between outcrop and subsurface data.
-                  <br><br>
-                  To achieve the above-mentioned objectives, the acquisition of data was done, ensuring the most
-                  representative data was acquired. For instance, only steeply dipping regions of the outcrop were
-                  chosen as study locations, where data was mainly acquired along stratigraphy to mimic the subsurface
-                  setting. Prior to acquiring the data, the outcrop was cleaned from dust and other undesirable
-                  material to ensure accuracy. The tools were calibrated such that no errors were made due to tools
-                  reading inadequate information.
-              </p>
-              <img src="assets/projects/project-1/image-6.jpg" alt="" width="100%" data-aos="fade-up"
-                  data-aos-duration="600">
-              <p data-aos="fade-up" data-aos-duration="600">
-                  The impact of this project was that vital geological insights and conclusions were drawn and used
-                  for the future reservoir characterization of the steeply dipping North Limb of the DWG structure.
-                  For instance, it was observed that there is a cut-off value of the Vshale derived from the GR log,
-                  indicating the presence of deformation bands as a function of shale content. Also, there is a good
-                  relationship between dip angle (which can be viewed as a proxy for how much deformation rocks have
-                  been exposed to) and the distribution of deformation bands per unit area. Finally, it was observed
-                  that broadly, the conclusions drawn in the outcrop environment honor the subsurface data from wells
-                  drilled in this part of the DWG area.
-              </p>
-          </div>
-
+      <!-- Project 0 -->
+      <div class="project-content text-center" *ngIf="product.id == 0">
+        <p data-aos="fade-up" data-aos-duration="600">
+          About 70% of the world’s hydrocarbon reserves are contained in weakly consolidated sandstone reservoirs, and
+          hence they are prone to sand production. Sandstone degradation and detachment of particles are caused by the
+          strength-weakening effect of water, depletion of reservoir pressure, operational conditions, and a
+          high-pressure gradient of fluid flow. Producing sand is a very complex challenge in the oil and gas industry
+          as it can create serious problems, including but not limited to abrasion of downhole tubular/casing,
+          subsurface and surface equipment; casing/tubing buckling, failure of casing or liners from the removal of
+          surrounding formation, compaction and erosion; and loss of production caused by sand bridging in tubing and/or
+          flow lines, adversely affecting oil-water separation. This creates both safety and economic concerns by
+          harming the integrity of the well and reducing hydrocarbon reduction.
+          <br><br>
+          One way of mitigating sand production issues is to predict it beforehand its occurrence. Previously, different
+          approaches, such as numerical models, analytical and empirical relationships, and physical model testing, have
+          been developed to overcome this issue. These approaches, however, have not gained industry reliance and have
+          not been applied in day-to-day operations due to their limitations. Our purpose is to propose an easy-to-use
+          and reliable solution for the customer that can constantly be utilized in daily operations by the petroleum
+          engineers.
+          <br><br>
+          To solve this complex and multidimensional problem, we take a physics-based, data-driven approach using
+          machine learning techniques. The initial step was to create an integrated database of Completion, Production
+          and Petrophysics data by collecting from various resources. Although some data is readily available, most of
+          it is obtained using advanced feature engineering techniques. The crucial step of using data in a diligent way
+          comes from understanding which physical parameters have a direct or indirect impact on sand production. Data
+          analytics techniques have been used to recognize previously unknown patterns in the wells by revealing key
+          reasons and parameters distinguishing sandy and non-sandy wells on a quantitative level.
+          <br><br>
+          Currently, conventional machine learning algorithms are used to predict the probability of having sand in the
+          wells. The goal of the machine learning algorithm is to separate sandy from non-sandy wells based on
+          combinations of the input parameters. Training and test data have been customized and logically prepared to
+          maximize the accuracy of the machine-learning model. Different algorithms are tested in parallel to compare
+          the performance and abilities of models and select the most suitable one for the sand production prediction
+          problem.
+          <br><br>
+          The project is currently in its third phase, and until now, we have been able to differentiate between wells
+          that are at risk of sand production and non-concerning ones. The next stage intends to predict the approximate
+          time and conditions at which sand will be produced for each well during its lifetime. The model will receive
+          dynamic and static data on a daily basis, and if a petroleum engineer observes an increasing probability
+          within a certain timeframe, they can take a series of actions beforehand to prevent potential sand production.
+          <br><br>
+          Besides, the integrated database of completion, production, and petrophysics data has become a very valuable
+          source for data analytics and to answer important questions of customers about historical production trends,
+          the health of the wells, and potential causes of sanding.
+        </p>
       </div>
-      <div class="container project-details mt-3 p-0" data-aos="fade-up" data-aos-duration="600">
-          <!-- <div class="line-break"></div> -->
-          <div class="d-flex flex-column flex-md-row">
-              <h5 class="author" data-aos="fade-up" data-aos-duration="600"><i class="bi bi-person-fill"></i> {{ product.author }}</h5>
-              <h5 class="date" data-aos="fade-up" data-aos-duration="600"><i class="bi bi-calendar-event-fill"></i> {{ product.date }}</h5>
-          </div>
+
+
+    </div>
+    <div class="container project-details mt-3 p-0" data-aos="fade-up" data-aos-duration="600">
+      <!-- <div class="line-break"></div> -->
+      <div class="d-flex flex-column flex-md-row">
+        <h5 class="author" data-aos="fade-up" data-aos-duration="600"><i class="bi bi-person-fill"></i> {{
+          product.author }}</h5>
+        <h5 class="date" data-aos="fade-up" data-aos-duration="600"><i class="bi bi-calendar-event-fill"></i> {{
+          product.date }}</h5>
       </div>
+    </div>
   </div>
 
 

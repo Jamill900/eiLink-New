@@ -54,7 +54,7 @@ export class ProjectsPageComponent implements OnInit {
   getProducts() {
     this.loading = true;
     this.database.getProducts().subscribe(products => {
-      this.products = products;
+      this.products = products.reverse();
     })
   }
 

@@ -14,7 +14,7 @@
       <ngb-carousel>
         <ng-template class="slide-item" ngbSlide *ngFor="let project of projects">
           <div class="picsum-img-wrapper">
-            <img src="{{ 'assets/projects/project-' + project.id + '-slider.jpg' }}" width="100%">
+            <img src="{{ 'assets/projects/slider-images/project-' + project.id + '-slider.jpg' }}" width="100%">
           </div>
           <div class="carousel-caption">
             <h1 routerLink="/projects/{{ project.id }}">

@@ -12,9 +12,9 @@
     </div>
   </div>
   <div *ngIf="showProjects == true" class="row projects-card gy-5">
-    <div class="col-12 col-lg-4 popup-animation" style="--animation-order: {{ project.id }}"
+    <div class="col-12 col-lg-4 popup-animation" style="--animation-order: {{ project.animationOrder }}"
       *ngFor="let project of projects" data-aos="fade-up" data-aos-duration="600">
-      <img routerLink="/projects/{{ project.id }}" src="{{ 'assets/projects/project-' + project.id + '.svg' }}" alt=""
+      <img routerLink="/projects/{{ project.id }}" src="{{ 'assets/projects/project-' + project.pictureId + '.jpg' }}" alt=""
         width="100%">
       <h2 routerLink="/projects/{{ project.id }}">{{ project.title }}</h2>
       <h4>{{ project.date }}</h4>
@@ -22,9 +22,9 @@
     </div>
   </div>
   <div *ngIf="showProducts == true" class="row projects-card gy-5">
-    <div class="col-12 col-lg-4 popup-animation" style="--animation-order: {{ product.id }}"
+    <div class="col-12 col-lg-4 popup-animation" style="--animation-order: {{ product.animationOrder }}"
       *ngFor="let product of products" data-aos="fade-up" data-aos-duration="600">
-      <img routerLink="/products/{{ product.id }}" src="{{ 'assets/projects/project-' + product.id + '.svg' }}" alt=""
+      <img routerLink="/products/{{ product.id }}" src="{{ 'assets/projects/product-' + product.pictureId + '.jpg' }}" alt=""
         width="100%">
       <h2 routerLink="/products/{{ product.id }}">{{ product.title }}</h2>
       <h4>{{ product.date }}</h4>
@@ -32,21 +32,21 @@
     </div>
   </div>
   <div *ngIf="showAll == true" class="row projects-card gy-5">
-    <div class="col-12 col-lg-4 popup-animation" style="--animation-order: {{ project.id }}"
-      *ngFor="let project of projects" data-aos="fade-up" data-aos-duration="600">
-      <img routerLink="/projects/{{ project.id }}" src="{{ 'assets/projects/project-' + project.id + '.svg' }}" alt=""
-        width="100%">
-      <h2 routerLink="/projects/{{ project.id }}">{{ project.title }}</h2>
-      <h4>{{ project.date }}</h4>
-      <span routerLink="/research-areas/{{ project.areaId }}">{{ project.tag }}</span>
-    </div>
-    <div class="col-12 col-lg-4 popup-animation" style="--animation-order: {{ product.id }}"
+    <div class="col-12 col-lg-4 popup-animation" style="--animation-order: {{ product.animationOrder }}"
       *ngFor="let product of products" data-aos="fade-up" data-aos-duration="600">
-      <img routerLink="/products/{{ product.id }}" src="{{ 'assets/projects/project-' + product.id + '.svg' }}" alt=""
+      <img routerLink="/products/{{ product.id }}" src="{{ 'assets/projects/product-' + product.pictureId + '.jpg' }}" alt=""
         width="100%">
       <h2 routerLink="/products/{{ product.id }}">{{ product.title }}</h2>
       <h4>{{ product.date }}</h4>
       <span>{{ product.tag }}</span>
+    </div>
+    <div class="col-12 col-lg-4 popup-animation" style="--animation-order: {{ project.animationOrder }}"
+      *ngFor="let project of projects" data-aos="fade-up" data-aos-duration="600">
+      <img routerLink="/projects/{{ project.id }}" src="{{ 'assets/projects/project-' + project.pictureId + '.jpg' }}" alt=""
+        width="100%">
+      <h2 routerLink="/projects/{{ project.id }}">{{ project.title }}</h2>
+      <h4>{{ project.date }}</h4>
+      <span routerLink="/research-areas/{{ project.areaId }}">{{ project.tag }}</span>
     </div>
   </div>
 </div>
