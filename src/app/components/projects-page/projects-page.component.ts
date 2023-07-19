@@ -14,8 +14,7 @@ export class ProjectsPageComponent implements OnInit {
   projects: Project[] = [];
   products: Product[] = [];
   loading = false;
-  showAll = true;
-  showProjects = false;
+  showProjects = true;
   showProducts = false;
 
   constructor(private database: DatabaseService) { }
@@ -28,18 +27,11 @@ export class ProjectsPageComponent implements OnInit {
 
   filterButtons(type: string) {
     if (type == 'products') {
-      this.showAll = false;
       this.showProjects = false;
       this.showProducts = true;
     }
     else if (type == 'projects') {
-      this.showAll = false;
       this.showProjects = true;
-      this.showProducts = false;
-    }
-    else {
-      this.showAll = true;
-      this.showProjects = false;
       this.showProducts = false;
     }
   }

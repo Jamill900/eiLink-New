@@ -108,6 +108,17 @@ export class InMemoryDataService implements InMemoryDbService {
       },
       {
         id: 9,
+        pictureId: 10,
+        animationOrder: 1,
+        title: 'Prediction of KHeff using artificial intelligence and Numerical Techniques.',
+        date: '9 December 2022',
+        author: 'eiLink',
+        tag: 'Software & Web Solutions',
+        areaId: 7,
+        previewText: 'Deformed rock areas create challenges for fluid flow due to deteriorating rock properties and creating flow barriers, thus making the recovery factor difficult to predict. The mechanism of def...',
+      },
+      {
+        id: 10,
         pictureId: 9,
         animationOrder: 0,
         title: 'MZI` s Internal Control Valve (ICV) Performance Monitoring',
@@ -123,12 +134,42 @@ export class InMemoryDataService implements InMemoryDbService {
       {
         id: 0,
         pictureId: 0,
-        animationOrder: 0,
+        animationOrder: 3,
         title: 'Sand Production Event Prediction Using Integrated Data Science Solutions',
         date: '10 January 2023',
         author: 'eiLink',
         tag: 'Geology & Geophysics',
         previewText: 'About 70% of the world’s hydrocarbon reserves are contained in weakly consolidated sandstone reservoirs, and hence they are prone to sand production. Sandstone degradation and detachment of...',
+      },
+      {
+        id: 1,
+        pictureId: 1,
+        animationOrder: 2,
+        title: 'VOLTACH4',
+        date: '10 January 2023',
+        author: 'eiLink',
+        tag: 'Geology & Geophysics',
+        previewText: 'Using the combined forces of satellite imagery, thermal drones, and AI algorithms to accurately locate and measure methane emissions in the oil and gas industry...',
+      },
+      {
+        id: 2,
+        pictureId: 2,
+        animationOrder: 1,
+        title: 'Wax Prediction',
+        date: '10 January 2023',
+        author: 'eiLink',
+        tag: 'Geology & Geophysics',
+        previewText: 'Intelligent model to predict wax precipitation in the oil and gas industry using a Feed-Forward Neural Network trained on DTS data...',
+      },
+      {
+        id: 3,
+        pictureId: 3,
+        animationOrder: 0,
+        title: 'ePattern',
+        date: '10 January 2023',
+        author: 'eiLink',
+        tag: 'Geology & Geophysics',
+        previewText: 'Making the cloud-based pattern management platform’s modular structure versatile and applicable to any data-driven field...',
       }
     ]
 
@@ -190,8 +231,6 @@ export class InMemoryDataService implements InMemoryDbService {
         name: 'Shahriyar Alkhasli',
         position: 'Director',
         linkedIn: '',
-        behance: '',
-        github: '',
         imgSrc: 'assets/people/shahriyar.jpg'
       },
       {
@@ -199,8 +238,6 @@ export class InMemoryDataService implements InMemoryDbService {
         name: 'Rustam Rustamov',
         position: 'Senior Advisor',
         linkedIn: '',
-        behance: '',
-        github: '',
         imgSrc: 'assets/people/rustam.jpg'
       },
       {
@@ -208,106 +245,113 @@ export class InMemoryDataService implements InMemoryDbService {
         name: 'Izat Shahsenov',
         position: 'Lead Researcher',
         linkedIn: '',
-        behance: '',
-        github: '',
         imgSrc: 'assets/people/izat.jpg',
         company: 'Waverity'
       },
       {
         id: 3,
-        name: 'Vafa Dadashova',
-        position: 'Researcher',
+        name: 'Taras Dolgushin',
+        position: 'Senior Researcher',
         linkedIn: '',
-        behance: '',
-        github: '',
-        imgSrc: 'assets/people/vafa.jpg'
+        imgSrc: 'assets/people/taras.jpg',
+        company: ''
       },
       {
         id: 4,
-        name: 'Kamran Mirzabeyli',
+        name: 'Vafa Dadashova',
         position: 'Researcher',
         linkedIn: '',
-        behance: '',
-        github: '',
-        imgSrc: 'assets/people/kamran.jpg'
+        imgSrc: 'assets/people/vafa.jpg'
       },
       {
         id: 5,
-        name: 'Ruslan Malikov',
-        position: 'Junior Researcher',
+        name: 'Kamran Mirzabeyli',
+        position: 'Researcher',
         linkedIn: '',
-        behance: '',
-        github: '',
+        imgSrc: 'assets/people/kamran.jpg'
+      },
+      {
+        id: 6,
+        name: 'Ruslan Malikov',
+        position: 'Researcher',
+        linkedIn: '',
         imgSrc: 'assets/people/ruslan.jpg',
         company: 'Waverity'
       },
       {
-        id: 6,
+        id: 7,
         name: 'Ramil Mamishov',
         position: 'Junior Researcher',
         linkedIn: '',
-        behance: '',
-        github: '',
         imgSrc: 'assets/people/ramil.jpg',
         company: 'Waverity'
       },
       {
-        id: 7,
+        id: 8,
         name: 'Gunel Rzayeva',
         position: 'Junior Researcher',
         linkedIn: '',
-        behance: '',
-        github: '',
         imgSrc: 'assets/people/gunel.jpg'
       },
       {
-        id: 8,
+        id: 9,
         name: 'Elmir Abilov',
         position: 'Junior Researcher',
         linkedIn: '',
-        behance: '',
-        github: '',
         imgSrc: 'assets/people/elmir.jpg'
       },
       {
-        id: 9,
+        id: 10,
         name: 'Tatyana Yeleskina',
         position: 'Junior Researcher',
         linkedIn: '',
-        behance: '',
-        github: '',
         imgSrc: 'assets/people/tatyana.jpg',
         company: 'Waverity'
       },
       {
-        id: 10,
+        id: 11,
         name: 'Javidan Karimli',
         position: 'Junior Researcher',
         linkedIn: '',
-        behance: '',
-        github: '',
         imgSrc: 'assets/people/javidan.jpg',
         company: 'Waverity'
       },
       {
-        id: 11,
+        id: 12,
         name: 'Orkhan Mammadov',
         position: 'Junior Researcher',
         linkedIn: '',
-        behance: '',
-        github: '',
         imgSrc: 'assets/people/orkhan.jpg',
         company: 'Waverity'
       },
       {
-        id: 12,
-        name: 'Fidan Karimova',
-        position: 'Research Assistant',
+        id: 13,
+        name: 'Aysu Maharramli',
+        position: 'Junior Researcher',
         linkedIn: '',
-        behance: '',
-        github: '',
-        imgSrc: 'assets/people/fidan.jpg'
-      }
+        imgSrc: 'assets/people/aysu.jpg'
+      },
+      {
+        id: 14,
+        name: 'Zaur Mirzayev',
+        position: 'Junior Researcher',
+        linkedIn: '',
+        imgSrc: 'assets/people/zaur.jpg',
+      },
+      {
+        id: 15,
+        name: 'Zeynallı Nadir',
+        position: 'Junior Researcher',
+        linkedIn: '',
+        imgSrc: 'assets/people/nadir.jpg',
+      },
+      {
+        id: 16,
+        name: 'Sabina Mammadova',
+        position: 'UX/UI Designer',
+        linkedIn: '',
+        imgSrc: 'assets/people/sabina.jpg'
+      },
     ]
 
     let researchAreas = [

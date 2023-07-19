@@ -1,6 +1,7 @@
 <div id="project-details-content">
   <div *ngIf="project">
-    <div class="project-header" style="background: url('assets/projects/header-images/project-{{project.pictureId}}-header.jpg');"
+    <div class="project-header"
+      style="background: url('assets/projects/header-images/project-{{project.pictureId}}-header.jpg');"
       data-aos="fade-up" data-aos-duration="600">
       <h2 class="text-center" data-aos="fade-up" data-aos-duration="600">{{ project.title }}</h2>
     </div>
@@ -308,6 +309,57 @@
       <!-- Project 9 -->
       <div class="project-content text-center" *ngIf="project.id == 9">
         <p data-aos="fade-up" data-aos-duration="600">
+          Estimation of KH effectiveness prior to drilling is a challenging process due to great uncertainty in the
+          parameters that control KH. Meanwhile, it is one of the most important measures that control production rate,
+          and prior knowledge about the rate and total cumulative volumes is required to decide on the effectivity and
+          profitability of a future well. KH effectiveness is directly connected to production rate, meaning that an
+          inaccurate prediction in KH will lead to a corresponding overestimation or underestimation in rate and finally
+          to wrong business decisions.
+          <br><br>
+          We performed research to forecast KHeff using machine learning (ML) algorithms, including multilinear
+          perceptrons (MLP), random forest regression (RF), eXtreme Gradient Boost regression (XGBoost), and support
+          vector regression (SVR). ML algorithms were trained based on 1500 samples from 115 wells. The following input
+          parameters were identified as controlling parameters on the resulting PBU KH at different levels: Log KH,
+          pressure, NTG, X and Y coordinates of the completion interval, expected date of the test, area (CDWG or
+          Azeri), flank (north or south), porosity, water cut, and gas presence.
+        </p>
+        <figure data-aos="fade-up" data-aos-duration="600">
+          <img src="assets/projects/project-10/image-1.jpg" alt="" style="width:100%; max-width: 400px;">
+          <figcaption>Figure 1. Input parameters</figcaption>
+        </figure>
+        <figure data-aos="fade-up" data-aos-duration="600">
+          <img src="assets/projects/project-10/image-2.jpg" alt="" style="width:100%; max-width: 600px;">
+          <figcaption>Figure 2. ML Training</figcaption>
+        </figure>
+        <p data-aos="fade-up" data-aos-duration="600">
+          Based on the integration of the four ML models mentioned above, trained models were used in prediction.
+          Iterative blind testing was performed on 115 wells in total.
+        </p>
+        <figure data-aos="fade-up" data-aos-duration="600">
+          <img src="assets/projects/project-10/image-3.jpg" alt="" style="width:100%; max-width: 600px;">
+          <figcaption>Figure 3. ML Testing</figcaption>
+        </figure>
+        <p data-aos="fade-up" data-aos-duration="600">
+          A new metric to estimate the accuracy of the model is proposed by us, in which a prediction range is compared
+          against actual PBU KH (plus/minus 5% range), and if the actual value is within the prediction range, it is
+          accepted as a match (Fig 4). Applying this metric, ML showed 72% accuracy (83 matches out of 115 wells) with
+          measured inputs (Fig 5). Moreover, we have accomplished this result with a 26% lower prediction range and 2880
+          times faster runtime than the analytical methods.
+        </p>
+        <img src="assets/projects/project-10/image-5.jpg" alt="" style="width:100%; max-width: 400px;" data-aos="fade-up" data-aos-duration="600">
+        <figure data-aos="fade-up" data-aos-duration="600">
+          <img src="assets/projects/project-10/image-4.jpg" alt="" style="width:100%; max-width: 400px;">
+          <figcaption>Fig 4. (A) Applied metric, (B) Accuracy of ML (115 wells)</figcaption>
+        </figure>
+        <p data-aos="fade-up" data-aos-duration="600">
+          We have also created a dashboard in Jupyterlab for internal company usage, which makes our product
+          user-friendly and easy to use.
+        </p>
+      </div>
+
+      <!-- Project 10 -->
+      <div class="project-content text-center" *ngIf="project.id == 10">
+        <p data-aos="fade-up" data-aos-duration="600">
           Control valves may be the most important, but sometimes the most neglected, part of a control loop. A control
           valve is used to control the rate of flow in a line. The “controller” receives the pressure signals and
           compares them with pressure drop for the desired flow and if it is different, it adjusts the control valve to
@@ -337,6 +389,8 @@
           of ICV failures, minimizes consequences, and gives insights on ICV operations.
         </p>
       </div>
+
+
 
     </div>
     <div class="container project-details mt-3 p-0" data-aos="fade-up" data-aos-duration="600">

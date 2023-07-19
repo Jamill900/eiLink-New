@@ -1,12 +1,13 @@
 <div id="project-details-content">
   <div *ngIf="product">
-    <div class="project-header" style="background: url('assets/projects/header-images/product-{{product.pictureId}}-header.jpg');"
+    <div class="project-header"
+      style="background: url('assets/projects/header-images/product-{{product.pictureId}}-header.jpg');"
       data-aos="fade-up" data-aos-duration="600">
       <h2 class="text-center" data-aos="fade-up" data-aos-duration="600">{{ product.title }}</h2>
     </div>
     <div class="container">
 
-      <!-- Project 0 -->
+      <!-- Products 0 -->
       <div class="project-content text-center" *ngIf="product.id == 0">
         <p data-aos="fade-up" data-aos-duration="600">
           About 70% of the world’s hydrocarbon reserves are contained in weakly consolidated sandstone reservoirs, and
@@ -50,6 +51,123 @@
           Besides, the integrated database of completion, production, and petrophysics data has become a very valuable
           source for data analytics and to answer important questions of customers about historical production trends,
           the health of the wells, and potential causes of sanding.
+        </p>
+      </div>
+
+      <!-- Product 1 -->
+
+      <div class="project-content" *ngIf="product.id == 1">
+        <p data-aos="fade-up" data-aos-duration="600">
+          Rapidly reducing methane emissions from the oil and gas sector is one of the fastest, most cost-effective
+          things we can do to fight climate change. It could slow the worldwide rate of warming by as much as 30%. More
+          ambitious action on methane emissions can help spur clean technology innovations, improve air quality to
+          reduce smog, and provide the oil and gas sector with an opportunity to showcase its leadership in responsible
+          energy production.
+        </p>
+        <br>
+        <iframe width="100%" src="https://www.youtube.com/embed/CKXFgHXo2Hk" title="VOLTACH4"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          allowfullscreen  data-aos="fade-up" data-aos-duration="600"></iframe>
+          <br><br>
+        <p data-aos="fade-up" data-aos-duration="600">
+          VOLTACH4 is a breakthrough solution using satellite imagery, thermal drones, and AI algorithms to geolocate
+          and quantify methane emissions in oil and gas operations. Infrared satellite imagery system detects and
+          geolocates sources of methane Emissions. Further in-depth processing and AI application of targeted points of
+          interests launch drones with installed thermal cameras to create a high-quality three-dimensional image of the
+          emission. Laser based technology on the drones enhance accuracy and precision of the model. Ultimately,
+          VOLTACH4 provides real-time data and models with consideration of external factors such as wind direction and
+          speed to your screens.
+        </p>
+        <button data-aos="fade-up" data-aos-duration="600">Visit Website</button>
+      </div>
+
+
+      <!-- Product 2 -->
+
+      <div class="project-content text-center" *ngIf="product.id == 2">
+        <p data-aos="fade-up" data-aos-duration="600">
+          Wax precipitation is one of the most challenging flow assurance problems in the oil and gas industry, as it
+          can lead to flow issues, equipment failures, and production loss. This is a complex process that involves both
+          phase separation and solidification.
+        </p>
+        <img src="assets/projects/product-2/image-1.jpg" alt="" style="width:100%" data-aos="fade-up"
+          data-aos-duration="600">
+        <p data-aos="fade-up" data-aos-duration="600">
+          It is critical to be able to accurately predict the amount of precipitated wax for each well in order to avoid
+          problems during intervention into the well. Our team developed Perturbed Chain Statistical Associating Fluid
+          Theory to accurately predict temperature (WAT) and amount of precipitated wax without the use of costly PNA
+          analysis. The advantage of PC-SAFT is mainly its accuracy in the estimation of the frugalities of heavy
+          components in vapor and liquid mixtures.
+          <br><br>
+          We know that the composition of wax is different across the field, which makes it more difficult to predict
+          wax precipitation if wax is represented as one component. We used a different approach by dividing the
+          reservoir into sectors with similar wax properties, calibrating each sector separately, and obtaining one set
+          of PC-SAFT parameters for every sector. If prediction of a new well is required in the future, then the sector
+          to which this well belongs needs to be determined, and this calibrated set of parameters for that part can be
+          used.
+          <br><br>
+          Feed-Forward Neural Network trained on Distributed Temperature Sensing (DTS) data was used to predict the
+          temperature inside the wellbore based on the production data for each well. Usually, the temperature of the
+          oil in the flow center is hotter than DTS. Therefore, the heat transfer equation was used to model the radial
+          temperature gradient and therefore determine the temperature of the oil flowing inside the tubing. Applying
+          the heat transfer equation increases the accuracy of the PC-SAFT model and enables company engineers to
+          compare and identify all wells with a high risk of wax precipitation and, thus, to know about the risk of wax
+          precipitation before intervention into the well.
+        </p>
+        <img src="assets/projects/product-2/image-2.jpg" alt="" style="width: 100%; max-width:320px" data-aos="fade-up"
+          data-aos-duration="600">
+        <p data-aos="fade-up" data-aos-duration="600">
+          With this product, we developed the underlying theory of how solution-solid and multi-solid models are used
+          together with the PC-SAFT Equation of State in the three-phase flash calculation algorithm.
+        </p>
+        <img src="assets/projects/product-2/image-3.jpg" alt="" style="width: 100%; max-width:320px" data-aos="fade-up"
+          data-aos-duration="600">
+        <p data-aos="fade-up" data-aos-duration="600">
+          A developed thermodynamic model used sensitivity analysis in order to identify what affects wax precipitation
+          the most, such as gas/oil ratio (GOR), pressure, and temperature. According to sensitivity analysis,
+          temperature is a dominant parameter. Depending on the temperature drop, it may increase the amount of
+          precipitated wax by 2–4 times.
+        </p>
+      </div>
+
+      <!-- Product 3 -->
+
+      <div class="project-content text-center" *ngIf="product.id == 3">
+        <p data-aos="fade-up" data-aos-duration="600">
+          Analytical software combines cutting-edge digital technologies as well as industry know-how in order to
+          simplify and assist engineers in both their day-to-day tasks as well as strategically important decisions.
+          Using Cloud based technologies with state-of-the-art ML techniques, ePattern is web-based pattern management
+          that allows:
+        </p>
+        <ul data-aos="fade-up" data-aos-duration="600">
+          <li>engineers to extract most of their data and see beyond simple visualization techniques</li>
+          <li>multi-disciplinary teams to access and evaluate Pattern Health`s across the area</li>
+          <li>to perform detailed analysis of key diagnostic parameters</li>
+          <li>to compare KPI`s against targets and flag deviations predefined scope</li>
+        </ul>
+        <p data-aos="fade-up" data-aos-duration="600">
+          ePattern helps to analyze oil and gas parameters pertaining to drilling and production operations as well as
+          the visualization of wells and completions.
+        </p>
+        <img src="assets/projects/product-3/image-1.jpg" alt="" style="width:100%" data-aos="fade-up"
+          data-aos-duration="600">
+        <p data-aos="fade-up" data-aos-duration="600">
+          By applying ML techniques, software allows engineers to extract more value from data and streamline
+          analysis/decision workflows.
+        </p>
+        <img src="assets/projects/product-3/image-2.jpg" alt="" style="width:100%" data-aos="fade-up"
+          data-aos-duration="600">
+        <p data-aos="fade-up" data-aos-duration="600">
+          Streamlining analysis/decision making workflow allows engineers to reduce spent time without any reduction in
+          quality of decision making. ML techniques additionally allow engineers to further increase the quality of
+          their decision making by providing data/relationship that were not visible beforehand.
+          <br><br>
+          Due to the nature of the ePattern toolkit, it could be used anywhere that data-driven analysis is required.
+          With the modular nature of ePattern, usage in a new field of interest could be as easy as switching up the
+          core visualization package and adding custom-made ML and calculation modules tailored specifically for those
+          specific fields. Due to the cloud nature of the toolkit, no change in infrastructure is required. ePattern
+          could be used in any field that is data-driven and has an existing database.
         </p>
       </div>
 
