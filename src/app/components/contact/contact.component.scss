@@ -1,0 +1,45 @@
+h2 {
+  color: var(--darkBlue);
+}
+
+input {
+  width: 100%;
+  max-width: 500px;
+  padding: 15px 10px;
+  margin-bottom: 30px;
+  border: 2px solid #EEEEEE;
+  border-radius: 10px;
+}
+
+label {
+  font-size: 16px;
+  padding-bottom: 10px;
+}
+
+textarea {
+  width: 100%;
+  padding: 15px 10px;
+  max-width: 500px;
+  margin-bottom: 30px;
+  border: 2px solid #EEEEEE;
+  border-radius: 10px;
+}
+
+input:focus {
+  border: 2px solid var(--darkBlue);
+}
+
+.submit {
+  max-width: 150px;
+  border: 1px solid var(--darkBlue);
+  color: var(--darkBlue);
+  background: transparent;
+  border-radius: 100px;
+  transition: all .2s linear;
+}
+
+.submit:hover {
+  color: var(--white);
+  background: var(--darkBlue);
+  transition: all .2s linear;
+}

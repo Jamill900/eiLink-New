@@ -4,13 +4,22 @@
     <p class="text-center">We are committed to conducting research that is rigorous, innovative, and impactful, and we
       strive to make a positive contribution to the advancement of knowledge in our field.</p>
   </div>
-  <div class="row publications-card gy-5">
-    <div class="col-12 col-lg-4 popup-animation"  style="--animation-order: {{ publication.id }}" *ngFor="let publication of publications" data-aos="fade-up" data-aos-duration="600">
-      <div class="top-border"></div>
+  <div class="publications">
+    <div class=" publications-card popup-animation"  style="--animation-order: {{ publication.id }}" *ngFor="let publication of publications" data-aos="fade-up" data-aos-duration="600">
+      <div class="top">
+        <div class="date">
+          <div class="right-date">
+            <h4>{{ publication.date }}</h4>
+          </div>
+        </div>
+        <br><br>
+        <h5>“</h5>
+      </div>
       <h2>{{ publication.title }}</h2>
-      <h4>{{ publication.date }}</h4>
-      <h3>{{ publication.authors }}</h3>
-      <button (click)="navigateTo(publication.link)">Read More <i class="bi bi-box-arrow-up-right"></i></button>
+      <h3>Author: {{ publication.authors }}</h3>
+      <div class="read-more">
+        <button (click)="navigateTo(publication.link)">Read More <i class="bi bi-box-arrow-up-right"></i></button>
+      </div>
     </div>
   </div>
 </div>
