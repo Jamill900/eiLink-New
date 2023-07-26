@@ -110,7 +110,7 @@ section#partners {
 
   h1 {
     font-size: 30px;
-    font-weight: 500;
+    font-weight: 400;
     line-height: 45px;
     color: var(--darkBlue);
     text-align: center;
@@ -132,11 +132,14 @@ nav {
 #projects-page,
 #publications-page,
 #researchArea-page,
-#careers-page,
 #people-page,
 #blog-page {
   min-height: 90vh;
 }
+
+// #careers-page {
+//   min-height: 90vh;
+// }
 
 .popup-animation {
   animation-name: animateIn;
@@ -160,6 +163,20 @@ nav {
 #about {
   background-image: linear-gradient(rgba(0, 0, 0, 0.80), rgba(0, 0, 0, 0.80)),
     url("assets/lorem-img/about.svg");
+  background-position: center;
+  background-size: cover;
+}
+
+.life {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.50), rgba(0, 0, 0, 0.50)),
+    url("assets/careers/life.jpg");
+  background-position: center;
+  background-size: cover;
+}
+
+.opportunities {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.50), rgba(0, 0, 0, 0.50)),
+    url("assets/careers/opportunities.jpg");
   background-position: center;
   background-size: cover;
 }

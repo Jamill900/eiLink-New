@@ -13,6 +13,8 @@ import { ProductsDetailsComponent } from './components/products-details/products
 import { ResearchAreaDetailsComponent } from './components/research-area-details/research-area-details.component';
 import { BlogDetailsComponent } from './components/blog-details/blog-details.component';
 import { ContactComponent } from './components/contact/contact.component';
+import { LifeComponent } from './components/life/life.component';
+import { OpportunitiesComponent } from './components/opportunities/opportunities.component';
 
 const routerOptions: ExtraOptions = {
   scrollPositionRestoration: 'enabled',
@@ -25,6 +27,8 @@ const routes: Routes = [
   { path: 'home', component: HomeComponent },
   { path: 'about', component: AboutPageComponent },
   { path: 'careers', component: CareersPageComponent },
+  { path: 'careers/life-at-eilink', component: LifeComponent },
+  { path: 'careers/job-opportunities', component: OpportunitiesComponent },
   { path: 'projects', component: ProjectsPageComponent },
   { path: 'projects/:id', component: ProjectsDetailsComponent },
   { path: 'products/:id', component: ProductsDetailsComponent },
@@ -34,7 +38,7 @@ const routes: Routes = [
   { path: 'blog', component: BlogPageComponent },
   { path: 'blog/:id', component: BlogDetailsComponent },
   { path: 'people', component: PeoplePageComponent },
-  {path: 'contact-us', component: ContactComponent }
+  { path: 'contact-us', component: ContactComponent }
 
 ];
 

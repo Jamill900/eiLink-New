@@ -51,7 +51,7 @@
       <h2 style="color: var(--darkBlue); font-weight: 400;"
           class="text-left mt-3" data-aos="fade-up" data-aos-duration="600">Related Projects</h2>
       <div class="col-lg-4 col-12" *ngFor="let project of projects">
-        <img routerLink="/projects/{{ project.id }}" src="{{ 'assets/projects/project-' + project.id + '.svg' }}" alt=""
+        <img routerLink="/projects/{{ project.id }}" src="{{ 'assets/projects/project-images/project-' + project.pictureId + '.jpg' }}" alt=""
           width="100%">
         <h2>{{ project.title }}</h2>
         <h4>{{ project.date }}</h4>

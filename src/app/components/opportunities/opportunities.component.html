@@ -1,0 +1,142 @@
+<div class="opportunities">
+  <div class="careers-header" data-aos="fade-up" data-aos-duration="600">
+    <h1 class="text-center">Career & Development</h1>
+    <p class="text-center">At our organization, we offer highly competitive rewards for accomplishments, prioritize
+      extensive.</p>
+  </div>
+</div>
+<div class="careers-content container">
+  <div class="row mb-5 mt-3">
+
+    <h1 class="text-center" data-aos="fade-up" data-aos-duration="600">Research Assistantship Programs</h1>
+    <div class="p-3 col-12" data-aos="fade-up" data-aos-duration="600">
+      <p>
+        Our Research Assistantship programs provides students with hands-on experience in a variety of research
+        areas, allowing them to develop their skills and knowledge while working alongside our team of experts. We
+        believe that this type of immersive learning experience is critical for the growth and development of future
+        researchers, and we are committed to providing our students with the resources and support they need to
+        succeed.
+        <br><br>
+        In addition to providing students with a challenging and rewarding work experience, we also offer
+        mentorship and training opportunities to help them develop their skills and build their professional
+        networks. We believe that investing in the next generation of researchers is not only good for our company
+        but also for the broader research community.
+      </p>
+    </div>
+
+    <div class="col-12 mt-3 mb-5"
+      style="background: url('assets/about/team-2.svg'); border-radius: 15px; height: 350px;  background-position: center; background-size: cover;"
+      data-aos="fade-up" data-aos-duration="600">
+    </div>
+
+    <h1 class="text-center" data-aos="fade-up" data-aos-duration="600">Learning & Development</h1>
+    <div class="p-3 col-12" data-aos="fade-up" data-aos-duration="600">
+      <p>
+        At eiLink, we provide outstanding prospects for honing your professional skills. When you join us, you can
+        kickstart your career journey, advancing from a Research Assistant to a Senior Researcher and even a
+        Stream Lead. Moreover, as our employee, you have the freedom to explore various paths, such as project
+        management, business development, and line management, to further develop your expertise. At eiLink,
+        we foster a culture that highly esteems initiative, responsibility, and taking ownership of your work.
+      </p>
+    </div>
+
+    <div class="col-12 mt-3 mb-5"
+      style="background: url('assets/about/team-1.svg'); border-radius: 15px; height: 350px;  background-position: center; background-size: cover;"
+      data-aos="fade-up" data-aos-duration="600">
+    </div>
+
+    <h1 class="text-center" data-aos="fade-up" data-aos-duration="600">Job Opportunities</h1>
+    <div class="p-3 col-12" data-aos="fade-up" data-aos-duration="600">
+      <p>
+        We are always looking for talented and bright minds. If you want to be involved in creating solutions for
+        sustainable future, eiLink needs you. Explore our latest job opportunities here:
+      </p>
+    </div>
+    <div class="col-12 col-lg-6" *ngFor="let career of careers" data-aos="fade-up" data-aos-duration="600">
+      <div class="vacancy-card d-flex flex-row justify-content-between align-items-center">
+        <div>
+          <h2>{{ career.title }}</h2>
+          <h4><i class="bi bi-geo-alt-fill"></i> {{ career.location }}</h4>
+        </div>
+        <button (click)="navigateTo(career.link)">Apply <i class="bi bi-box-arrow-up-right"></i></button>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+
+<!-- <div id="careers-page">
+  <div class="careers-header" style="background: url('assets/lorem-img/careers-header.jpg');" data-aos="fade-up"
+    data-aos-duration="600">
+    <h1 class="text-center">Careers</h1>
+  </div>
+  <div class="container row m-auto careers-card gy-4">
+    <h1 class="text-center pb-3" data-aos="fade" data-aos-duration="1600">Your next big career move.</h1>
+
+    <div class="row align-items-center pb-5" data-aos="fade-left" data-aos-duration="600">
+      <div class="col-12 col-lg-6">
+        <img style="border-radius: 15px;" src="assets/about/team-3.svg" width="100%" alt="">
+      </div>
+
+      <div class="col-12 col-lg-6">
+        <h4>
+          eiLink was born in collaboration with the Khazar University, so strong relationships with universities and
+          institutions are in our DNA. To foster these collaborations, we administer a number of programs that provide
+          students and recent graduates with resources and support for their academic and professional careers.
+        </h4>
+      </div>
+    </div>
+
+    <div class="row align-items-center pb-5" data-aos="fade-right" data-aos-duration="600">
+      <div class="col-12 col-lg-6">
+        <h4>
+          Our Research Assistantship programs provides students with hands-on experience in a variety of research areas,
+          allowing them to develop their skills and knowledge while working alongside our team of experts. We believe
+          that this type of immersive learning experience is critical for the growth and development of future
+          researchers, and we are committed to providing our students with the resources and support they need to
+          succeed.
+        </h4>
+      </div>
+      <div class="col-12 col-lg-6">
+        <img style="border-radius: 15px;" src="assets/about/team-4.svg" width="100%" alt="">
+      </div>
+    </div>
+
+    <div class="row align-items-center pb-5" data-aos="fade-left" data-aos-duration="600">
+      <div class="col-12 col-lg-6">
+        <img style="border-radius: 15px;" src="assets/about/team-5.svg" width="100%" alt="">
+      </div>
+
+      <div class="col-12 col-lg-6">
+        <h4>
+          In addition to providing students with a challenging and rewarding work experience, we also offer mentorship
+          and training opportunities to help them develop their skills and build their professional networks. We believe
+          that investing in the next generation of researchers is not only good for our company but also for the broader
+          research community.
+        </h4>
+      </div>
+    </div>
+
+    <div class="row align-items-center pb-5" data-aos="fade-up" data-aos-duration="600">
+      <div class="col-12">
+        <h4 class="text-center">
+          At eiLink, we are committed to empowering the next generation of researchers and providing them with the
+          resources and support they need to succeed. Join our team and be a part of a research-driven organization that
+          fosters collaboration and innovation.
+        </h4>
+      </div>
+    </div>
+
+    <h1 class="text-center" data-aos="fade-up" data-aos-duration="600">Explore our job opportunities.</h1>
+    <div class="col-12 col-lg-6" *ngFor="let career of careers" data-aos="fade-up" data-aos-duration="600">
+      <div class="vacancy-card d-flex flex-row justify-content-between align-items-center">
+        <div>
+          <h2>{{ career.title }}</h2>
+          <h4><i class="bi bi-geo-alt-fill"></i> {{ career.location }}</h4>
+        </div>
+        <button (click)="navigateTo(career.link)">Apply <i class="bi bi-box-arrow-up-right"></i></button>
+      </div>
+    </div>
+  </div>
+</div> -->

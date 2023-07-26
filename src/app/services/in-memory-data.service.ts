@@ -207,22 +207,28 @@ export class InMemoryDataService implements InMemoryDbService {
     let careers = [
       {
         id: 0,
-        title: 'Junior Data Scientist',
+        title: 'Drilling Engineer',
         location: 'Baku, Azerbaijan',
-        link: 'https://forms.clickup.com/31136212/f/xp6em-2203/WC4TOGVZLPORSGZCR7'
+        link: 'https://forms.clickup.com/31136212/f/xp6em-3003/JBE176JGLPJ4UK6UEX'
       },
       {
         id: 1,
-        title: 'Graduate Petroleum Engineer',
+        title: 'Wellsite Geologist',
         location: 'Baku, Azerbaijan',
-        link: 'https://forms.clickup.com/31136212/f/xp6em-2223/WEMFF72L67VTX7UFCK'
-      }/* ,
+        link: 'https://forms.clickup.com/31136212/f/xp6em-3043/L072IVQSS16V1B58H4'
+      },
       {
         id: 2,
-        title: 'Junior Applied Scientist on Image Processing',
+        title: 'Geomechanics Specialist',
         location: 'Baku, Azerbaijan',
-        link: 'https://forms.clickup.com/31136212/f/xp6em-2363/I0ARXOVYB09LBDFIAM'
-      } */
+        link: 'https://forms.clickup.com/31136212/f/xp6em-2903/VQ12W6Z5X25MJJL6OZ'
+      },
+      {
+        id: 3,
+        title: 'Petroleum Engineer',
+        location: 'Baku, Azerbaijan',
+        link: 'https://forms.clickup.com/31136212/f/xp6em-2863/M8WC08KR0HPR49UQ5E'
+      }
     ];
 
     let team = [

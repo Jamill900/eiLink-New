@@ -1,0 +1,94 @@
+.careers-header {
+  background-position: center !important;
+  background-size: cover !important;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 30px;
+
+  h1 {
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 45px;
+    color: var(--white);
+    text-align: center;
+  }
+
+  p {
+    font-size: 14px;
+    line-height: 24px;
+    color: var(--white);
+    letter-spacing: 1px;
+    max-width: 700px;
+  }
+}
+
+.careers-content {
+  //max-width: 1000px;
+  //margin: auto;
+  //padding-bottom: 50px;
+
+  h1 {
+    font-weight: 400;
+    font-size: 26px;
+    padding: 0;
+    color: var(--darkBlue);
+  }
+}
+
+p {
+  line-height: 35px;
+  font-size: 16px;
+}
+
+h3 {
+  color: var(--darkBlue);
+  padding-top: 10px;
+}
+
+
+.container {
+  max-width: 1000px;
+}
+
+.vacancy-card {
+  background: #f6f6f6;
+  border-radius: 15px;
+  padding: 30px 40px;
+  margin-bottom: 25px;
+  height: 180px;
+
+  h4 {
+    margin-bottom: 0;
+    color: var(--grey);
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+
+  button {
+    display: flex;
+    flex-direction: row;
+    margin-left: 10px;
+    font-weight: 500;
+    font-size: 12px;
+    color: var(--darkBlue);
+    outline: none;
+    border: none;
+    border: 1px solid #144571;
+    border-radius: 70px;
+    background: transparent;
+    padding: 7px 20px;
+    transition: all .2s linear;
+
+    i {
+      margin-left: 5px;
+    }
+  }
+
+  button:hover {
+    color: var(--white);
+    background: var(--darkBlue);
+  }
+}

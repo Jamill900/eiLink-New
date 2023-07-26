@@ -32,6 +32,8 @@ import { PublicationsPageComponent } from './components/publications-page/public
 import { ResearchAreasPageComponent } from './components/research-areas-page/research-areas-page.component';
 import { ResearchAreaDetailsComponent } from './components/research-area-details/research-area-details.component';
 import { ContactComponent } from './components/contact/contact.component';
+import { LifeComponent } from './components/life/life.component';
+import { OpportunitiesComponent } from './components/opportunities/opportunities.component';
 
 
 @NgModule({
@@ -58,6 +60,8 @@ import { ContactComponent } from './components/contact/contact.component';
     ResearchAreasPageComponent,
     ResearchAreaDetailsComponent,
     ContactComponent,
+    LifeComponent,
+    OpportunitiesComponent,
   ],
   imports: [
     BrowserModule,
