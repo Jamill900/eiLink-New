@@ -48,9 +48,9 @@
       </p>
     </div>
     <div class="related-area-content m-auto row projects-card" data-aos="fade-up" data-aos-duration="600">
-      <h2 style="color: var(--darkBlue); font-weight: 400;"
+      <h2 style="color: var(--darkBlue); font-weight: 400;" *ngIf="researchArea.id != 8"
           class="text-left mt-3" data-aos="fade-up" data-aos-duration="600">Related Projects</h2>
-      <div class="col-lg-4 col-12" *ngFor="let project of projects">
+      <div class="col-lg-4 col-12" *ngFor="let project of projects"  data-aos="fade-up" data-aos-duration="600">
         <img routerLink="/projects/{{ project.id }}" src="{{ 'assets/projects/project-images/project-' + project.pictureId + '.jpg' }}" alt=""
           width="100%">
         <h2>{{ project.title }}</h2>

@@ -25,7 +25,7 @@ export class ProjectsComponent implements OnInit {
   getProjects() {
     this.loading = true;
     this.database.getProjects().subscribe(projects => {
-      this.projects = projects.reverse();
+      this.projects = projects;
     })
   }
 

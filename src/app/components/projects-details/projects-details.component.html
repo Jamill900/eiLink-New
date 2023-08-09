@@ -346,7 +346,8 @@
           measured inputs (Fig 5). Moreover, we have accomplished this result with a 26% lower prediction range and 2880
           times faster runtime than the analytical methods.
         </p>
-        <img src="assets/projects/project-10/image-5.jpg" alt="" style="width:100%; max-width: 400px;" data-aos="fade-up" data-aos-duration="600">
+        <img src="assets/projects/project-10/image-5.jpg" alt="" style="width:100%; max-width: 400px;"
+          data-aos="fade-up" data-aos-duration="600">
         <figure data-aos="fade-up" data-aos-duration="600">
           <img src="assets/projects/project-10/image-4.jpg" alt="" style="width:100%; max-width: 400px;">
           <figcaption>Fig 4. (A) Applied metric, (B) Accuracy of ML (115 wells)</figcaption>
@@ -388,6 +389,153 @@
           The given product eliminates manual input and visual inspection. Additionally, it increases the predictability
           of ICV failures, minimizes consequences, and gives insights on ICV operations.
         </p>
+      </div>
+
+
+      <!-- Project 11 -->
+      <div class="project-content text-center" *ngIf="project.id == 11">
+        <p data-aos="fade-up" data-aos-duration="600">
+          About 70% of the world’s hydrocarbon reserves are contained in weakly consolidated sandstone reservoirs, and
+          hence they are prone to sand production. Sandstone degradation and detachment of particles are caused by the
+          strength-weakening effect of water, depletion of reservoir pressure, operational conditions, and a
+          high-pressure gradient of fluid flow. Producing sand is a very complex challenge in the oil and gas industry
+          as it can create serious problems, including but not limited to abrasion of downhole tubular/casing,
+          subsurface and surface equipment; casing/tubing buckling, failure of casing or liners from the removal of
+          surrounding formation, compaction and erosion; and loss of production caused by sand bridging in tubing and/or
+          flow lines, adversely affecting oil-water separation. This creates both safety and economic concerns by
+          harming the integrity of the well and reducing hydrocarbon reduction.
+          <br><br>
+          One way of mitigating sand production issues is to predict it beforehand its occurrence. Previously, different
+          approaches, such as numerical models, analytical and empirical relationships, and physical model testing, have
+          been developed to overcome this issue. These approaches, however, have not gained industry reliance and have
+          not been applied in day-to-day operations due to their limitations. Our purpose is to propose an easy-to-use
+          and reliable solution for the customer that can constantly be utilized in daily operations by the petroleum
+          engineers.
+          <br><br>
+          To solve this complex and multidimensional problem, we take a physics-based, data-driven approach using
+          machine learning techniques. The initial step was to create an integrated database of Completion, Production
+          and Petrophysics data by collecting from various resources. Although some data is readily available, most of
+          it is obtained using advanced feature engineering techniques. The crucial step of using data in a diligent way
+          comes from understanding which physical parameters have a direct or indirect impact on sand production. Data
+          analytics techniques have been used to recognize previously unknown patterns in the wells by revealing key
+          reasons and parameters distinguishing sandy and non-sandy wells on a quantitative level.
+          <br><br>
+          Currently, conventional machine learning algorithms are used to predict the probability of having sand in the
+          wells. The goal of the machine learning algorithm is to separate sandy from non-sandy wells based on
+          combinations of the input parameters. Training and test data have been customized and logically prepared to
+          maximize the accuracy of the machine-learning model. Different algorithms are tested in parallel to compare
+          the performance and abilities of models and select the most suitable one for the sand production prediction
+          problem.
+          <br><br>
+          The project is currently in its third phase, and until now, we have been able to differentiate between wells
+          that are at risk of sand production and non-concerning ones. The next stage intends to predict the approximate
+          time and conditions at which sand will be produced for each well during its lifetime. The model will receive
+          dynamic and static data on a daily basis, and if a petroleum engineer observes an increasing probability
+          within a certain timeframe, they can take a series of actions beforehand to prevent potential sand production.
+          <br><br>
+          Besides, the integrated database of completion, production, and petrophysics data has become a very valuable
+          source for data analytics and to answer important questions of customers about historical production trends,
+          the health of the wells, and potential causes of sanding.
+        </p>
+      </div>
+
+
+      <!-- Project 12 -->
+      <div class="project-content text-center" *ngIf="project.id == 12">
+        <p data-aos="fade-up" data-aos-duration="600">
+          Complimentary tool for fast reservoir simulations gives following benefits:
+        </p>
+        <ul data-aos="fade-up" data-aos-duration="600">
+          <li>Significant run time acceleration</li>
+          <li>Pressure and Saturations distributions of the field</li>
+          <li>Well rate outputs</li>
+        </ul>
+        <p data-aos="fade-up" data-aos-duration="600">
+          Applicability of the proxy model includes:
+        </p>
+        <ul data-aos="fade-up" data-aos-duration="600">
+          <li>Sensitivity analysis (multiple runs of FFM) of certain parameters</li>
+          <li>Backend for assisted history matching</li>
+          <li>Backend for optimization (increase of NPV)</li>
+        </ul>
+        <img src="assets/projects/project-12/image-1.jpg" alt="" width="100%" data-aos="fade-up"
+          data-aos-duration="600">
+      </div>
+
+      <!-- Project 13 -->
+      <div class="project-content text-center" *ngIf="project.id == 13">
+        <p data-aos="fade-up" data-aos-duration="600">
+          Numerical Well Testing toolkit (Nexus backended) consists of several modules and automates:
+        </p>
+        <ul data-aos="fade-up" data-aos-duration="600">
+          <li>Selection of the area of study (polygon clipping in Coviz)</li>
+          <li>Conversion of CPG to PEBI grids</li>
+          <li>Flexible near wellbore discretization & complex structures (faults, boundaries)</li>
+          <li>Preprocessing for simulation in Nexus</li>
+          <li>Visualization and numerical well testing</li>
+        </ul>
+        <p data-aos="fade-up" data-aos-duration="600">
+          Preprocessing for simulation in Nexus include following calculations:
+        </p>
+        <ul data-aos="fade-up" data-aos-duration="600">
+          <li>Depth of centroids</li>
+          <li>Pore Volume</li>
+          <li>Generation of connection list</li>
+          <li>Coordinates of vertexes</li>
+          <li>Number of vertexes per PEBI cell</li>
+          <li>Calculation of face transmissibilities</li>
+          <li>Calculation of effective grid block radius </li>
+        </ul>
+        <img src="assets/projects/project-13/image-1.jpg" alt="" width="100%" data-aos="fade-up"
+          data-aos-duration="600">
+      </div>
+
+
+      <!-- Project 14 -->
+      <div class="project-content text-center" *ngIf="project.id == 14">
+        <p data-aos="fade-up" data-aos-duration="600">
+          The ACG stands for Azeri-Chirag-Guneshli, which is a large oil field located in the Caspian Sea. It is a
+          complex reservoir system with multiple layers of hydrocarbon-bearing formation.
+          <br><br>
+          The study was carried out for AIOC, and the scope compromises model calibration by adjusting the reservoir
+          properties to improve the fit between the simulation results and field data. The scope of the project includes
+          three main layers of the field such as Balakhani 8, Balakhani 10, and Fasila.
+          <br><br>
+          The complex and time-consuming process requires expertise in reservoir engineering, geology, and numerical
+          modeling. Data analysis is conducted to improve the quality of input information to assure the accuracy of the
+          history-matched model.
+        </p>
+        <img src="assets/projects/project-14/image-1.jpg" alt="" width="100%" data-aos="fade-up"
+          data-aos-duration="600">
+      </div>
+
+
+      <!-- Project 15 -->
+      <div class="project-content text-center" *ngIf="project.id == 15">
+        <p data-aos="fade-up" data-aos-duration="600">
+          Motivation in development of the toolkit was the absence of open source or commercial tool for Distributed
+          Acoustic Sensing (DAS) processing and visualization. Hence, the objective was set to develop a toolkit and
+          integrated into Techlog as a new module. Several signal processing functionalities are easily accessible.
+        </p>
+        <img src="assets/projects/project-15/image-1.jpg" alt="" width="100%" data-aos="fade-up"
+          data-aos-duration="600">
+      </div>
+
+      <!-- Project 15 -->
+      <div class="project-content text-center" *ngIf="project.id == 16">
+        <p data-aos="fade-up" data-aos-duration="600">
+          The experiments for estimation of endpoint saturations and reconstruction of relative permeability curves are
+          time consuming and costly to perform, thus, doing sensitivity analysis on such experiments are temporally and
+          financially infeasible. Therefore, it is of high importance to scrupulously simulate fluid flow on a digital
+          rock sample to mitigate its industrial confrontations.
+          <br><br>
+          In this study we aim to substitute the experiments mentioned above with The Lattice Boltzmann Method (LBM) – a
+          mesoscopic approach to model the fluid phenomena. We utilize the Shan-Chen MCMP model to simulate the
+          two-phase fluid behavior. The inherent parallelism capability of the model also allows us to implement
+          algorithm on parallel processors.
+        </p>
+        <img src="assets/projects/project-16/image-1.jpg" alt="" width="100%" data-aos="fade-up"
+          data-aos-duration="600">
       </div>
 
 

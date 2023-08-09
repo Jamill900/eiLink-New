@@ -10,52 +10,44 @@
       <!-- Products 0 -->
       <div class="project-content text-center" *ngIf="product.id == 0">
         <p data-aos="fade-up" data-aos-duration="600">
-          About 70% of the world’s hydrocarbon reserves are contained in weakly consolidated sandstone reservoirs, and
-          hence they are prone to sand production. Sandstone degradation and detachment of particles are caused by the
-          strength-weakening effect of water, depletion of reservoir pressure, operational conditions, and a
-          high-pressure gradient of fluid flow. Producing sand is a very complex challenge in the oil and gas industry
-          as it can create serious problems, including but not limited to abrasion of downhole tubular/casing,
-          subsurface and surface equipment; casing/tubing buckling, failure of casing or liners from the removal of
-          surrounding formation, compaction and erosion; and loss of production caused by sand bridging in tubing and/or
-          flow lines, adversely affecting oil-water separation. This creates both safety and economic concerns by
-          harming the integrity of the well and reducing hydrocarbon reduction.
+          The framework of the project was to develop a Machine Learning (ML) based model for one of our clients in the
+          oil & gas industry to qualitatively identify sand production events by classifying signals created by sand
+          particles and other sources.
           <br><br>
-          One way of mitigating sand production issues is to predict it beforehand its occurrence. Previously, different
-          approaches, such as numerical models, analytical and empirical relationships, and physical model testing, have
-          been developed to overcome this issue. These approaches, however, have not gained industry reliance and have
-          not been applied in day-to-day operations due to their limitations. Our purpose is to propose an easy-to-use
-          and reliable solution for the customer that can constantly be utilized in daily operations by the petroleum
-          engineers.
+          Sand production is a major risk for safe and economical operations. The failure to develop an accurate sand
+          production models costs the oil and gas industry significant resources to either repair or reinstall well
+          equipment. The identification of a sand event in real-time is not trivial. The most reliable way to detect
+          sand events precisely would be sampling and further laboratory measurements. However, this cannot be done on
+          field with hundreds of wells continuously and at any time. An alternative option is to monitor the well with
+          non-intrusive acoustic sand detector (ASD), which, among any other existing signals, measures the noise of
+          collision of sand particles with pipe wall in an elbow.
           <br><br>
-          To solve this complex and multidimensional problem, we take a physics-based, data-driven approach using
-          machine learning techniques. The initial step was to create an integrated database of Completion, Production
-          and Petrophysics data by collecting from various resources. Although some data is readily available, most of
-          it is obtained using advanced feature engineering techniques. The crucial step of using data in a diligent way
-          comes from understanding which physical parameters have a direct or indirect impact on sand production. Data
-          analytics techniques have been used to recognize previously unknown patterns in the wells by revealing key
-          reasons and parameters distinguishing sandy and non-sandy wells on a quantitative level.
+          ASD signal is interference of multiples acoustic sources. Complexity requires development of advance
+          algorithms to eliminate abundant false notifications of conventional. False notifications can occur due to
+          change in flow regime, choke, gas lift rate, or environmental noises. Laboratory works also prove that
+          detection of sand events by acoustic detectors is very complicated process and gave motivation for application
+          of machine and deep learning methodologies in the scope of this study.
           <br><br>
-          Currently, conventional machine learning algorithms are used to predict the probability of having sand in the
-          wells. The goal of the machine learning algorithm is to separate sandy from non-sandy wells based on
-          combinations of the input parameters. Training and test data have been customized and logically prepared to
-          maximize the accuracy of the machine-learning model. Different algorithms are tested in parallel to compare
-          the performance and abilities of models and select the most suitable one for the sand production prediction
-          problem.
+          The study focused on detecting sand production events using machine learning techniques in an oil field.
+          Events with sand concentration above 5 pptb were considered as sand events. The data ware collected from wells
+          with various petrophysical properties, and the dataset included parameters such as pressure, choke, and
+          acoustic detector signals. The training and testing dataset was prepared with labeled samples for sand and
+          no-sand events and statistical features were extracted from the labeled data.
           <br><br>
-          The project is currently in its third phase, and until now, we have been able to differentiate between wells
-          that are at risk of sand production and non-concerning ones. The next stage intends to predict the approximate
-          time and conditions at which sand will be produced for each well during its lifetime. The model will receive
-          dynamic and static data on a daily basis, and if a petroleum engineer observes an increasing probability
-          within a certain timeframe, they can take a series of actions beforehand to prevent potential sand production.
+          Different machine learning algorithms were examined. The results illustrate that the decision tree based
+          ensemble models were the ones that have the highest accuracy. The selected Random Forest Classifier model was
+          tested on 16 wells for 332 sand event and the accuracy of the RFC model was 76.8%.
           <br><br>
-          Besides, the integrated database of completion, production, and petrophysics data has become a very valuable
-          source for data analytics and to answer important questions of customers about historical production trends,
-          the health of the wells, and potential causes of sanding.
+          There are numerous advantages of using ML algorithm. ML algorithm helps to handle high number of the wells
+          (e.g. 100+ wells for a given field) simultaneously. It is unbiased data driven methodology based on historical
+          events. ML algorithm can recognize data-inherited “unseen” tendencies and enhances sand monitoring capability
+          for petroleum engineers. It also increases reliability of acoustic sand detector when used together.
         </p>
+        <img src="assets/projects/product-0/image-1.jpg" alt="" style="width:100%" data-aos="fade-up"
+          data-aos-duration="600">
       </div>
 
       <!-- Product 1 -->
-
       <div class="project-content" *ngIf="product.id == 1">
         <p data-aos="fade-up" data-aos-duration="600">
           Rapidly reducing methane emissions from the oil and gas sector is one of the fastest, most cost-effective
@@ -65,11 +57,10 @@
           energy production.
         </p>
         <br>
-        <iframe width="100%" src="https://www.youtube.com/embed/CKXFgHXo2Hk" title="VOLTACH4"
-          frameborder="0"
+        <iframe width="100%" src="https://www.youtube.com/embed/CKXFgHXo2Hk" title="VOLTACH4" frameborder="0"
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-          allowfullscreen  data-aos="fade-up" data-aos-duration="600"></iframe>
-          <br><br>
+          allowfullscreen data-aos="fade-up" data-aos-duration="600"></iframe>
+        <br><br>
         <p data-aos="fade-up" data-aos-duration="600">
           VOLTACH4 is a breakthrough solution using satellite imagery, thermal drones, and AI algorithms to geolocate
           and quantify methane emissions in oil and gas operations. Infrared satellite imagery system detects and
@@ -84,7 +75,6 @@
 
 
       <!-- Product 2 -->
-
       <div class="project-content text-center" *ngIf="product.id == 2">
         <p data-aos="fade-up" data-aos-duration="600">
           Wax precipitation is one of the most challenging flow assurance problems in the oil and gas industry, as it
@@ -132,7 +122,6 @@
       </div>
 
       <!-- Product 3 -->
-
       <div class="project-content text-center" *ngIf="product.id == 3">
         <p data-aos="fade-up" data-aos-duration="600">
           Analytical software combines cutting-edge digital technologies as well as industry know-how in order to
@@ -168,6 +157,54 @@
           core visualization package and adding custom-made ML and calculation modules tailored specifically for those
           specific fields. Due to the cloud nature of the toolkit, no change in infrastructure is required. ePattern
           could be used in any field that is data-driven and has an existing database.
+        </p>
+      </div>
+
+
+      <!-- Product 4 -->
+      <div class="project-content text-center" *ngIf="product.id == 4">
+        <p data-aos="fade-up" data-aos-duration="600">
+          The Sand ML Shahdeniz product is an advanced software solution designed to address the critical challenge of
+          sand detection in gas wells. It harnesses the power of Machine Learning (ML) to automatically and accurately
+          identify sand occurrences in real-time. By analyzing data from multiple sensors, including Acoustic Sand
+          Detector (ASD), Downhole Pressure (DHP), and choke, the product provides timely alerts to operators, enabling
+          proactive maintenance and efficient sand mitigation strategies.
+          <br><br>
+          Detecting sand in gas wells is essential for ensuring operational efficiency, minimizing equipment damage, and
+          safeguarding personnel safety. Traditional manual methods of sand detection can be time-consuming and prone to
+          errors, leading to potential delays in addressing sand-related issues. The Sand ML Shahdeniz product was
+          developed to revolutionize sand detection, providing an automated and reliable solution that detects sand
+          events promptly, allowing operators to make informed decisions to optimize gas well production.
+          <br><br>
+          The Sand ML Shahdeniz product employs an ensemble of Artificial Intelligence and Rule-Based Algorithm. The AI
+          model, namely Aunoencoder, learns to reconstruct the input data and can identify patterns and anomalies in the
+          process. This architecture allows the model to capture complex relationships within the data and detect sand
+          occurrences accurately. In addition to the autoencoder, we integrated a rule-based model to incorporate domain
+          knowledge and enhance the model's interpretability.
+        </p>
+        <figure data-aos="fade-up" data-aos-duration="600">
+          <img src="assets/projects/product-4/image-1.jpg" alt="" style="width:100%;">
+          <figcaption>Figure 5. Ensemble process of Autoencoder and Rule-Based model results</figcaption>
+        </figure>
+        <p data-aos="fade-up" data-aos-duration="600">
+          The Sand ML Shahdeniz product delivers significant value to gas well operations:
+        </p>
+        <ol data-aos="fade-up" data-aos-duration="600">
+          <li><strong>Real-Time Detection:</strong> The product ensures timely detection of sand occurrences, allowing
+            operators to take immediate action to prevent equipment damage and production disruptions.</li>
+          <li><strong>Efficient Maintenance:</strong> By proactively addressing sand-related issues, the product
+            optimizes gas well maintenance, reducing downtime and associated costs.</li>
+          <li><strong>Risk Mitigation:</strong> Accurate sand detection enhances safety by minimizing the risks
+            associated with sand production, safeguarding personnel and equipment.</li>
+          <li><strong>Data-Driven Decisions:</strong> The product provides comprehensive insights and visualizations
+            through user-friendly dashboards, empowering operators to make informed, data-driven decisions.</li>
+          <li><strong>Cost Savings:</strong> By preventing unnecessary maintenance and minimizing false alarms, the Sand
+            ML Shahdeniz product leads to cost savings and improved operational efficiency.</li>
+        </ol>
+        <p data-aos="fade-up" data-aos-duration="600">
+          The Sand ML Shahdeniz product is the cutting-edge solution that elevates gas well operations, providing
+          unparalleled sand detection capabilities and contributing to safer, more productive, and efficient gas
+          production.
         </p>
       </div>
 
