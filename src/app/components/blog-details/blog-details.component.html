@@ -6,44 +6,18 @@
           <img src="{{ post.cover }}" alt="" width="100%">
         </div>
 
-        <div class="col-lg-7 col-12 p-5" *ngIf="post.id == 0" data-aos="fade-left" data-aos-duration="600">
+        <div class="col-lg-7 col-12 p-5" *ngIf="post.id != 4" data-aos="fade-left" data-aos-duration="600">
           <h1>{{ post.title }}</h1>
           <p>{{ post.description }}</p>
-          <span>{{ post.hashtags }}</span>
         </div>
 
-        <div class="col-lg-7 col-12 p-5" *ngIf="post.id == 1" data-aos="fade-left" data-aos-duration="600">
+        <div class="col-lg-7 col-12 p-5" *ngIf="post.id == 4" data-aos="fade-left" data-aos-duration="600">
           <h1>{{ post.title }}</h1>
-          <p>{{ post.description }}</p>
-          <ul>
-            <li>Geoscience</li>
-            <li>Oil & Gas Production Technology</li>
-            <li>Reservoir Modelling & Characterization</li>
-            <li>Drilling & Well interventions</li>
-            <li>Fluid Mechanics & Applied Thermodynamics</li>
-            <li>Remote Sensing</li>
-            <li>Signal Processing</li>
-            <li>Development of Artificial Intellingence (ML & DL) frameworks</li>
-            <li>Software & Web Solutions</li>
-            <li>Digital Twin Development</li>
-          </ul>
-          <span>{{ post.hashtags }}</span>
-        </div>
-
-        <div class="col-lg-7 col-12 p-5" *ngIf="post.id == 2" data-aos="fade-left" data-aos-duration="600">
-          <h1>{{ post.title }}</h1>
-          <p>{{ post.description }}</p>
-          <a (click)="navigateTo('https://ei-g.com/annuli-monitoring/')">🔗 Learn more</a>
+          <p>Initially created with the purpose of strengthening educational research capacity, eiLink is now a business unit offering value-added services addressing emerging technical and technological issues.
+            We strive to transform ideas, studies, and developments into innovative R&D products to expand our customers’ impact as well as solving challenges they face.
+          </p>
           <br><br>
-          <span>{{ post.hashtags }}</span>
-        </div>
-
-        <div class="col-lg-7 col-12 p-5" *ngIf="post.id == 3" data-aos="fade-left" data-aos-duration="600">
-          <h1>{{ post.title }}</h1>
-          <p>🔎 {{ post.description }}</p>
-          <a (click)="navigateTo('https://ei-g.com/sand-prediction/')">🔗 Learn more</a>
-          <br><br>
-          <span>{{ post.hashtags }}</span>
+          <p>🔗 Learn more about us: <a href="https://eilink.az/home">eilink.az</a></p>
         </div>
       </div>
     </div>

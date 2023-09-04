@@ -506,34 +506,50 @@ export class InMemoryDataService implements InMemoryDbService {
     let blog = [
       {
         id: 0,
-        title: 'Finding Solutions to Technical Problems',
+        title: 'eiLink at 84th EAGE Annual Conference',
         tag: 'Blog Post',
-        description: 'Initially created with the purpose of strengthening educational research capacity, eiLink is now a business unit offering value-added services addressing emerging technical and technological issues.\n\nWe strive to transform ideas, studies, and developments into innovative R&D products to expand our customers’ impact as well as solving challenges they face.\n\n',
+        description: 'We are pleased to share that Shahriyar Alkhasli, the Director and Elmir Abilov, the Junior Researcher at eiLink, along with Ahad Pashayev, the Sand Theme Lead from BP AGT participated in the 84th EAGE Annual Conference held in Vienna, Austria.\n\nOur Sand Theme team together with BP AGT Petroleum Engineers published the paper titled "Real-time detection of sand production event by application of machine learning techniques" which was presented at the "Machine learning, AI and Digitization for More Efficient Operations" session of the Conference. During the presentation Elmir shared on eiLink’s developed machine learning model, which effectively detects sand events during oil production and provides real-time alerts.\n\nWe express our gratitude to BP AGT, SOCAR, and all the ACG partners for granting permission to present this paper. We also extend our best wishes to our Sand Theme team for continued success in their endeavours!',
         cover: 'assets/blog/blog-0.jpg',
         hashtags: '#research #business #eilink #eigroup'
       },
       {
         id: 1,
-        title: 'Pursuing Excellence in Various Industries',
+        title: 'eiGroup  at ADA University Career Fair 2023',
         tag: 'Blog Post',
-        description: 'eiLink endeavors to achieve technical excellence by leveraging its vast expertise across multiple domains. Through the integration of a multidisciplinary approach, we aim to provide effective solutions that cater to diverse areas of application.\n\nSuch an approach allows for the optimal utilization of knowledge and resources, enabling us to provide cutting-edge solutions that meet the complex demands in various areas:',
+        description: 'On April 27 eiGroup had the pleasure of participating in the traditional ADA University Career Fair 2023. This event provided us with a great opportunity to engage with some of the brightest and most ambitious students in Azerbaijan, who are interested in exploring exciting career opportunities within our organization.\n\nThroughout the event, we were able to showcase our company’s mission, values, and the various career paths available within our organization. We were highly impressed by the level of enthusiasm and interest that students have shown.\n\nWe believe that investing in the next generation of talent is essential, and we were thrilled to have the opportunity to connect with so many talented individuals. We are grateful to the organizers for hosting such a well-organized and engaging event, which enabled us to connect with potential candidates from diverse backgrounds and disciplines.',
         cover: 'assets/blog/blog-1.jpg',
         hashtags: '#technology #development #artificialintelligence #gas #oil #software #remotesensing #signalprocessing #fluidmechanics #websolutions #characterization #drilling'
       },
       {
         id: 2,
-        title: 'Annuli Monitoring',
+        title: 'Integrated Data Science Solutions For Sand Production',
         tag: 'Blog Post',
-        description: 'We developed a tool to improve monitoring of #annulus pressures and detection of build-ups with minimum input by engineers.\n\nThis tool minimizes the work done by engineers by giving information about potential build-ups for different time periods and increases success for well integrity with improved monitoring and detection. It reduces analysis time and makes it possible to track and analyse around 200 well annulus pressure measurements simultaneously.',
+        description: 'Producing sand is a very complex challenge in the oil and gas industry as it can create serious problems. This creates both safety and economic concerns by harming the integrity of the well and reducing hydrocarbon reduction. To solve this complex and multidimensional problem, we take a physics-based, data-driven approach using machine learning techniques.\n\nThe project is currently in its third phase, and until now, we have been able to differentiate between wells that are at risk of sand production and non-concerning ones. The next stage intends to predict the approximate time and conditions at which sand will be produced for each well during its lifetime.',
         cover: 'assets/blog/blog-2.jpg',
         hashtags: '#work #success #engineers #annulus #well'
       },
       {
         id: 3,
-        title: 'Integrated Data Science Solutions For Sand Production',
+        title: 'Presenting two innovative sand management projects at bp Azerbaijan',
+        tag: 'Blog Post',
+        description: 'eiLink, presented two innovative sand management projects at bp Azerbaijan’s "Sand Management" workshop held in Baku.\n\nThe workshop was organized with the objective of sharing previous experiences and learning on the subject of sand management.During the event, industry experts, bp representatives, partners, and service providers came together to discuss effective sand management practices, including the latest technologies and techniques for mitigating sand production issues in oil and gas wells.\n\neiLink’s team presented two groundbreaking projects, including the real-time sand production detection using machine learning methods, and sand production prediction of ACG field using data-driven techniques.\n\nWe remain committed to developing cutting-edge solutions in and addressing the most pressing challenges facing the industry. As a part of @eigroup, we believe that innovation and excellence are key to driving progress and achieving success in the rapidly evolving energy landscape.',
+        cover: 'assets/blog/blog-3.jpg',
+        hashtags: '#safety #machinelearning #project #data #oilandgas #stage'
+      },
+      {
+        id: 4,
+        title: 'Finding solutions for technical problems',
         tag: 'Blog Post',
         description: 'Producing sand is a very complex challenge in the oil and gas industry as it can create serious problems. This creates both safety and economic concerns by harming the integrity of the well and reducing hydrocarbon reduction.\n\n💡 To solve this complex and multidimensional problem, we take a physics-based, data-driven approach using machine learning techniques.\n\n 📈 The project is currently in its third phase, and until now, we have been able to differentiate between wells that are at risk of sand production and non-concerning ones. The next stage intends to predict the approximate time and conditions at which sand will be produced for each well during its lifetime.',
-        cover: 'assets/blog/blog-3.jpg',
+        cover: 'assets/blog/blog-4.jpg',
+        hashtags: '#safety #machinelearning #project #data #oilandgas #stage'
+      },
+      {
+        id: 5,
+        title: '7 Years Anniversary',
+        tag: 'Blog Post',
+        description: 'We just turned SEVEN!🎂\n\nWe started small, but over the last seven years, our project portfolio has grown, and new talents have joined our team.\n\nThis is just the beginning. We are thankful to the people who have worked along with us throughout the past years and made us bigger and better. Many more to come!🎉',
+        cover: 'assets/blog/blog-5.jpg',
         hashtags: '#safety #machinelearning #project #data #oilandgas #stage'
       }
     ]

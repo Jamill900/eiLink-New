@@ -6,7 +6,7 @@
 
     <div class="blog-posts">
       <div class="blog-card" data-aos="fade-up" data-aos-duration="600"
-        *ngFor="let post of posts | paginate: {itemsPerPage: 3, currentPage: 1}" style="background: url('{{post.cover}}');">
+        *ngFor="let post of posts" style="background: url('{{post.cover}}');">
         <div class="blog-details">
           <button routerLink="/blog/{{ post.id }}">Read More</button>
         </div>
