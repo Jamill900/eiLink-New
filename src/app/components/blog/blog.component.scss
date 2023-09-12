@@ -1,9 +1,8 @@
 .blog-posts {
-
   display: grid;
   grid-template-columns: auto auto auto;
   align-items: center;
-grid-gap: 20px;
+  grid-gap: 20px;
 
   img {
     border-radius: 10px;
@@ -31,7 +30,7 @@ grid-gap: 20px;
     justify-content: center;
     background: rgba(18, 30, 43, 0.6);
     border-radius: 10px;
-    transition: all .2s linear;
+    transition: all 0.2s linear;
 
     button {
       font-weight: 400;
@@ -43,22 +42,19 @@ grid-gap: 20px;
       border-radius: 5px;
       background: transparent;
       padding: 10px 20px;
-      transition: all .2s linear;
-  }
+      transition: all 0.2s linear;
+    }
 
-  button:hover {
-    color: var(--darkBlue);
-    background: var(--white);
-
-  }
+    button:hover {
+      color: var(--darkBlue);
+      background: var(--white);
+    }
   }
   .blog-details:hover {
     opacity: 1;
-    transition: all .2s linear;
+    transition: all 0.2s linear;
   }
 }
-
-
 
 button.view-all {
   margin-top: 50px;
@@ -77,4 +73,10 @@ button.view-all {
 button.view-all:hover {
   color: var(--white);
   background: var(--darkBlue);
+}
+
+@media (max-width: 991px) {
+  .blog-posts {
+    grid-template-columns: auto;
+  }
 }

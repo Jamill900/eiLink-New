@@ -73,3 +73,12 @@ h1 {
 
 
 
+@media (max-width: 991px) {
+  .carousel-caption p {
+    display: none;
+  }
+
+  .carousel-caption h1 {
+    font-size: 16px;
+  }
+}

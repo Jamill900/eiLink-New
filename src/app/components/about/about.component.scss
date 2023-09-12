@@ -82,3 +82,9 @@ button:hover {
 .row {
   --bs-gutter-x: 0 !important;
 }
+
+@media (max-width: 991px) {
+  .divider {
+    display: none;
+  }
+}

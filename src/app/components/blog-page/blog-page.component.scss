@@ -78,3 +78,10 @@ button.view-all:hover {
   color: var(--white);
   background: var(--darkBlue);
 }
+
+@media (max-width: 991px) {
+
+  .blog-posts {
+    grid-template-columns: auto;
+  }
+}

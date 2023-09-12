@@ -37,3 +37,13 @@ h2 {
     line-height: 24px;
     color: var(--white);
 }
+
+@media (max-width: 991px) {
+  button {
+    float: left;
+  }
+
+  .careers-footer {
+    border-radius: 0;
+  }
+}

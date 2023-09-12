@@ -84,3 +84,9 @@
     }
   }
 }
+
+@media (max-width: 991px) {
+  .publications {
+    grid-template-columns: auto;
+  }
+}

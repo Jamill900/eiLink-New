@@ -73,3 +73,13 @@ h3 {
   .benefit.four { grid-area: four;}
   .benefit.five { grid-area: five;}
 }
+
+@media (max-width: 991px) {
+  .benefits {
+    grid-template-areas: 'one'
+  'two'
+  'three'
+  'four'
+  'five';
+  }
+}
