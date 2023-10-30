@@ -370,7 +370,6 @@ export class InMemoryDataService implements InMemoryDbService {
         position: 'Junior Researcher',
         linkedIn: '',
         imgSrc: 'assets/people/ramil.jpg',
-        company: 'Waverity'
       },
       {
         id: 8,
