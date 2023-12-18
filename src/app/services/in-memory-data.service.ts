@@ -339,13 +339,29 @@ export class InMemoryDataService implements InMemoryDbService {
       },
       {
         id: 5,
-        name: 'Kamran Mirzabeyli',
+        name: 'Eduard Kotliar',
         position: 'Researcher',
         linkedIn: '',
-        imgSrc: 'assets/people/kamran.jpg'
+        imgSrc: 'assets/people/eduard.jpg'
       },
       {
         id: 6,
+        name: 'Albert Farkhutdinov',
+        position: 'Researcher',
+        linkedIn: '',
+        imgSrc: 'assets/people/artur.jpg',
+        company: 'Waverity'
+      },
+      {
+        id: 7,
+        name: 'Konstantin Matrosov',
+        position: 'Researcher',
+        linkedIn: '',
+        imgSrc: 'assets/people/konstantin.jpg',
+        company: 'Waverity'
+      },
+      {
+        id: 8,
         name: 'Ruslan Malikov',
         position: 'Researcher',
         linkedIn: '',
@@ -353,28 +369,28 @@ export class InMemoryDataService implements InMemoryDbService {
         company: 'Waverity'
       },
       {
-        id: 7,
+        id: 9,
         name: 'Ramil Mamishov',
         position: 'Junior Researcher',
         linkedIn: '',
         imgSrc: 'assets/people/ramil.jpg',
       },
       {
-        id: 8,
+        id: 10,
         name: 'Gunel Rzayeva',
         position: 'Junior Researcher',
         linkedIn: '',
         imgSrc: 'assets/people/gunel.jpg'
       },
       {
-        id: 9,
+        id: 11,
         name: 'Elmir Abilov',
         position: 'Junior Researcher',
         linkedIn: '',
         imgSrc: 'assets/people/elmir.jpg'
       },
       {
-        id: 10,
+        id: 12,
         name: 'Tatyana Yeleskina',
         position: 'Junior Researcher',
         linkedIn: '',
@@ -382,7 +398,7 @@ export class InMemoryDataService implements InMemoryDbService {
         company: 'Waverity'
       },
       {
-        id: 11,
+        id: 13,
         name: 'Javidan Karimli',
         position: 'Junior Researcher',
         linkedIn: '',
@@ -390,7 +406,7 @@ export class InMemoryDataService implements InMemoryDbService {
         company: 'Waverity'
       },
       {
-        id: 12,
+        id: 14,
         name: 'Orkhan Mammadov',
         position: 'Junior Researcher',
         linkedIn: '',
@@ -398,28 +414,28 @@ export class InMemoryDataService implements InMemoryDbService {
         company: 'Waverity'
       },
       {
-        id: 13,
+        id: 15,
         name: 'Aysu Maharramli',
         position: 'Junior Researcher',
         linkedIn: '',
         imgSrc: 'assets/people/aysu.jpg'
       },
       {
-        id: 14,
+        id: 16,
         name: 'Zaur Mirzayev',
         position: 'Junior Researcher',
         linkedIn: '',
         imgSrc: 'assets/people/zaur.jpg',
       },
       {
-        id: 15,
+        id: 17,
         name: 'Zeynallı Nadir',
         position: 'Junior Researcher',
         linkedIn: '',
         imgSrc: 'assets/people/nadir.jpg',
       },
       {
-        id: 16,
+        id: 18,
         name: 'Sabina Mammadova',
         position: 'UX/UI Designer',
         linkedIn: '',
