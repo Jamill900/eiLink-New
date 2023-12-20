@@ -384,13 +384,6 @@ export class InMemoryDataService implements InMemoryDbService {
       },
       {
         id: 11,
-        name: 'Elmir Abilov',
-        position: 'Junior Researcher',
-        linkedIn: '',
-        imgSrc: 'assets/people/elmir.jpg'
-      },
-      {
-        id: 12,
         name: 'Tatyana Yeleskina',
         position: 'Junior Researcher',
         linkedIn: '',
@@ -398,7 +391,7 @@ export class InMemoryDataService implements InMemoryDbService {
         company: 'Waverity'
       },
       {
-        id: 13,
+        id: 12,
         name: 'Javidan Karimli',
         position: 'Junior Researcher',
         linkedIn: '',
@@ -406,7 +399,7 @@ export class InMemoryDataService implements InMemoryDbService {
         company: 'Waverity'
       },
       {
-        id: 14,
+        id: 13,
         name: 'Orkhan Mammadov',
         position: 'Junior Researcher',
         linkedIn: '',
@@ -414,28 +407,28 @@ export class InMemoryDataService implements InMemoryDbService {
         company: 'Waverity'
       },
       {
-        id: 15,
+        id: 14,
         name: 'Aysu Maharramli',
         position: 'Junior Researcher',
         linkedIn: '',
         imgSrc: 'assets/people/aysu.jpg'
       },
       {
-        id: 16,
+        id: 15,
         name: 'Zaur Mirzayev',
         position: 'Junior Researcher',
         linkedIn: '',
         imgSrc: 'assets/people/zaur.jpg',
       },
       {
-        id: 17,
+        id: 16,
         name: 'Zeynallı Nadir',
         position: 'Junior Researcher',
         linkedIn: '',
         imgSrc: 'assets/people/nadir.jpg',
       },
       {
-        id: 18,
+        id: 17,
         name: 'Sabina Mammadova',
         position: 'UX/UI Designer',
         linkedIn: '',
