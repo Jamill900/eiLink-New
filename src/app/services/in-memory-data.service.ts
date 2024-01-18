@@ -110,7 +110,7 @@ export class InMemoryDataService implements InMemoryDbService {
         id: 9,
         pictureId: 10,
         animationOrder: 7,
-        title: 'Prediction of KHeff using artificial intelligence and Numerical Techniques.',
+        title: 'Prediction of KHeff using artificial intelligence and Numerical Techniques',
         date: '9 December 2022',
         author: 'eiLink',
         tag: 'Reservoir Modelling & Characterization',
@@ -296,6 +296,24 @@ export class InMemoryDataService implements InMemoryDbService {
         title: 'Petroleum Engineer',
         location: 'Baku, Azerbaijan',
         link: 'https://forms.clickup.com/31136212/f/xp6em-2863/M8WC08KR0HPR49UQ5E'
+      },
+      {
+        id: 2,
+        title: 'CFD specialist',
+        location: 'Baku, Azerbaijan',
+        link: 'https://forms.clickup.com/31136212/f/xp6em-3558/E6LLZ6ZU5PAMA6H9P7'
+      },
+      {
+        id: 3,
+        title: 'Petroleum Engineering Researcher',
+        location: 'Baku, Azerbaijan',
+        link: 'https://forms.clickup.com/31136212/f/xp6em-3618/3MVT6P15ZWSA8WNNFX'
+      },
+      {
+        id: 4,
+        title: 'Reservoir Engineering Researcher',
+        location: 'Baku, Azerbaijan',
+        link: 'https://forms.clickup.com/31136212/f/xp6em-3658/UATCB6SB21M5UT2MXR'
       }
     ];
 
