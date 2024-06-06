@@ -287,21 +287,21 @@ export class InMemoryDataService implements InMemoryDbService {
     let careers = [
       {
         id: 0,
-        title: 'CFD specialist',
+        title: 'Senior Petroleum Engineer',
         location: 'Baku, Azerbaijan',
-        link: 'https://forms.clickup.com/31136212/f/xp6em-3558/E6LLZ6ZU5PAMA6H9P7'
+        link: 'https://eigroup.breezy.hr/p/c9a195ba1dc1-senior-petroleum-engineering-researcher'
       },
       {
         id: 1,
-        title: 'Petroleum Engineering Researcher',
+        title: 'Junior Geologist',
         location: 'Baku, Azerbaijan',
-        link: 'https://forms.clickup.com/31136212/f/xp6em-3618/3MVT6P15ZWSA8WNNFX'
+        link: 'https://eigroup.breezy.hr/p/c6035c174c9d-geologist'
       },
       {
         id: 2,
-        title: 'Reservoir Engineering Researcher',
+        title: 'Drilling Engineer',
         location: 'Baku, Azerbaijan',
-        link: 'https://forms.clickup.com/31136212/f/xp6em-3658/UATCB6SB21M5UT2MXR'
+        link: 'https://eigroup.breezy.hr/p/261192de6f4c-drilling-engineer'
       }
     ];
 
