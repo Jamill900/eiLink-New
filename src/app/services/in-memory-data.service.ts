@@ -287,22 +287,47 @@ export class InMemoryDataService implements InMemoryDbService {
     let careers = [
       {
         id: 0,
-        title: 'Senior Petroleum Engineer',
+        title: 'Drilling Engineer',
+        location: 'Baku, Azerbaijan',
+        link: 'https://eigroup.breezy.hr/p/261192de6f4c-drilling-engineer'
+      },
+      {
+        id: 1,
+        title: 'Intern (ML Engineering)',
+        location: 'Baku, Azerbaijan',
+        link: 'https://eigroup.breezy.hr/p/69fe589c9021-research-assistant-ml-engineering'
+      },
+      {
+        id: 2,
+        title: 'ML Engineer',
+        location: 'Baku, Azerbaijan',
+        link: 'https://eigroup.breezy.hr/p/f8895a62a2b2-ml-engineer'
+      },
+      {
+        id: 3,
+        title: 'Data Scientist',
+        location: 'Baku, Azerbaijan',
+        link: 'https://eigroup.breezy.hr/p/e9be8a352aa2-data-scientist'
+      },
+      {
+        id: 4,
+        title: 'Petroleum Engineer Researcher',
+        location: 'Baku, Azerbaijan',
+        link: 'https://eigroup.breezy.hr/p/3ca48299fc1c-petroleum-engineering-researcher'
+      },
+      {
+        id: 5,
+        title: 'Senior Petroleum Engineer Researcher',
         location: 'Baku, Azerbaijan',
         link: 'https://eigroup.breezy.hr/p/c9a195ba1dc1-senior-petroleum-engineering-researcher'
       },
       {
-        id: 1,
-        title: 'Junior Geologist',
+        id: 6,
+        title: 'Research Assistant (Petroleum Engineering)',
         location: 'Baku, Azerbaijan',
-        link: 'https://eigroup.breezy.hr/p/c6035c174c9d-geologist'
-      },
-      {
-        id: 2,
-        title: 'Drilling Engineer',
-        location: 'Baku, Azerbaijan',
-        link: 'https://eigroup.breezy.hr/p/261192de6f4c-drilling-engineer'
+        link: 'https://eigroup.breezy.hr/p/fec4ee7bf64b-research-assistant-petroleum-engineering'
       }
+      
     ];
 
     let team = [
