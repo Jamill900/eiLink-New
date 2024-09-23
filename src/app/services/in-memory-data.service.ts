@@ -317,12 +317,6 @@ export class InMemoryDataService implements InMemoryDbService {
       },
       {
         id: 5,
-        title: 'Senior Petroleum Engineer Researcher',
-        location: 'Baku, Azerbaijan',
-        link: 'https://eigroup.breezy.hr/p/c9a195ba1dc1-senior-petroleum-engineering-researcher'
-      },
-      {
-        id: 6,
         title: 'Research Assistant (Petroleum Engineering)',
         location: 'Baku, Azerbaijan',
         link: 'https://eigroup.breezy.hr/p/fec4ee7bf64b-research-assistant-petroleum-engineering'
